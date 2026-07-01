@@ -13,9 +13,12 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@
 import { SymptomCombobox } from "@/components/symptom-combobox"
 import { TriageResultView } from "@/components/triage-result-view"
 import { useToast } from "@/hooks/use-toast"
-import { COMMON_SYMPTOMS, mockPredict, type TriageResult, type Consultation } from "@/lib/triage-data"
+import { COMMON_SYMPTOMS, type TriageResult, type Consultation } from "@/lib/triage-data"
 import { downloadReport } from "@/lib/report"
 import { saveConsultation } from "@/lib/history-store"
+import { predictSymptoms } from "@/lib/prediction"
+import { explainPrediction } from "@/lib/explain"
+import { createConsultation } from "@/lib/consultation"
 import { X, Stethoscope, FileText, Save, RotateCcw, ArrowRight, Check, AlertTriangle } from "lucide-react"
 import { cn } from "@/lib/utils"
 
@@ -29,6 +32,7 @@ export default function ConsultPage() {
   const [gender, setGender] = useState("")
   const [duration, setDuration] = useState("")
   const [loading, setLoading] = useState(false)
+  const [processingStage, setProcessingStage] = useState("")
   const [result, setResult] = useState<TriageResult | null>(null)
   const [saved, setSaved] = useState(false)
 
@@ -36,14 +40,85 @@ export default function ConsultPage() {
     setSymptoms((prev) => (prev.includes(symptom) ? prev.filter((s) => s !== symptom) : [...prev, symptom]))
   }
 
-  const handlePredict = () => {
+  const handlePredict = async () => {
     setLoading(true)
     setStep(1)
-    // Mock POST /predict + /explain
-    setTimeout(() => {
-      setResult(mockPredict(symptoms))
+    setProcessingStage("Predicting diseases...")
+
+    try {
+      const predictionResponse = await predictSymptoms({ symptoms })
+      const topPrediction = predictionResponse.predictions[0]
+
+      if (!topPrediction) {
+        throw new Error("No prediction returned from /predict")
+      }
+
+      setProcessingStage("Generating explanation...")
+      const explanationResponse = await explainPrediction({
+        disease: topPrediction.disease,
+        confidence: topPrediction.final_score,
+        matched_symptoms: topPrediction.matched_symptoms,
+        missing_symptoms: topPrediction.missing_symptoms,
+        all_symptoms: symptoms,
+        age: Number(age) || undefined,
+        gender: gender || undefined,
+        duration: duration || undefined,
+      })
+
+      const mapped: TriageResult = {
+        predictions: predictionResponse.predictions.map((item) => ({
+          disease: item.disease,
+          confidence: item.final_score,
+          matchedSymptoms: item.matched_symptoms,
+          missingSymptoms: item.missing_symptoms,
+          similarity: item.similarity,
+        })),
+        urgency:
+          topPrediction.final_score >= 0.7
+            ? "High"
+            : topPrediction.final_score >= 0.55
+              ? "Moderate"
+              : "Low",
+        explanation: explanationResponse.explanation,
+        precautions: explanationResponse.precautions,
+        recommendedTests: explanationResponse.recommended_tests,
+      }
+
+      setProcessingStage("Saving consultation...")
+      const consultationResponse = await createConsultation({
+        symptoms,
+        age: Number(age) || 0,
+        gender: gender || "unspecified",
+        duration: duration || "unspecified",
+        prediction: {
+          disease: topPrediction.disease,
+          confidence: topPrediction.final_score,
+        },
+        explanation: explanationResponse,
+        urgency: mapped.urgency,
+      })
+
+      const consultation: Consultation = {
+        id: `cons_${consultationResponse.consultation_id}`,
+        date: consultationResponse.created_at.slice(0, 10),
+        symptoms,
+        topPrediction: topPrediction.disease,
+        confidence: topPrediction.final_score,
+        urgency: mapped.urgency,
+        result: mapped,
+      }
+
+      saveConsultation(consultation)
+      setResult(mapped)
+      setSaved(true)
+      toast({ title: "Consultation saved", description: "Prediction, explanation, and consultation were recorded." })
+    } catch (error) {
+      console.error("Prediction failed:", error)
+      toast({ title: "Consultation failed", description: "Unable to complete the prediction workflow.", variant: "destructive" })
+    } finally {
+      setProcessingStage("")
       setLoading(false)
-    }, 1400)
+    }
   }
 
   const handleReset = () => {
@@ -213,7 +288,7 @@ export default function ConsultPage() {
               <CardContent className="space-y-6 py-6">
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Stethoscope className="h-5 w-5 animate-pulse text-primary" />
-                  Running ML prediction and generating explanation...
+                  {processingStage || "Running ML prediction and generating explanation..."}
                 </div>
                 <div className="grid gap-4 sm:grid-cols-3">
                   {[0, 1, 2].map((i) => (

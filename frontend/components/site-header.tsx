@@ -13,6 +13,7 @@ const NAV_LINKS = [
   { href: "/consult", label: "Consultation" },
   { href: "/history", label: "History" },
   { href: "/about", label: "About" },
+  { href: "/login", label: "Login" },
 ]
 
 export function SiteHeader() {
@@ -48,9 +49,16 @@ export function SiteHeader() {
         </nav>
 
         <div className="hidden md:block">
-          <Link href="/consult">
-            <Button>Start Consultation</Button>
-          </Link>
+          <div className="flex items-center gap-2">
+            <Link href="/login">
+              <Button variant="outline" className="bg-transparent">
+                Login
+              </Button>
+            </Link>
+            <Link href="/consult">
+              <Button>Start Consultation</Button>
+            </Link>
+          </div>
         </div>
 
         <Sheet open={open} onOpenChange={setOpen}>
@@ -80,6 +88,11 @@ export function SiteHeader() {
               })}
               <Link href="/consult" onClick={() => setOpen(false)} className="mt-4">
                 <Button className="w-full">Start Consultation</Button>
+              </Link>
+              <Link href="/login" onClick={() => setOpen(false)}>
+                <Button variant="outline" className="mt-2 w-full bg-transparent">
+                  Login
+                </Button>
               </Link>
             </nav>
           </SheetContent>

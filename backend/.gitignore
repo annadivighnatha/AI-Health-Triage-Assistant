@@ -1,1 +1,2 @@
 ml-service/artifacts/models/*.pkl
+.env

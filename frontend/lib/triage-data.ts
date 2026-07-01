@@ -4,6 +4,8 @@ export interface Prediction {
   disease: string
   confidence: number
   matchedSymptoms: string[]
+  missingSymptoms?: string[]
+  similarity?: number
 }
 
 export interface TriageResult {

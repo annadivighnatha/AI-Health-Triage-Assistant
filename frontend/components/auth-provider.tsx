@@ -1,9 +1,12 @@
 "use client"
 
-import { createContext, useContext, useState, useEffect, type ReactNode } from "react"
+import { createContext, useContext, useEffect, useState, type ReactNode } from "react"
+
+import { clearAuthSession, loadAuthSession, saveAuthSession, saveUser, type UserResponse } from "@/lib/auth"
+import { login, register } from "@/lib/api"
 
 interface User {
-  id: string
+  id: number
   email: string
   name?: string
 }
@@ -23,30 +26,21 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    // Check if user is logged in from localStorage or session
-    const storedUser = localStorage.getItem("user")
-    if (storedUser) {
-      setUser(JSON.parse(storedUser))
+    const session = loadAuthSession()
+    if (session?.user) {
+      setUser(session.user)
     }
     setLoading(false)
   }, [])
 
   const signIn = async (email: string, password: string) => {
-    // Mock authentication for MVP
-    // In production, this would call an authentication API
     setLoading(true)
     try {
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1000))
-
-      const mockUser = {
-        id: "user-" + Math.random().toString(36).substr(2, 9),
-        email,
-        name: email.split("@")[0],
-      }
-
-      setUser(mockUser)
-      localStorage.setItem("user", JSON.stringify(mockUser))
+      const response = await login({ email, password })
+      saveAuthSession({ token: response.access_token, tokenType: response.token_type })
+      const sessionUser = { id: 0, email, name: email.split("@")[0] }
+      saveUser(sessionUser)
+      setUser(sessionUser)
     } catch (error) {
       console.error("Sign in error:", error)
       throw error
@@ -56,20 +50,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   const signUp = async (email: string, password: string, name?: string) => {
-    // Mock registration for MVP
     setLoading(true)
     try {
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 1000))
-
-      const mockUser = {
-        id: "user-" + Math.random().toString(36).substr(2, 9),
-        email,
-        name: name || email.split("@")[0],
-      }
-
-      setUser(mockUser)
-      localStorage.setItem("user", JSON.stringify(mockUser))
+      const registered = await register({ email, password, name: name ?? "" })
+      const sessionUser: UserResponse = registered
+      setUser(sessionUser)
+      saveUser(sessionUser)
     } catch (error) {
       console.error("Sign up error:", error)
       throw error
@@ -79,14 +65,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }
 
   const signOut = async () => {
-    // Mock sign out
     setLoading(true)
     try {
-      // Simulate API call
-      await new Promise((resolve) => setTimeout(resolve, 500))
-
       setUser(null)
-      localStorage.removeItem("user")
+      clearAuthSession()
     } catch (error) {
       console.error("Sign out error:", error)
       throw error

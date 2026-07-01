@@ -32,6 +32,9 @@ export function TriageResultView({ result }: { result: TriageResult }) {
                   <span className="text-lg font-bold text-primary">{Math.round(p.confidence * 100)}%</span>
                 </div>
                 <p className="text-base font-semibold leading-tight">{p.disease}</p>
+                {typeof p.similarity === "number" ? (
+                  <p className="text-xs text-muted-foreground">Similarity: {Math.round(p.similarity * 100)}%</p>
+                ) : null}
               </CardHeader>
               <CardContent className="space-y-3">
                 <Progress value={Math.round(p.confidence * 100)} aria-label={`${p.disease} confidence`} />
@@ -46,6 +49,15 @@ export function TriageResultView({ result }: { result: TriageResult }) {
                     <span className="text-xs text-muted-foreground">No direct matches</span>
                   )}
                 </div>
+                {p.missingSymptoms?.length ? (
+                  <div className="flex flex-wrap gap-1.5">
+                    {p.missingSymptoms.map((s) => (
+                      <Badge key={s} variant="outline" className="font-normal text-muted-foreground">
+                        Missing: {s}
+                      </Badge>
+                    ))}
+                  </div>
+                ) : null}
               </CardContent>
             </Card>
           ))}
