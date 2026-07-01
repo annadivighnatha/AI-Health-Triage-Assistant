@@ -1,0 +1,29 @@
+{
+    "total_diseases": 400,
+    "unique_symptoms": 939,
+    "average_symptoms": 4.21,
+    "max_symptoms": 12,
+    "min_symptoms": 1,
+    "top_20_symptoms": {
+        "fatigue": 67,
+        "swelling": 47,
+        "fever": 35,
+        "nausea": 29,
+        "shortness of breath": 25,
+        "vomiting": 19,
+        "confusion": 19,
+        "redness": 18,
+        "headache": 16,
+        "abdominal pain": 15,
+        "frequent urination": 14,
+        "pain": 14,
+        "dizziness": 13,
+        "chest pain": 13,
+        "weakness": 12,
+        "joint pain": 12,
+        "weight loss": 11,
+        "stiffness": 11,
+        "difficulty swallowing": 11,
+        "seizures": 10
+    }
+}

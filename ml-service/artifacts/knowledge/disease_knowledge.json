@@ -1,0 +1,6355 @@
+{
+    "Panic disorder": {
+        "code": "1",
+        "symptoms": [
+            "dizziness",
+            "fear_of_losing_control",
+            "palpitations",
+            "shortness_of_breath",
+            "sweating",
+            "trembling"
+        ],
+        "treatments": [
+            "Antidepressant medications",
+            "Cognitive Behavioral Therapy",
+            "Relaxation Techniques"
+        ]
+    },
+    "Vocal cord polyp": {
+        "code": "2",
+        "symptoms": [
+            "hoarseness",
+            "vocal_changes",
+            "vocal_fatigue"
+        ],
+        "treatments": [
+            "Voice Rest",
+            "Speech Therapy",
+            "Surgical Removal"
+        ]
+    },
+    "Turner syndrome": {
+        "code": "3",
+        "symptoms": [
+            "gonadal_dysgenesis",
+            "lymphedema",
+            "short_stature",
+            "webbed_neck"
+        ],
+        "treatments": [
+            "Growth hormone therapy",
+            "Estrogen replacement therapy",
+            "Cardiac and renal evaluations"
+        ]
+    },
+    "Cryptorchidism": {
+        "code": "4",
+        "symptoms": [
+            "abnormal_positioning_of_the_testicle(s)_(higher_in_the_groin_area)",
+            "absence_or_undescended_testicle(s)",
+            "empty_scrotum",
+            "inguinal_hernia",
+            "smaller_or_underdeveloped_testicle(s)"
+        ],
+        "treatments": [
+            "Observation and monitoring (in cases of mild or transient cryptorchidism)",
+            "hormone therapy (to stimulate testicular descent)",
+            "surgical intervention (orchiopexy) to reposition the testicle(s) into the scrotum",
+            "if necessary",
+            "performed around the age of 6 to 12 months",
+            "open or laparoscopic surgery (in cases of high or persistent cryptorchidism)",
+            "testicular prostheses (in cases of absent or non-functional testicles)",
+            "regular follow-up visits with a urologist or pediatric surgeon"
+        ]
+    },
+    "Ethylene glycol poisoning-1": {
+        "code": "5",
+        "symptoms": [
+            "abdominal_pain",
+            "frequent_urination",
+            "general_malaise",
+            "increased_thirst",
+            "nausea",
+            "vomiting",
+            "weakness"
+        ],
+        "treatments": [
+            "Supportive Measures",
+            "Gastric Decontamination",
+            "Antidote Administration",
+            "Hemodialysis"
+        ]
+    },
+    "Ethylene glycol poisoning-2": {
+        "code": "6",
+        "symptoms": [
+            "apid_breathing",
+            "confusion",
+            "dizziness",
+            "headache",
+            "metabolic_acidosis",
+            "rapid_heart_rate",
+            "seizures"
+        ],
+        "treatments": [
+            "Blood tests",
+            "Supportive Measures",
+            "Gastric Decontamination",
+            "Antidote Administration",
+            "Hemodialysis"
+        ]
+    },
+    "Ethylene glycol poisoning-3": {
+        "code": "7",
+        "symptoms": [
+            "and_signs_of_fluid_overload",
+            "decreased_urine_output",
+            "severe_kidney_damage",
+            "swelling_in_the_legs_and_ankles"
+        ],
+        "treatments": [
+            "Supportive Measures",
+            "Gastric Decontamination",
+            "Antidote Administration",
+            "Hemodialysis"
+        ]
+    },
+    "Atrophic vaginitis": {
+        "code": "8",
+        "symptoms": [
+            "frequent_urination",
+            "painful_intercourse",
+            "urinary_tract_infections",
+            "vaginal_burning",
+            "vaginal_dryness"
+        ],
+        "treatments": [
+            "Vaginal moisturizers",
+            "Vaginal estrogen therapy",
+            "Lifestyle modifications"
+        ]
+    },
+    "Fracture": {
+        "code": "9",
+        "symptoms": [
+            "bruising",
+            "deformity",
+            "difficulty_moving",
+            "loss_of_function",
+            "pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Immobilization",
+            "Surgery",
+            "Rehabilitation"
+        ]
+    },
+    "Cellulitis": {
+        "code": "10",
+        "symptoms": [
+            "lymph_node_enlargement",
+            "pain",
+            "redness",
+            "skin_changes",
+            "swelling",
+            "tenderness"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "Warm compresses",
+            "immobilization",
+            "rest",
+            "Pain management"
+        ]
+    },
+    "Eye alignment disorder": {
+        "code": "11",
+        "symptoms": [
+            "double_vision",
+            "eye_fatigue",
+            "head_tilting",
+            "poor_depth_perception"
+        ],
+        "treatments": [
+            "Glasses",
+            "Patching therapy",
+            "Vision therapy",
+            "Botox injections",
+            "Surgical intervention"
+        ]
+    },
+    "Headache after lumbar puncture": {
+        "code": "12",
+        "symptoms": [
+            "throbbing_headache"
+        ],
+        "treatments": [
+            "Epidural blood patch",
+            "Conservative measures"
+        ]
+    },
+    "Pyloric stenosis": {
+        "code": "13",
+        "symptoms": [
+            "dehydration",
+            "fussiness",
+            "palpable_mass",
+            "persistent_hunger",
+            "visible_peristalsis",
+            "weight_loss"
+        ],
+        "treatments": [
+            "Ultrasound",
+            "Blood tests",
+            "Pyloromyotomy"
+        ]
+    },
+    "Adenoid cystic carcinoma": {
+        "code": "14",
+        "symptoms": [
+            "facial_numbness",
+            "lump",
+            "swelling",
+            "tingling"
+        ],
+        "treatments": [
+            "Surgery",
+            "Radiation therapy"
+        ]
+    },
+    "Pleomorphic adenoma": {
+        "code": "15",
+        "symptoms": [
+            "facial_changes",
+            "painless_lump_or_swelling"
+        ],
+        "treatments": [
+            "Surgical excision"
+        ]
+    },
+    "Warthin tumor": {
+        "code": "16",
+        "symptoms": [
+            "facial_changes",
+            "painless_lump_or_swelling"
+        ],
+        "treatments": [
+            "Surgical excision"
+        ]
+    },
+    "Mucoepidermoid carcinoma": {
+        "code": "17",
+        "symptoms": [
+            "difficulty",
+            "facial_paralysis",
+            "facial_weakness",
+            "lump",
+            "pain_when_swallowing_and_speaking",
+            "swelling"
+        ],
+        "treatments": [
+            "Surgery",
+            "Radiation therapy"
+        ]
+    },
+    "Acinic cell carcinoma": {
+        "code": "18",
+        "symptoms": [
+            "facial_changes",
+            "lump",
+            "swelling"
+        ],
+        "treatments": [
+            "Surgery",
+            "Radiation therapy"
+        ]
+    },
+    "Mucocele": {
+        "code": "28",
+        "symptoms": [
+            "painless_swelling",
+            "usually_on_the_lower_lip_or_floor_of_the_mouth"
+        ],
+        "treatments": [
+            "Observation",
+            "surgical removal if necessary"
+        ]
+    },
+    "Osteochondrosis": {
+        "code": "20",
+        "symptoms": [
+            "joint_pain",
+            "reduced_range_of_motion",
+            "stiffness",
+            "swelling"
+        ],
+        "treatments": [
+            "Physical therapy",
+            "pain medications",
+            "rest",
+            "surgery"
+        ]
+    },
+    "Sialolithiasis": {
+        "code": "21",
+        "symptoms": [
+            "difficulty_eating",
+            "pain",
+            "swelling",
+            "tenderness"
+        ],
+        "treatments": [
+            "Warm compresses",
+            "Saliva stimulation",
+            "Sialagogues",
+            "Stone removal"
+        ]
+    },
+    "Submandibular stones": {
+        "code": "22",
+        "symptoms": [
+            "bad_taste",
+            "dry_mouth",
+            "pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Hydration",
+            "Saliva stimulation",
+            "Stone removal"
+        ]
+    },
+    "Parotid stones": {
+        "code": "23",
+        "symptoms": [
+            "bad_taste",
+            "dry_mouth",
+            "pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Hydration",
+            "Saliva stimulation",
+            "Stone removal"
+        ]
+    },
+    "Recurrent salivary stones": {
+        "code": "24",
+        "symptoms": [
+            "frequent_episodes_of_stone_formation"
+        ],
+        "treatments": [
+            "Hydration",
+            "Saliva stimulation",
+            "Stone removal"
+        ]
+    },
+    "Wharton's duct stones": {
+        "code": "25",
+        "symptoms": [
+            "bad_taste",
+            "dry_mouth",
+            "pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Hydration",
+            "Saliva stimulation",
+            "Stone removal"
+        ]
+    },
+    "Mumps": {
+        "code": "26",
+        "symptoms": [
+            "fatigue",
+            "fever",
+            "headache",
+            "swollen_salivary_glands_(usually_parotid)"
+        ],
+        "treatments": [
+            "Supportive care",
+            "pain relievers",
+            "isolation",
+            "vaccination (MMR)"
+        ]
+    },
+    "Ludwig's angina": {
+        "code": "27",
+        "symptoms": [
+            "difficulty_swallowing",
+            "drooling",
+            "fever",
+            "severe_swelling_of_the_floor_of_the_mouth"
+        ],
+        "treatments": [
+            "Intravenous antibiotics",
+            "airway management",
+            "surgical drainage"
+        ]
+    },
+    "Abscess": {
+        "code": "29",
+        "symptoms": [
+            "fever",
+            "pain",
+            "pus_formation",
+            "redness",
+            "swelling"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "surgical drainage"
+        ]
+    },
+    "Sj\u00f6gren's syndrome": {
+        "code": "30",
+        "symptoms": [
+            "dry_mouth_and_eyes",
+            "dry_skin",
+            "fatigue",
+            "joint_pain"
+        ],
+        "treatments": [
+            "Symptomatic relief with artificial tears",
+            "saliva substitutes",
+            "frequent sips of water",
+            "medications to stimulate saliva production",
+            "immune-modulating drugs"
+        ]
+    },
+    "Open-Angle Glaucoma": {
+        "code": "31",
+        "symptoms": [
+            "gradual_loss_of_peripheral_vision",
+            "tunnel_vision"
+        ],
+        "treatments": [
+            "Eye drops to lower intraocular pressure (e.g.",
+            "prostaglandin analogs",
+            "beta blockers",
+            "alpha agonists",
+            "carbonic anhydrase inhibitors)",
+            "oral medications (e.g.",
+            "carbonic anhydrase inhibitors)",
+            "laser trabeculoplasty",
+            "surgical procedures (e.g.",
+            "trabeculectomy",
+            "glaucoma drainage implants)"
+        ]
+    },
+    "Angle-Closure Glaucoma": {
+        "code": "32",
+        "symptoms": [
+            "blurred_vision",
+            "halos_around_lights",
+            "headache",
+            "nausea_and_vomiting",
+            "severe_eye_pain"
+        ],
+        "treatments": [
+            "Medications (e.g.",
+            "oral or intravenous acetazolamide",
+            "topical beta blockers",
+            "alpha agonists",
+            "prostaglandin analogs)",
+            "laser peripheral iridotomy",
+            "surgical procedures (e.g.",
+            "trabeculectomy",
+            "glaucoma drainage implants)"
+        ]
+    },
+    "Normal-Tension Glaucoma": {
+        "code": "33",
+        "symptoms": [
+            "gradual_loss_of_vision",
+            "visual_field_defects"
+        ],
+        "treatments": [
+            "Eye drops to lower intraocular pressure (e.g.",
+            "prostaglandin analogs",
+            "beta blockers",
+            "alpha agonists",
+            "carbonic anhydrase inhibitors)",
+            "oral medications (e.g.",
+            "carbonic anhydrase inhibitors)",
+            "laser trabeculoplasty",
+            "surgical procedures (e.g.",
+            "trabeculectomy",
+            "glaucoma drainage implants)"
+        ]
+    },
+    "Congenital Glaucoma": {
+        "code": "34",
+        "symptoms": [
+            "cloudy_or_hazy_eyes",
+            "excessive_tearing",
+            "sensitivity_to_light"
+        ],
+        "treatments": [
+            "Surgery (e.g.",
+            "trabeculotomy",
+            "goniotomy) to create a new drainage pathway",
+            "medications to reduce intraocular pressure"
+        ]
+    },
+    "Secondary Glaucoma": {
+        "code": "35",
+        "symptoms": [
+            "varies_depending_on_the_underlying_cause"
+        ],
+        "treatments": [
+            "Treatment of the underlying condition (e.g.",
+            "medication adjustments",
+            "surgery",
+            "trauma management",
+            "tumor removal",
+            "inflammation control)"
+        ]
+    },
+    "Pigmentary Glaucoma": {
+        "code": "36",
+        "symptoms": [
+            "blurred_vision",
+            "eye_pain",
+            "halos_around_lights"
+        ],
+        "treatments": [
+            "Eye drops to lower intraocular pressure (e.g.",
+            "prostaglandin analogs",
+            "beta blockers",
+            "alpha agonists",
+            "carbonic anhydrase inhibitors)",
+            "laser trabeculoplasty",
+            "surgical procedures (e.g.",
+            "trabeculectomy",
+            "glaucoma drainage implants)"
+        ]
+    },
+    "Exfoliation Glaucoma": {
+        "code": "37",
+        "symptoms": [
+            "elevated_intraocular_pressure",
+            "visual_field_loss"
+        ],
+        "treatments": [
+            "Eye drops to lower intraocular pressure (e.g.",
+            "prostaglandin analogs",
+            "beta blockers",
+            "alpha agonists",
+            "carbonic anhydrase inhibitors)",
+            "laser trabeculoplasty",
+            "surgical procedures (e.g.",
+            "trabeculectomy",
+            "glaucoma drainage implants)"
+        ]
+    },
+    "Ocular Hypertension": {
+        "code": "38",
+        "symptoms": [
+            "elevated_intraocular_pressure_without_optic_nerve_damage"
+        ],
+        "treatments": [
+            "Observation with regular eye exams",
+            "use of eye drops to lower intraocular pressure (if necessary)"
+        ]
+    },
+    "Low-Tension Glaucoma": {
+        "code": "39",
+        "symptoms": [
+            "gradual_loss_of_vision",
+            "visual_field_defects"
+        ],
+        "treatments": [
+            "Eye drops to lower intraocular pressure (e.g.",
+            "prostaglandin analogs",
+            "beta blockers",
+            "alpha agonists",
+            "carbonic anhydrase inhibitors)",
+            "oral medications (e.g.",
+            "carbonic anhydrase inhibitors)",
+            "laser trabeculoplasty",
+            "surgical procedures (e.g.",
+            "trabeculectomy",
+            "glaucoma drainage implants)"
+        ]
+    },
+    "Anorexia Nervosa": {
+        "code": "40",
+        "symptoms": [
+            "distorted_body_image",
+            "extreme_weight_loss",
+            "fear_of_gaining_weight"
+        ],
+        "treatments": [
+            "Medical monitoring",
+            "nutritional counseling",
+            "psychotherapy (such as cognitive-behavioral therapy or family-based therapy)",
+            "medications (in some cases)",
+            "hospitalization (for severe cases)",
+            "support groups"
+        ]
+    },
+    "Bulimia Nervosa": {
+        "code": "41",
+        "symptoms": [
+            "recurrent_episodes_of_binge_eating_followed_by_purging_behaviors"
+        ],
+        "treatments": [
+            "Psychotherapy (such as cognitive-behavioral therapy or dialectical behavior therapy)",
+            "nutritional counseling",
+            "medications (in some cases)",
+            "support groups"
+        ]
+    },
+    "Binge Eating Disorder": {
+        "code": "42",
+        "symptoms": [
+            "recurrent_episodes_of_binge_eating_without_compensatory_behaviors"
+        ],
+        "treatments": [
+            "Psychotherapy (such as cognitive-behavioral therapy or interpersonal therapy)",
+            "nutritional counseling",
+            "medications (in some cases)",
+            "support groups"
+        ]
+    },
+    "Avoidant/Restrictive Food Intake Disorder (ARFID)": {
+        "code": "43",
+        "symptoms": [
+            "avoidance_or_restriction_of_certain_foods_or_entire_food_groups",
+            "significant_weight_loss_or_failure_to_gain_weight"
+        ],
+        "treatments": [
+            "Nutritional counseling",
+            "psychotherapy (such as cognitive-behavioral therapy or family-based therapy)",
+            "medical monitoring",
+            "exposure therapy",
+            "occupational therapy"
+        ]
+    },
+    "Other Specified Feeding or Eating Disorder (OSFED)": {
+        "code": "44",
+        "symptoms": [
+            "symptoms_that_do_not_meet_the_full_criteria_for_a_specific_eating_disorder"
+        ],
+        "treatments": [
+            "Treatment is based on the specific symptoms and can include a combination of psychotherapy",
+            "nutritional counseling",
+            "medical monitoring",
+            "and medications as necessary"
+        ]
+    },
+    "Orthorexia Nervosa": {
+        "code": "45",
+        "symptoms": [
+            "healthy_food_choices",
+            "obsessive_focus_on_\"clean\"_eating"
+        ],
+        "treatments": [
+            "Psychotherapy (such as cognitive-behavioral therapy or acceptance and commitment therapy)",
+            "nutrition education",
+            "challenging distorted beliefs",
+            "addressing underlying issues"
+        ]
+    },
+    "Pica": {
+        "code": "46",
+        "symptoms": [
+            "persistent_consumption_of_non-food_substances"
+        ],
+        "treatments": [
+            "Behavioral therapy",
+            "addressing underlying nutritional deficiencies",
+            "addressing any medical complications",
+            "family support"
+        ]
+    },
+    "Rumination Disorder": {
+        "code": "47",
+        "symptoms": [
+            "repeated_regurgitation_and_re-chewing_of_food"
+        ],
+        "treatments": [
+            "Behavioral therapy (such as diaphragmatic breathing techniques)",
+            "biofeedback",
+            "addressing any underlying psychological or medical conditions",
+            "dietary modifications"
+        ]
+    },
+    "Transient ischemic attack": {
+        "code": "48",
+        "symptoms": [
+            "sudden_onset_of_neurological_symptoms_that_resolve_within_24_hours"
+        ],
+        "treatments": [
+            "Antiplatelet medications",
+            "Carotid endarterectomy",
+            "Anticoagulant medications",
+            "Lifestyle modifications"
+        ]
+    },
+    "Pyelonephritis": {
+        "code": "49",
+        "symptoms": [
+            "back_or_flank_pain",
+            "chills",
+            "fever",
+            "frequent_urination"
+        ],
+        "treatments": [
+            "Antibiotics (such as fluoroquinolones",
+            "cephalosporins",
+            "or trimethoprim-sulfamethoxazole) to target the specific bacteria causing the infection",
+            "adequate hydration",
+            "pain management (such as over-the-counter pain relievers or prescription medications)",
+            "hospitalization (for severe cases or complications)",
+            "urine culture to guide antibiotic therapy"
+        ]
+    },
+    "Rotator Cuff Injury": {
+        "code": "50",
+        "symptoms": [
+            "limited_range_of_motion",
+            "shoulder_pain",
+            "shoulder_stiffness",
+            "weakness_or_loss_of_strength"
+        ],
+        "treatments": [
+            "Non-surgical treatment options: Rest",
+            "ice or heat therapy",
+            "pain medications",
+            "physical therapy exercises",
+            "Arthroscopic surgery"
+        ]
+    },
+    "Fibromyalgia": {
+        "code": "81",
+        "symptoms": [
+            "cognitive_difficulties_(fibro_fog)",
+            "fatigue",
+            "mood_changes",
+            "sleep_disturbances",
+            "widespread_musculoskeletal_pain"
+        ],
+        "treatments": [
+            "Multidisciplinary approach: Medications for pain management (such as analgesics",
+            "antidepressants",
+            "and anticonvulsants)",
+            "physical therapy",
+            "occupational therapy",
+            "cognitive-behavioral therapy",
+            "relaxation techniques",
+            "stress management",
+            "exercise programs"
+        ]
+    },
+    "Chronic Fatigue Syndrome": {
+        "code": "52",
+        "symptoms": [
+            "cognitive_difficulties",
+            "extreme_fatigue",
+            "unrefreshing_sleep"
+        ],
+        "treatments": [
+            "Symptom management (such as medications to address pain",
+            "sleep disturbances",
+            "and other symptoms)",
+            "graded exercise therapy",
+            "cognitive-behavioral therapy",
+            "sleep management techniques",
+            "pacing and energy conservation",
+            "stress reduction techniques",
+            "nutritional support",
+            "medications for specific symptoms"
+        ]
+    },
+    "Complex Regional Pain Syndrome (CRPS)": {
+        "code": "379",
+        "symptoms": [
+            "changes_in_skin_temperature",
+            "intense_burning_pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Physical therapy",
+            "medications",
+            "nerve blocks"
+        ]
+    },
+    "Myofascial Pain Syndrome": {
+        "code": "54",
+        "symptoms": [
+            "localized_muscle_pain",
+            "trigger_points"
+        ],
+        "treatments": [
+            "Physical therapy",
+            "trigger point injections",
+            "dry needling",
+            "medications (such as pain relievers",
+            "muscle relaxants)",
+            "relaxation techniques",
+            "stress management",
+            "massage therapy",
+            "myofascial release",
+            "heat or cold therapy"
+        ]
+    },
+    "Chronic Migraine": {
+        "code": "55",
+        "symptoms": [
+            "disabling_migraines",
+            "recurrent"
+        ],
+        "treatments": [
+            "Medications (such as preventive medications",
+            "pain relievers",
+            "triptans)",
+            "lifestyle modifications (such as identifying triggers",
+            "stress management",
+            "regular sleep patterns)",
+            "relaxation techniques",
+            "biofeedback",
+            "cognitive-behavioral therapy",
+            "nerve blocks",
+            "Botox injections",
+            "neuromodulation devices",
+            "acupuncture"
+        ]
+    },
+    "Neuropathic Pain": {
+        "code": "56",
+        "symptoms": [
+            "shooting_or_burning_pain",
+            "tingling_or_numbness"
+        ],
+        "treatments": [
+            "Medications (such as antidepressants",
+            "anticonvulsants",
+            "topical treatments)",
+            "nerve blocks",
+            "spinal cord stimulation",
+            "physical therapy",
+            "occupational therapy",
+            "transcutaneous electrical nerve stimulation (TENS)",
+            "acupuncture",
+            "cognitive-behavioral therapy",
+            "relaxation techniques"
+        ]
+    },
+    "Gestational Diabetes": {
+        "code": "57",
+        "symptoms": [
+            "high_blood_sugar_levels_during_pregnancy"
+        ],
+        "treatments": [
+            "Blood sugar monitoring",
+            "healthy diet modifications",
+            "regular exercise",
+            "insulin injections (if needed)",
+            "close monitoring by healthcare provider"
+        ]
+    },
+    "Pregnancy-Induced Hypertension": {
+        "code": "58",
+        "symptoms": [
+            "high_blood_pressure_during_pregnancy"
+        ],
+        "treatments": [
+            "Monitoring blood pressure",
+            "lifestyle modifications (such as salt restriction",
+            "regular exercise)",
+            "medication (such as antihypertensive drugs) if necessary",
+            "close monitoring by healthcare provider"
+        ]
+    },
+    "Gestational Hypertension": {
+        "code": "59",
+        "symptoms": [
+            "high_blood_pressure_without_proteinuria_(preeclampsia)"
+        ],
+        "treatments": [
+            "Monitoring blood pressure",
+            "lifestyle modifications (such as salt restriction",
+            "regular exercise)",
+            "medication (such as antihypertensive drugs) if necessary",
+            "close monitoring by healthcare provider"
+        ]
+    },
+    "Preeclampsia": {
+        "code": "60",
+        "symptoms": [
+            "headaches",
+            "high_blood_pressure",
+            "proteinuria",
+            "swelling",
+            "visual_disturbances"
+        ],
+        "treatments": [
+            "Bed rest",
+            "blood pressure monitoring",
+            "frequent prenatal visits",
+            "medication (such as antihypertensive drugs)",
+            "magnesium sulfate (for severe cases)",
+            "delivery of the baby (in severe cases)"
+        ]
+    },
+    "Hyperemesis Gravidarum": {
+        "code": "61",
+        "symptoms": [
+            "severe_nausea_and_vomiting_during_pregnancy"
+        ],
+        "treatments": [
+            "Intravenous fluids to prevent dehydration",
+            "anti-nausea medications",
+            "nutritional support",
+            "rest",
+            "monitoring for weight loss and electrolyte imbalance"
+        ]
+    },
+    "Urinary Tract Infection (UTI)": {
+        "code": "393",
+        "symptoms": [
+            "burning_sensation_during_urination",
+            "cloudy_or_bloody_urine",
+            "frequent_urination",
+            "pelvic_pain"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "increased fluid intake",
+            "pain relievers"
+        ]
+    },
+    "Anemia": {
+        "code": "63",
+        "symptoms": [
+            "fatigue",
+            "pale_skin",
+            "shortness_of_breath",
+            "weakness"
+        ],
+        "treatments": [
+            "Iron supplementation",
+            "dietary changes (iron-rich foods)",
+            "managing underlying causes (such as treating iron deficiency or vitamin B12 deficiency)",
+            "prenatal vitamins"
+        ]
+    },
+    "Pregnancy-Related Back Pain": {
+        "code": "64",
+        "symptoms": [
+            "discomfort_in_the_pelvic_area",
+            "lower_back_pain"
+        ],
+        "treatments": [
+            "Prenatal exercises (such as stretching and strengthening exercises)",
+            "good posture",
+            "heat or cold therapy",
+            "prenatal massages",
+            "supportive devices (such as pregnancy belts)",
+            "physical therapy"
+        ]
+    },
+    "Round Ligament Pain": {
+        "code": "65",
+        "symptoms": [
+            "sharp_or_aching_pain_in_the_lower_abdomen_or_groin"
+        ],
+        "treatments": [
+            "Resting",
+            "changing positions slowly",
+            "warm compresses",
+            "gentle stretching",
+            "avoiding sudden movements"
+        ]
+    },
+    "Placenta Previa": {
+        "code": "66",
+        "symptoms": [
+            "painless_bleeding_in_the_third_trimester",
+            "vaginal_bleeding"
+        ],
+        "treatments": [
+            "Bed rest",
+            "avoiding strenuous activity",
+            "frequent prenatal check-ups",
+            "potential hospitalization",
+            "potential cesarean delivery"
+        ]
+    },
+    "Carpal Tunnel Syndrome": {
+        "code": "67",
+        "symptoms": [
+            "and_pain_in_the_hand_and_fingers",
+            "numbness",
+            "tingling"
+        ],
+        "treatments": [
+            "Wrist splints",
+            "avoiding repetitive hand movements",
+            "applying cold or hot compresses",
+            "gentle exercises",
+            "ergonomic adjustments"
+        ]
+    },
+    "Sciatica": {
+        "code": "378",
+        "symptoms": [
+            "leg_pain",
+            "lower_back_pain",
+            "numbness_or_tingling"
+        ],
+        "treatments": [
+            "Pain relievers",
+            "physical therapy",
+            "exercise"
+        ]
+    },
+    "Varicose Veins": {
+        "code": "69",
+        "symptoms": [
+            "enlarged",
+            "often_in_the_legs",
+            "swollen_veins"
+        ],
+        "treatments": [
+            "Elevating legs",
+            "wearing compression stockings",
+            "regular exercise",
+            "avoiding prolonged sitting or standing",
+            "maintaining a healthy weight"
+        ]
+    },
+    "Hemorrhoids": {
+        "code": "70",
+        "symptoms": [
+            "itchy",
+            "or_painful_veins_in_the_rectal_area",
+            "swollen"
+        ],
+        "treatments": [
+            "Increasing fiber intake",
+            "staying hydrated",
+            "avoiding straining during bowel movements",
+            "warm sitz baths",
+            "topical creams or ointments",
+            "over-the-counter pain relievers (after consulting with a healthcare provider)"
+        ]
+    },
+    "Gestational Cholestasis": {
+        "code": "71",
+        "symptoms": [
+            "itchy_skin",
+            "particularly_on_the_hands_and_feet"
+        ],
+        "treatments": []
+    },
+    "Liver Cancer": {
+        "code": "72",
+        "symptoms": [
+            "abdominal_pain",
+            "fatigue",
+            "jaundice_(yellowing_of_the_skin_and_eyes)",
+            "loss_of_appetite",
+            "nausea",
+            "unexplained_weight_loss",
+            "vomiting"
+        ],
+        "treatments": [
+            "Surgery",
+            "Radiation therapy",
+            "Chemotherapy",
+            "Targeted therapy",
+            "Immunotherapy",
+            "Radiofrequency ablation",
+            "Transarterial chemoembolization (TACE)",
+            "Selective internal radiation therapy (SIRT)",
+            "Palliative care",
+            "Clinical trials"
+        ]
+    },
+    "Atelectasis": {
+        "code": "73",
+        "symptoms": [
+            "chest_pain",
+            "difficulty_breathing",
+            "rapid_breathing"
+        ],
+        "treatments": [
+            "Treatment of the underlying cause (such as removal of airway obstruction",
+            "treatment of lung infection)",
+            "deep breathing exercises",
+            "coughing techniques",
+            "incentive spirometry",
+            "chest physiotherapy",
+            "bronchodilator medications",
+            "supplemental oxygen therapy"
+        ]
+    },
+    "Ectopic Pregnancy": {
+        "code": "74",
+        "symptoms": [
+            "abdominal_pain_or_cramping",
+            "shoulder_pain_(if_the_fallopian_tube_ruptures)",
+            "vaginal_bleeding"
+        ],
+        "treatments": [
+            "Immediate medical attention",
+            "potential medical procedures (such as medication or surgery to remove the ectopic pregnancy)",
+            "close monitoring",
+            "emotional support"
+        ]
+    },
+    "Choledocholithiasis": {
+        "code": "75",
+        "symptoms": [
+            "abdominal_pain_(often_in_the_upper_right_quadrant)",
+            "cholecystectomy",
+            "dark_urine",
+            "endoscopic_retrograde_cholangiopancreatography_(ercp)_with_stone_removal",
+            "jaundice",
+            "nausea",
+            "pale_stools",
+            "sphincterotomy",
+            "vomiting"
+        ],
+        "treatments": [
+            "Non-surgical treatment options: Medications to manage pain and discomfort",
+            "antibiotics"
+        ]
+    },
+    "Cirrhosis": {
+        "code": "76",
+        "symptoms": [
+            "abdominal_swelling_(ascites)",
+            "confusion",
+            "easy_bruising_and_bleeding",
+            "fatigue",
+            "jaundice",
+            "loss_of_appetite",
+            "weight_loss"
+        ],
+        "treatments": [
+            "Treatment aims to manage symptoms",
+            "slow down disease progression",
+            "and address underlying causes. It may include: lifestyle modifications (e.g.",
+            "avoiding alcohol",
+            "maintaining a healthy diet)",
+            "medication (e.g.",
+            "diuretics",
+            "lactulose",
+            "antiviral drugs)",
+            "procedures (e.g.",
+            "paracentesis",
+            "transjugular intrahepatic portosystemic shunt)",
+            "liver transplantation (in severe cases)"
+        ]
+    },
+    "Thoracic Aortic Aneurysm": {
+        "code": "77",
+        "symptoms": [
+            "chest_or_back_pain",
+            "difficulty_swallowing",
+            "hoarseness",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Regular monitoring and imaging tests to assess aneurysm size and growth",
+            "lifestyle modifications (e.g.",
+            "blood pressure control",
+            "avoiding smoking",
+            "managing cholesterol levels)",
+            "medication (e.g.",
+            "beta-blockers",
+            "ACE inhibitors) to manage blood pressure and reduce the risk of rupture",
+            "surgical intervention"
+        ]
+    },
+    "Subdural hemorrhage": {
+        "code": "78",
+        "symptoms": [
+            "confusion",
+            "dizziness",
+            "headache",
+            "nausea_or_vomiting",
+            "seizures",
+            "weakness_or_numbness"
+        ],
+        "treatments": [
+            "Immediate medical attention",
+            "close monitoring of vital signs and neurological status",
+            "diagnostic imaging (such as CT or MRI scan)",
+            "potential surgical intervention (such as craniotomy or burr hole evacuation)",
+            "medication to manage symptoms"
+        ]
+    },
+    "Congenital rubella": {
+        "code": "79",
+        "symptoms": [
+            "developmental_delays",
+            "hearing_loss",
+            "heart_defects",
+            "intellectual_disability",
+            "liver_or_spleen_enlargement",
+            "rash_at_birth",
+            "vision_problems"
+        ],
+        "treatments": [
+            "Supportive care to manage symptoms and complications",
+            "early intervention services for developmental delays",
+            "educational support",
+            "vision and hearing interventions",
+            "specialized medical care as needed"
+        ]
+    },
+    "Diabetic retinopathy": {
+        "code": "80",
+        "symptoms": [
+            "blurred_or_distorted_vision",
+            "dark_or_empty_areas_in_the_visual_field",
+            "floaters",
+            "impaired_color_vision",
+            "vision_loss"
+        ],
+        "treatments": [
+            "Management of blood sugar levels",
+            "blood pressure control",
+            "cholesterol management",
+            "regular eye examinations",
+            "laser treatment",
+            "intravitreal injections of anti-VEGF medications",
+            "vitrectomy"
+        ]
+    },
+    "Ischemia of the Bowel": {
+        "code": "82",
+        "symptoms": [
+            "bloody_stools",
+            "diarrhea",
+            "fever",
+            "low_blood_pressure",
+            "nausea",
+            "rapid_heart_rate",
+            "severe_abdominal_pain",
+            "vomiting"
+        ],
+        "treatments": [
+            "diagnostic tests",
+            "intravenous fluids and medications to stabilize the patient",
+            "bowel rest",
+            "resection",
+            "bypass procedure",
+            "potential angioplasty"
+        ]
+    },
+    "Fetal Alcohol Syndrome": {
+        "code": "83",
+        "symptoms": [
+            "developmental_delays",
+            "facial_abnormalities",
+            "growth_deficiencies",
+            "intellectual_disability"
+        ],
+        "treatments": [
+            "Early intervention services for developmental delays",
+            "educational support",
+            "speech and occupational therapy",
+            "behavioral interventions",
+            "medical management of associated health issues"
+        ]
+    },
+    "Peritonitis": {
+        "code": "84",
+        "symptoms": [
+            "bloating",
+            "fever",
+            "increased_heart_rate",
+            "loss_of_appetite",
+            "nausea",
+            "severe_abdominal_pain",
+            "tenderness",
+            "vomiting"
+        ],
+        "treatments": [
+            "Intravenous antibiotics to treat the infection",
+            "intravenous fluids to restore hydration",
+            "drainage or removal of any underlying fluid or abscess",
+            "surgery to repair or remove the source of infection"
+        ]
+    },
+    "Abdominal Injury": {
+        "code": "85",
+        "symptoms": [
+            "abdominal_pain",
+            "blood_in_urine_or_stool",
+            "bruising",
+            "changes_in_bowel_movements",
+            "difficulty_breathing",
+            "nausea",
+            "swelling",
+            "tenderness",
+            "vomiting"
+        ],
+        "treatments": [
+            "Immediate medical attention",
+            "X-ray",
+            "CT scan",
+            "ultrasound",
+            "stabilization of vital signs",
+            "pain management",
+            "observation for signs of internal bleeding",
+            "potential surgical intervention",
+            "wound care"
+        ]
+    },
+    "Acute Pancreatitis": {
+        "code": "86",
+        "symptoms": [
+            "fever",
+            "jaundice",
+            "nausea",
+            "rapid_pulse",
+            "severe_upper_abdominal_pain",
+            "swollen_and_tender_abdomen",
+            "vomiting"
+        ],
+        "treatments": [
+            "Hospitalization",
+            "intravenous fluids to restore hydration",
+            "pain management",
+            "bowel rest",
+            "nutritional support",
+            "medications to control pain and inflammation"
+        ]
+    },
+    "Thrombophlebitis": {
+        "code": "87",
+        "symptoms": [
+            "and_tenderness_along_a_vein",
+            "fever",
+            "pain_or_discomfort",
+            "redness",
+            "skin_discoloration",
+            "swelling",
+            "visible_veins",
+            "warmth"
+        ],
+        "treatments": [
+            "Medications to manage pain and inflammation",
+            "compression stockings or bandages to promote blood flow",
+            "elevation of the affected limb",
+            "warm compresses",
+            "regular movement and exercise",
+            "treatment of underlying causes (such as infection or intravenous catheter removal)",
+            "anticoagulant therapy to prevent clot formation or progression"
+        ]
+    },
+    "Asthma": {
+        "code": "88",
+        "symptoms": [
+            "chest_tightness",
+            "coughing",
+            "especially_at_night_or_in_response_to_triggers_such_as_allergens_or_exercise",
+            "recurrent_episodes_of_wheezing",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Long-term control medications (such as inhaled corticosteroids",
+            "long-acting beta-agonists)",
+            "quick-relief medications (such as short-acting beta-agonists)",
+            "avoidance of triggers (such as allergens",
+            "smoke)",
+            "regular monitoring of symptoms and lung function",
+            "development of an asthma action plan",
+            "proper inhaler technique",
+            "regular follow-up with a healthcare provider",
+            "emergency medications (such as oral corticosteroids) as needed"
+        ]
+    },
+    "Restless Leg Syndrome": {
+        "code": "89",
+        "symptoms": [
+            "uncomfortable_sensation_in_the_legs",
+            "urge_to_move_legs_for_relief",
+            "usually_in_the_evening_or_at_night"
+        ],
+        "treatments": [
+            "Lifestyle changes (such as regular exercise",
+            "avoiding triggers like caffeine)",
+            "good sleep hygiene (maintaining a regular sleep schedule)",
+            "leg massages or stretching exercises",
+            "hot or cold packs",
+            "medication therapy (such as dopamine agonists",
+            "anticonvulsants",
+            "opioids)",
+            "iron supplementation (if iron deficiency is present)"
+        ]
+    },
+    "Emphysema": {
+        "code": "90",
+        "symptoms": [
+            "chest_tightness",
+            "chronic_cough",
+            "fatigue",
+            "shortness_of_breath",
+            "weight_loss",
+            "wheezing"
+        ],
+        "treatments": [
+            "Smoking cessation (the most important intervention)",
+            "medications to manage symptoms (such as bronchodilators",
+            "inhaled corticosteroids)",
+            "pulmonary rehabilitation (exercise training",
+            "breathing techniques)",
+            "supplemental oxygen therapy (in advanced cases)",
+            "vaccination against respiratory infections",
+            "avoiding exposure to irritants (such as secondhand smoke or air pollutants)",
+            "regular monitoring of symptoms and lung function",
+            "surgical interventions (such as lung volume reduction surgery or lung transplantation)"
+        ]
+    },
+    "Induced Abortion": {
+        "code": "91",
+        "symptoms": [
+            "abdominal_pain",
+            "cramping",
+            "emotional_distress",
+            "fatigue",
+            "nausea",
+            "vaginal_bleeding"
+        ],
+        "treatments": [
+            "Medical Abortion: Medication (such as mifepristone and misoprostol) is used to induce abortion",
+            "which can be done in the early stages of pregnancy. Surgical Abortion: A healthcare professional performs a procedure to remove the pregnancy",
+            "which can involve suction aspiration or dilation and curettage (D&C). It's important to consult with a healthcare professional to discuss the options and determine the most suitable method."
+        ]
+    },
+    "Acute Sinusitis": {
+        "code": "92",
+        "symptoms": [
+            "cough",
+            "facial_pain_or_pressure",
+            "fatigue",
+            "fever_(in_some_cases)",
+            "headache",
+            "nasal_congestion",
+            "post-nasal_drip",
+            "thick_nasal_discharge"
+        ],
+        "treatments": [
+            "Home remedies (such as nasal saline irrigation",
+            "steam inhalation)",
+            "over-the-counter pain relievers (such as acetaminophen or ibuprofen)",
+            "nasal decongestants (for short-term use)",
+            "nasal corticosteroids (to reduce inflammation)",
+            "plenty of fluids and rest",
+            "warm compresses",
+            "avoidance of irritants (such as smoke or allergens)",
+            "prescription antibiotics (if bacterial infection is suspected or confirmed)",
+            "management of underlying causes (such as allergies or nasal polyps)",
+            "symptom relief medications (such as cough suppressants or antihistamines)"
+        ]
+    },
+    "Von Hippel-Lindau Disease": {
+        "code": "93",
+        "symptoms": [
+            "hemangioblastomas_(tumors_in_the_brain",
+            "or_other_organs)",
+            "other_tumors_or_cysts",
+            "pancreatic_cysts/tumors",
+            "pheochromocytomas_(adrenal_gland_tumors)",
+            "renal_cell_carcinomas_(kidney_tumors)",
+            "retinal_angiomas_(abnormal_blood_vessel_growth_in_the_retina)",
+            "spinal_cord"
+        ],
+        "treatments": [
+            "Regular monitoring and surveillance to detect and manage tumor growth and associated complications",
+            "surgical removal or treatment of tumors if necessary",
+            "embolization or radiation therapy for certain tumors",
+            "medication or surgery to manage hormonal issues (such as pheochromocytomas)",
+            "genetic counseling and testing",
+            "screening and management for other potential complications (such as kidney function monitoring)"
+        ]
+    },
+    "Alcohol Use Disorder": {
+        "code": "94",
+        "symptoms": [
+            "anxiety",
+            "continued_use_despite_negative_consequences_(such_as_relationship_problems",
+            "cravings_for_alcohol",
+            "health_issues)",
+            "inability_to_control_or_limit_alcohol_consumption",
+            "neglecting_responsibilities",
+            "sweating)_when_attempting_to_stop_or_reduce_alcohol_use",
+            "tolerance_to_alcohol",
+            "withdrawal_symptoms_(such_as_tremors"
+        ],
+        "treatments": [
+            "Detoxification (if necessary)",
+            "counseling or therapy (such as cognitive-behavioral therapy",
+            "motivational interviewing)",
+            "support groups (such as Alcoholics Anonymous)",
+            "medication (such as disulfiram",
+            "naltrexone",
+            "acamprosate)",
+            "addressing underlying psychological or social factors",
+            "lifestyle changes",
+            "ongoing monitoring and support"
+        ]
+    },
+    "Opioid Use Disorder": {
+        "code": "95",
+        "symptoms": [
+            "anxiety)_when_attempting_to_stop_or_reduce_use",
+            "compulsive_use_of_opioids",
+            "continued_use_despite_negative_consequences_(such_as_legal_issues",
+            "health_problems)",
+            "inability_to_control_or_reduce_opioid_use",
+            "muscle_aches",
+            "strong_desire_or_cravings_for_opioids",
+            "tolerance_to_opioids",
+            "withdrawal_symptoms_(such_as_nausea"
+        ],
+        "treatments": [
+            "Medication-assisted treatment (such as methadone",
+            "buprenorphine",
+            "naltrexone)",
+            "counseling or therapy (such as cognitive-behavioral therapy",
+            "contingency management)",
+            "support groups (such as Narcotics Anonymous)",
+            "harm reduction strategies",
+            "addressing underlying psychological or social factors",
+            "lifestyle changes",
+            "ongoing monitoring and support"
+        ]
+    },
+    "Stimulant Use Disorder": {
+        "code": "96",
+        "symptoms": [
+            "decreased_appetite",
+            "euphoria",
+            "increased_energy_and_alertness",
+            "increased_heart_rate_and_blood_pressure",
+            "insomnia",
+            "irritability",
+            "paranoia",
+            "psychosis_(in_severe_cases)",
+            "restlessness"
+        ],
+        "treatments": [
+            "Counseling or therapy (such as cognitive-behavioral therapy",
+            "motivational interviewing)",
+            "support groups",
+            "medication (if applicable)",
+            "addressing underlying psychological or social factors",
+            "lifestyle changes",
+            "addressing co-occurring mental health conditions",
+            "harm reduction strategies",
+            "ongoing monitoring and support"
+        ]
+    },
+    "Cannabis Use Disorder": {
+        "code": "97",
+        "symptoms": [
+            "altered_perception_of_time",
+            "anxiety_or_paranoia_(in_some_individuals)",
+            "bloodshot_eyes",
+            "continued_use_despite_negative_consequences_(such_as_relationship_problems",
+            "impaired_memory_and_concentration",
+            "increased_appetite",
+            "insomnia)_when_attempting_to_stop_or_reduce_cannabis_use",
+            "job_difficulties)",
+            "relaxation",
+            "withdrawal_symptoms_(such_as_irritability"
+        ],
+        "treatments": [
+            "Counseling or therapy (such as cognitive-behavioral therapy",
+            "motivational interviewing)",
+            "support groups",
+            "addressing underlying psychological or social factors",
+            "lifestyle changes",
+            "addressing co-occurring mental health conditions",
+            "harm reduction strategies",
+            "ongoing monitoring and support"
+        ]
+    },
+    "Benzodiazepine Use Disorder": {
+        "code": "98",
+        "symptoms": [
+            "continued_use_despite_negative_consequences_(such_as_relationship_problems",
+            "drowsiness",
+            "health_risks)",
+            "insomnia",
+            "memory_impairment",
+            "poor_coordination",
+            "reduced_anxiety",
+            "relaxation",
+            "sedation",
+            "tremors)_when_attempting_to_stop_or_reduce_benzodiazepine_use",
+            "withdrawal_symptoms_(such_as_rebound_anxiety"
+        ],
+        "treatments": [
+            "Gradual tapering off benzodiazepines under medical supervision",
+            "counseling or therapy (such as cognitive-behavioral therapy)",
+            "support groups",
+            "addressing underlying psychological or social factors",
+            "lifestyle changes",
+            "addressing co-occurring mental health conditions",
+            "harm reduction strategies",
+            "ongoing monitoring and support"
+        ]
+    },
+    "Hallucinogen Use Disorder": {
+        "code": "99",
+        "symptoms": [
+            "altered_perception_of_reality",
+            "anxiety_or_paranoia_(in_some_individuals)",
+            "changes_in_sensory_experiences",
+            "feelings_of_connection_or_disconnection",
+            "flashbacks_(in_some_individuals)",
+            "introspective_thoughts",
+            "visual_or_auditory_hallucinations"
+        ],
+        "treatments": [
+            "Counseling or therapy (such as cognitive-behavioral therapy",
+            "motivational interviewing)",
+            "support groups",
+            "addressing underlying psychological or social factors",
+            "harm reduction strategies",
+            "ongoing monitoring and support"
+        ]
+    },
+    "Sedative, Hypnotic, or Anxiolytic Use Disorder": {
+        "code": "100",
+        "symptoms": [
+            "continued_use_despite_negative_consequences_(such_as_relationship_problems",
+            "drowsiness",
+            "health_risks)",
+            "insomnia",
+            "memory_impairment",
+            "poor_coordination",
+            "reduced_anxiety",
+            "relaxation",
+            "sedation",
+            "tremors)_when_attempting_to_stop_or_reduce_use",
+            "withdrawal_symptoms_(such_as_rebound_anxiety"
+        ],
+        "treatments": [
+            "Gradual tapering off sedatives",
+            "hypnotics",
+            "or anxiolytics under medical supervision",
+            "counseling or therapy (such as cognitive-behavioral therapy)",
+            "support groups",
+            "addressing underlying psychological or social factors",
+            "lifestyle changes",
+            "addressing co-occurring mental health conditions",
+            "harm reduction strategies",
+            "ongoing monitoring and support"
+        ]
+    },
+    "Postpartum Depression": {
+        "code": "101",
+        "symptoms": [
+            "changes_in_appetite_or_sleep_patterns",
+            "difficulty_bonding_with_the_baby",
+            "emptiness",
+            "feelings_of_guilt_or_worthlessness",
+            "frequent_crying",
+            "irritability",
+            "loss_of_interest_or_pleasure_in_activities",
+            "or_hopelessness",
+            "overwhelming_fatigue",
+            "persistent_feelings_of_sadness",
+            "thoughts_of_self-harm_or_harming_the_baby",
+            "trouble_concentrating_or_making_decisions"
+        ],
+        "treatments": [
+            "Psychotherapy (such as cognitive-behavioral therapy or interpersonal therapy)",
+            "support groups or peer counseling",
+            "antidepressant medication (if recommended by a healthcare professional)",
+            "hormone therapy (in some cases)",
+            "lifestyle changes (such as exercise",
+            "healthy diet",
+            "sleep hygiene)",
+            "involving a partner or family in the care of the baby",
+            "social support and understanding from family and friends",
+            "regular follow-up and monitoring by healthcare professionals"
+        ]
+    },
+    "Coronary Atherosclerosis": {
+        "code": "102",
+        "symptoms": [
+            "chest_pain_or_discomfort_(angina)",
+            "dizziness",
+            "fatigue",
+            "heart_attack_(when_a_coronary_artery_becomes_completely_blocked)",
+            "irregular_heartbeat",
+            "jaw_or_arm_pain_(in_some_cases)",
+            "nausea",
+            "shortness_of_breath",
+            "sweating"
+        ],
+        "treatments": [
+            "Lifestyle changes (such as a heart-healthy diet",
+            "regular exercise",
+            "weight management",
+            "smoking cessation)",
+            "medication (such as aspirin",
+            "cholesterol-lowering medications",
+            "beta-blockers",
+            "calcium channel blockers",
+            "nitroglycerin)",
+            "procedures (such as angioplasty and stenting",
+            "coronary artery bypass grafting)",
+            "cardiac rehabilitation",
+            "management of other risk factors (such as high blood pressure",
+            "diabetes)"
+        ]
+    },
+    "Spondylitis": {
+        "code": "103",
+        "symptoms": [
+            "chronic_back_pain_and_stiffness",
+            "difficulty_maintaining_proper_posture",
+            "discomfort_or_pain_in_the_neck",
+            "especially_in_the_morning_or_after_periods_of_inactivity",
+            "fatigue",
+            "inflammation_and_pain_in_other_joints_(such_as_hips",
+            "knees)",
+            "limited_range_of_motion_in_the_spine",
+            "shoulders",
+            "tenderness_or_swelling_in_affected_areas",
+            "tingling_or_numbness_in_extremities_in_severe_cases"
+        ],
+        "treatments": [
+            "Medication (such as nonsteroidal anti-inflammatory drugs",
+            "corticosteroids",
+            "disease-modifying antirheumatic drugs)",
+            "physical therapy (including stretching and strengthening exercises)",
+            "heat or cold therapy",
+            "posture correction techniques",
+            "lifestyle modifications (such as regular exercise",
+            "weight management)",
+            "assistive devices (such as braces or supports)",
+            "surgical intervention (in rare cases)",
+            "pain management techniques (such as acupuncture or transcutaneous electrical nerve stimulation)"
+        ]
+    },
+    "Pituitary Adenoma": {
+        "code": "104",
+        "symptoms": [
+            "cognitive_impairments",
+            "erectile_dysfunction",
+            "fatigue",
+            "growth_abnormalities_in_children",
+            "headaches",
+            "hormonal_imbalances_(such_as_excessive_production_or_deficiency_of_specific_hormones)",
+            "infertility",
+            "menstrual_irregularities",
+            "mood_changes",
+            "vision_problems_(such_as_blurred_vision_or_loss_of_peripheral_vision)",
+            "weight_gain_or_loss"
+        ],
+        "treatments": [
+            "Observation and monitoring (for small",
+            "non-secreting tumors that are not causing significant symptoms)",
+            "medication (to manage hormonal imbalances or reduce tumor size)",
+            "surgery (transsphenoidal surgery to remove the tumor)",
+            "radiation therapy (in cases where surgery is not possible or to treat residual or recurrent tumors)",
+            "targeted therapy (in cases of aggressive or resistant tumors)",
+            "hormone replacement therapy (if necessary)",
+            "regular follow-up and monitoring to assess tumor growth and hormone levels",
+            "management of associated complications or hormone deficiencies"
+        ]
+    },
+    "Uterine Fibroids": {
+        "code": "105",
+        "symptoms": [
+            "backache",
+            "constipation",
+            "difficulty_emptying_the_bladder",
+            "enlarged_abdomen_or_uterus",
+            "frequent_urination",
+            "heavy_or_prolonged_menstrual_periods",
+            "infertility_or_recurrent_miscarriages_(in_some_cases)",
+            "leg_pain",
+            "pelvic_pain_or_pressure"
+        ],
+        "treatments": [
+            "Watchful waiting (for small or asymptomatic fibroids)",
+            "medication (such as hormonal birth control",
+            "GnRH agonists",
+            "progestin-releasing intrauterine devices)",
+            "minimally invasive procedures (such as uterine artery embolization",
+            "myomectomy)",
+            "hysteroscopic procedures (such as hysteroscopic myomectomy or endometrial ablation)",
+            "surgical removal of fibroids (such as laparoscopic or robotic-assisted myomectomy",
+            "hysterectomy)",
+            "focused ultrasound ablation",
+            "hormonal therapy",
+            "alternative approaches (such as acupuncture or herbal remedies)"
+        ]
+    },
+    "Idiopathic Nonmenstrual Bleeding": {
+        "code": "106",
+        "symptoms": [
+            "abnormal_vaginal_bleeding_outside_of_the_menstrual_period",
+            "bleeding_after_menopause",
+            "bleeding_after_sexual_intercourse",
+            "prolonged_or_heavy_bleeding",
+            "spotting_or_light_bleeding_between_periods",
+            "unpredictable_bleeding_episodes"
+        ],
+        "treatments": [
+            "Evaluation to rule out underlying causes (such as hormonal imbalances",
+            "polyps",
+            "infections",
+            "or uterine abnormalities)",
+            "hormonal therapy (such as birth control pills",
+            "hormone replacement therapy)",
+            "non-hormonal medications (such as tranexamic acid)",
+            "dilation and curettage (if necessary to remove excessive tissue or investigate the cause)",
+            "endometrial ablation (in some cases)",
+            "hysteroscopy (to examine the uterus)",
+            "surgery (in rare cases)",
+            "counseling or support for emotional well-being"
+        ]
+    },
+    "Chalazion": {
+        "code": "107",
+        "symptoms": [
+            "blurred_vision_(if_the_chalazion_affects_the_line_of_sight)",
+            "localized_inflammation_and_swelling",
+            "mild_discomfort",
+            "painful",
+            "red_lump_or_swelling_on_the_eyelid",
+            "sensitivity_to_light",
+            "tenderness",
+            "usually_on_the_upper_eyelid"
+        ],
+        "treatments": [
+            "Warm compresses (to help soften and promote drainage of the blocked oil gland)",
+            "gentle massage of the affected area",
+            "eyelid hygiene (keeping the area clean)",
+            "over-the-counter lubricating eye drops",
+            "topical antibiotic ointments (if there is a risk of infection)",
+            "corticosteroid injections (for larger or persistent chalazia)",
+            "surgical drainage or excision (in rare cases or if conservative treatments are ineffective)"
+        ]
+    },
+    "Ovarian Torsion": {
+        "code": "108",
+        "symptoms": [
+            "abdominal_tenderness",
+            "abnormal_bleeding_or_spotting",
+            "bloating",
+            "fever",
+            "nausea",
+            "pain_during_intercourse",
+            "rapid_heartbeat",
+            "sharp_or_stabbing_pain",
+            "sudden_and_severe_abdominal_or_pelvic_pain_on_one_side",
+            "swelling",
+            "vomiting"
+        ],
+        "treatments": [
+            "Emergency medical attention (as ovarian torsion is a medical emergency)",
+            "imaging tests (such as ultrasound or CT scan) to diagnose torsion",
+            "surgical intervention (laparoscopic or open surgery) to untwist the ovary and restore blood flow",
+            "removal of the ovary (if it is damaged or non-viable)",
+            "pain management (medications for pain relief)"
+        ]
+    },
+    "Vaginal Yeast Infection": {
+        "code": "109",
+        "symptoms": [
+            "burning_sensation_during_urination",
+            "clumpy_vaginal_discharge_(resembling_cottage_cheese)",
+            "itching_and_irritation_in_the_vagina_and_vulva",
+            "pain_during_sexual_intercourse",
+            "rash_or_soreness_in_the_affected_area",
+            "redness_and_swelling_of_the_vulva",
+            "thick",
+            "white"
+        ],
+        "treatments": [
+            "Over-the-counter antifungal creams",
+            "ointments",
+            "or suppositories (such as miconazole",
+            "clotrimazole",
+            "or terconazole)",
+            "prescription-strength antifungal medications (in severe or recurrent cases)",
+            "oral antifungal medications (if recommended by a healthcare professional)",
+            "topical corticosteroids (for relief of itching and inflammation)",
+            "maintaining good hygiene practices",
+            "avoiding irritants (such as scented products)",
+            "wearing breathable cotton underwear",
+            "avoiding tight-fitting clothing",
+            "probiotics (to restore healthy vaginal flora)"
+        ]
+    },
+    "Mastoiditis": {
+        "code": "110",
+        "symptoms": [
+            "drainage_of_fluid_or_pus_from_the_ear",
+            "ear_pain_(particularly_behind_the_ear)",
+            "earache",
+            "fever",
+            "headache",
+            "hearing_loss_or_impaired_hearing",
+            "irritability_(in_infants_and_young_children)",
+            "mastoid_bone_protrusion_or_swelling",
+            "swelling_and_redness_of_the_ear_or_the_area_behind_the_ear",
+            "tenderness_or_pain_when_touching_the_area"
+        ],
+        "treatments": [
+            "Antibiotics (oral or intravenous) to treat the underlying bacterial infection",
+            "pain relievers (such as acetaminophen or ibuprofen) for pain and fever",
+            "ear drops (if there is drainage from the ear)",
+            "surgical intervention (in severe or chronic cases)",
+            "such as mastoidectomy (removal of infected mastoid bone cells) or tympanostomy tube placement (to relieve pressure and drain fluid from the middle ear)",
+            "supportive care (rest",
+            "hydration",
+            "warm compresses)"
+        ]
+    },
+    "Lung Contusion": {
+        "code": "111",
+        "symptoms": [
+            "chest_pain_(sharp_or_dull)",
+            "chest_wall_bruising",
+            "coughing_up_blood_or_pink-tinged_sputum",
+            "cyanosis_(bluish_discoloration_of_the_skin)",
+            "decreased_oxygen_levels",
+            "difficulty_breathing_or_shortness_of_breath",
+            "rapid_or_shallow_breathing",
+            "rib_fractures_(associated_injuries)",
+            "wheezing"
+        ],
+        "treatments": [
+            "Supportive care (including supplemental oxygen",
+            "pain management",
+            "and respiratory support)",
+            "monitoring in a hospital setting (to assess lung function and overall stability)",
+            "treatment of associated injuries (such as rib fractures)",
+            "management of complications (such as pneumonia or respiratory failure)",
+            "prevention of further complications (such as deep vein thrombosis or pressure ulcers)",
+            "respiratory therapy (including breathing exercises and airway clearance techniques)",
+            "possible use of mechanical ventilation in severe cases"
+        ]
+    },
+    "Hypertrophic Obstructive Cardiomyopathy (HOCM)": {
+        "code": "112",
+        "symptoms": [
+            "chest_pain_or_discomfort",
+            "dizziness_or_lightheadedness",
+            "especially_during_physical_activity_or_exertion",
+            "fainting_or_near-fainting_episodes",
+            "fatigue",
+            "feet",
+            "heart_palpitations_(rapid_or_irregular_heartbeat)",
+            "or_legs",
+            "shortness_of_breath",
+            "swelling_in_the_ankles"
+        ],
+        "treatments": [
+            "Medications to relieve symptoms and improve heart function (such as beta-blockers",
+            "calcium channel blockers",
+            "and disopyramide)",
+            "medications to prevent abnormal heart rhythms (such as anti-arrhythmic drugs)",
+            "medications to reduce blood clotting (such as aspirin or anticoagulants)",
+            "implantable cardioverter-defibrillator (ICD) placement (to monitor and correct abnormal heart rhythms)",
+            "septal myectomy (surgical removal of a portion of the thickened heart muscle)",
+            "alcohol septal ablation (destruction of excess heart muscle with alcohol injection)",
+            "lifestyle modifications (such as avoiding strenuous activities",
+            "managing stress",
+            "and maintaining a healthy weight)",
+            "regular follow-up visits with a cardiologist"
+        ]
+    },
+    "Pulmonary Eosinophilia": {
+        "code": "113",
+        "symptoms": [
+            "chest_pain",
+            "cough",
+            "elevated_eosinophil_count_in_the_blood_or_sputum",
+            "fatigue",
+            "fever",
+            "night_sweats",
+            "shortness_of_breath",
+            "weight_loss",
+            "wheezing"
+        ],
+        "treatments": [
+            "Identification and treatment of underlying causes (such as parasitic infections",
+            "drug reactions",
+            "or allergic reactions)",
+            "corticosteroids (such as prednisone) to reduce inflammation",
+            "bronchodilators (such as inhalers) to relieve bronchospasm and improve airflow",
+            "antiparasitic medications (if parasitic infection is identified)",
+            "immunosuppressive medications (in severe cases)",
+            "avoidance of triggers or allergens (if identified)",
+            "symptomatic treatment for associated symptoms (such as fever or cough)",
+            "regular monitoring and follow-up with a healthcare professional"
+        ]
+    },
+    "Corneal Disorder": {
+        "code": "114",
+        "symptoms": [
+            "blurred_or_hazy_vision",
+            "corneal_abrasions_or_ulcers",
+            "distorted_or_irregular_corneal_shape",
+            "dryness_or_excessive_tearing",
+            "excessive_tearing",
+            "eye_pain_or_discomfort",
+            "foreign_body_sensation",
+            "redness_or_irritation_of_the_eye",
+            "sensitivity_to_light_(photophobia)",
+            "vision_loss"
+        ],
+        "treatments": [
+            "Treatment depends on the specific corneal disorder and may include: artificial tears or lubricating eye drops",
+            "antibiotic or antifungal eye drops (if infection is present)",
+            "corticosteroid eye drops or ointments (to reduce inflammation)",
+            "bandage contact lenses",
+            "therapeutic contact lenses",
+            "corneal transplantation (in severe cases)",
+            "refractive surgeries (such as LASIK or PRK) to correct vision",
+            "protective eyewear or sunglasses",
+            "avoiding irritants or triggers",
+            "regular eye examinations and monitoring",
+            "lifestyle modifications (such as proper eye hygiene and avoiding eye strain)"
+        ]
+    },
+    "Foreign Body in the Gastrointestinal Tract": {
+        "code": "115",
+        "symptoms": [
+            "abdominal_pain_or_discomfort",
+            "bowel_obstruction",
+            "chest_pain_or_pressure",
+            "choking_or_gagging",
+            "coughing_or_wheezing",
+            "difficulty_swallowing",
+            "drooling",
+            "gastrointestinal_bleeding",
+            "loss_of_appetite",
+            "nausea_or_vomiting",
+            "perforation_of_the_digestive_tract",
+            "respiratory_distress"
+        ],
+        "treatments": [
+            "Observation and monitoring (for small",
+            "smooth",
+            "and non-sharp objects that are likely to pass through the digestive tract without complications)",
+            "endoscopic removal (using a flexible tube with a camera to locate and remove the foreign body)",
+            "surgical intervention (in cases of severe complications",
+            "large or sharp objects",
+            "or failed endoscopic removal attempts)",
+            "supportive care (such as intravenous fluids",
+            "pain management",
+            "and antibiotics if infection is present)",
+            "imaging studies (such as X-rays or CT scans) to evaluate the location and extent of the foreign body",
+            "consultation with a gastroenterologist or surgeon for appropriate management"
+        ]
+    },
+    "Endophthalmitis": {
+        "code": "116",
+        "symptoms": [
+            "blurred_vision",
+            "decreased_vision",
+            "discharge_from_the_eye",
+            "excessive_tearing",
+            "eye_pain",
+            "fever",
+            "floaters_(dark_spots_or_cobwebs_in_the_vision)",
+            "increased_sensitivity_to_light_(photophobia)",
+            "redness",
+            "swelling"
+        ],
+        "treatments": [
+            "Immediate medical attention is required. Treatment may include: intravenous antibiotics or antifungal medications",
+            "intravitreal injections (injections of antibiotics or antifungal agents directly into the eye)",
+            "vitrectomy (surgical removal of the gel-like fluid within the eye)",
+            "topical or oral medications (to manage pain",
+            "inflammation",
+            "or infection)",
+            "frequent follow-up visits with an ophthalmologist",
+            "supportive care (such as warm compresses or lubricating eye drops)"
+        ]
+    },
+    "Achalasia": {
+        "code": "117",
+        "symptoms": [
+            "difficulty_swallowing"
+        ],
+        "treatments": [
+            "Balloon dilation",
+            "surgery",
+            "medication"
+        ]
+    },
+    "Conductive Hearing Loss": {
+        "code": "118",
+        "symptoms": [
+            "muffled_or_blocked_sound",
+            "reduced_hearing_sensitivity"
+        ],
+        "treatments": [
+            "Medications",
+            "surgical intervention",
+            "hearing aids"
+        ]
+    },
+    "Abdominal Hernia": {
+        "code": "119",
+        "symptoms": [
+            "discomfort_or_pain",
+            "visible_bulge_or_swelling"
+        ],
+        "treatments": [
+            "Watchful waiting",
+            "hernia truss",
+            "surgical repair",
+            "lifestyle changes"
+        ]
+    },
+    "Marijuana Abuse": {
+        "code": "120",
+        "symptoms": [
+            "altered_judgment",
+            "anxiety",
+            "impaired_memory_and_cognition"
+        ],
+        "treatments": [
+            "Behavioral therapy",
+            "counseling",
+            "support groups",
+            "medication",
+            "detoxification"
+        ]
+    },
+    "Cryptococcosis": {
+        "code": "121",
+        "symptoms": [
+            "cough",
+            "fatigue",
+            "fever",
+            "headache",
+            "meningitis",
+            "pneumonia"
+        ],
+        "treatments": [
+            "Antifungal medication (e.g.",
+            "Amphotericin B",
+            "Fluconazole)",
+            "supportive care"
+        ]
+    },
+    "Obesity": {
+        "code": "122",
+        "symptoms": [
+            "excessive_body_weight",
+            "increased_risk_of_chronic_conditions"
+        ],
+        "treatments": [
+            "Antifungal medication eg  Amphotericin B",
+            "Fluconazole",
+            "supportive care"
+        ]
+    },
+    "Indigestion": {
+        "code": "123",
+        "symptoms": [
+            "abdominal_pain",
+            "acidic_taste",
+            "bloating",
+            "heartburn",
+            "nausea"
+        ],
+        "treatments": [
+            "Lifestyle changes (e.g.",
+            "dietary modifications",
+            "stress reduction)",
+            "over-the-counter antacids",
+            "medication",
+            "therapy"
+        ]
+    },
+    "Bursitis": {
+        "code": "124",
+        "symptoms": [
+            "joint_pain",
+            "limited_range_of_motion",
+            "swelling",
+            "tenderness"
+        ],
+        "treatments": [
+            "Rest",
+            "ice",
+            "compression",
+            "elevation (RICE therapy)",
+            "pain relievers",
+            "physical therapy",
+            "steroid injections"
+        ]
+    },
+    "Esophageal Cancer": {
+        "code": "125",
+        "symptoms": [
+            "chest_pain",
+            "difficulty_swallowing",
+            "hoarseness",
+            "unintentional_weight_loss"
+        ],
+        "treatments": [
+            "Surgery",
+            "chemotherapy",
+            "radiation therapy",
+            "targeted therapy",
+            "immunotherapy",
+            "palliative care",
+            "clinical trials"
+        ]
+    },
+    "Pulmonary Congestion": {
+        "code": "126",
+        "symptoms": [
+            "chest_discomfort_or_tightness",
+            "cough",
+            "fatigue",
+            "shortness_of_breath",
+            "wheezing"
+        ],
+        "treatments": [
+            "Diuretics",
+            "medications to manage underlying conditions (e.g.",
+            "heart failure)",
+            "oxygen therapy",
+            "lifestyle changes"
+        ]
+    },
+    "Juvenile Rheumatoid Arthritis": {
+        "code": "127",
+        "symptoms": [
+            "fever",
+            "joint_pain",
+            "limited_range_of_motion",
+            "rash",
+            "stiffness",
+            "swelling"
+        ],
+        "treatments": [
+            "Medications (NSAIDs",
+            "DMARDs)",
+            "physical therapy",
+            "occupational therapy",
+            "exercise",
+            "assistive devices"
+        ]
+    },
+    "Actinic Keratosis": {
+        "code": "128",
+        "symptoms": [
+            "rough",
+            "scaly_patches_on_the_skin",
+            "usually_in_sun-exposed_areas"
+        ],
+        "treatments": [
+            "Topical medications (e.g.",
+            "fluorouracil",
+            "imiquimod",
+            "diclofenac)",
+            "cryotherapy",
+            "curettag"
+        ]
+    },
+    "Acute Otitis Media": {
+        "code": "129",
+        "symptoms": [
+            "ear_pain",
+            "fever",
+            "fluid_drainage_from_the_ear",
+            "hearing_loss_or_muffled_hearing_in_the_affected_ear"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "pain relievers (e.g.",
+            "acetaminophen",
+            "ibuprofen)",
+            "warm compresses",
+            "ear drops",
+            "tympanostomy tubes (in some cases)"
+        ]
+    },
+    "Astigmatism": {
+        "code": "130",
+        "symptoms": [
+            "blurred_or_distorted_vision",
+            "eye_strain",
+            "headaches",
+            "uneven_curvature_of_cornea"
+        ],
+        "treatments": [
+            "Eyeglasses",
+            "contact lenses",
+            "refractive surgery (LASIK",
+            "PRK)",
+            "orthokeratology",
+            "toric intraocular lenses"
+        ]
+    },
+    "Tuberous Sclerosis": {
+        "code": "131",
+        "symptoms": [
+            "benign_tumors_in_various_organs",
+            "developmental_delays",
+            "seizures",
+            "skin_abnormalities"
+        ],
+        "treatments": [
+            "Medications (anti-seizure",
+            "behavioral",
+            "etc.)",
+            "surgery (for tumor removal)",
+            "therapy (physical",
+            "occupational",
+            "speech)",
+            "educational interventions",
+            "support services",
+            "genetic counseling",
+            "monitoring of organ involvement"
+        ]
+    },
+    "Empyema": {
+        "code": "132",
+        "symptoms": [
+            "chest_pain",
+            "fever",
+            "productive_cough_with_foul-smelling_or_bloody_sputum"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "drainage (chest tube insertion",
+            "thoracentesis)",
+            "surgical intervention (decortication)",
+            "supportive care",
+            "treatment of underlying cause"
+        ]
+    },
+    "Presbycusis": {
+        "code": "133",
+        "symptoms": [
+            "difficulty_hearing_high-pitched_sounds",
+            "gradual_hearing_loss",
+            "speech_sounds_muffled_or_unclear"
+        ],
+        "treatments": [
+            "Hearing aids",
+            "assistive listening devices",
+            "cochlear implants (in severe cases)",
+            "communication strategies",
+            "counseling",
+            "regular hearing evaluations"
+        ]
+    },
+    "Neonatal Jaundice": {
+        "code": "134",
+        "symptoms": [
+            "dark_urine",
+            "pale_stools",
+            "yellowing_of_the_skin_and_eyes"
+        ],
+        "treatments": [
+            "Phototherapy",
+            "exchange transfusion (in severe cases)",
+            "monitoring of bilirubin levels",
+            "addressing underlying causes (e.g.",
+            "breastfeeding)"
+        ]
+    },
+    "Dislocation of the Elbow": {
+        "code": "135",
+        "symptoms": [
+            "inability_to_move_the_elbow",
+            "numbness_or_tingling_in_the_hand/arm",
+            "severe_pain",
+            "swelling",
+            "visible_deformity"
+        ],
+        "treatments": [
+            "Closed reduction (realigning the bones without surgery)",
+            "immobilization (splint or cast)",
+            "physical therapy",
+            "pain management",
+            "surgical intervention (in complex or recurrent cases)"
+        ]
+    },
+    "Spondylosis": {
+        "code": "136",
+        "symptoms": [
+            "limited_range_of_motion",
+            "neck_or_back_pain",
+            "numbness_or_weakness_in_the_extremities",
+            "stiffness"
+        ],
+        "treatments": [
+            "Medications (pain relievers",
+            "muscle relaxants)",
+            "physical therapy",
+            "exercise",
+            "posture improvement",
+            "heat or cold therapy",
+            "spinal injections",
+            "surgery (in severe cases or if conservative treatments fail)"
+        ]
+    },
+    "Herpangina": {
+        "code": "137",
+        "symptoms": [
+            "difficulty_swallowing",
+            "fever",
+            "loss_of_appetite",
+            "painful_sores_or_blisters_in_the_mouth_and_throat",
+            "sore_throat"
+        ],
+        "treatments": [
+            "Symptomatic relief (pain relievers",
+            "throat lozenges",
+            "mouth rinses)",
+            "rest",
+            "fluids",
+            "maintaining good oral hygiene",
+            "avoiding spicy or acidic foods"
+        ]
+    },
+    "Poisoning due to Antidepressants": {
+        "code": "138",
+        "symptoms": [
+            "changes_in_heart_rate",
+            "confusion",
+            "dizziness",
+            "drowsiness",
+            "low_blood_pressure",
+            "nausea",
+            "respiratory_distress",
+            "seizures",
+            "vomiting"
+        ],
+        "treatments": [
+            "Seek immediate medical assistance or contact a poison control center",
+            "activated charcoal (if indicated)",
+            "supportive care (maintaining vital signs",
+            "airway management)",
+            "gastric lavage (in certain cases)",
+            "administration of antidotes (if available and appropriate)",
+            "monitoring and management of complications"
+        ]
+    },
+    "Infection of Open Wound": {
+        "code": "139",
+        "symptoms": [
+            "fever",
+            "malaise",
+            "pain_or_tenderness_at_the_wound_site",
+            "pus_or_drainage_from_the_wound",
+            "redness",
+            "swelling",
+            "warmth"
+        ],
+        "treatments": [
+            "Cleaning and irrigation of the wound",
+            "antibiotic therapy (oral or intravenous)",
+            "wound dressings",
+            "wound debridement (if necessary)",
+            "tetanus prophylaxis"
+        ]
+    },
+    "Protein Deficiency": {
+        "code": "140",
+        "symptoms": [
+            "delayed_wound_healing",
+            "fatigue",
+            "hair_loss",
+            "impaired_immunity",
+            "muscle_wasting",
+            "swelling_of_the_limbs",
+            "weakness"
+        ],
+        "treatments": [
+            "Increasing protein intake through diet (lean meats",
+            "fish",
+            "dairy",
+            "legumes",
+            "nuts)",
+            "protein supplements",
+            "nutritional counseling",
+            "addressing underlying causes (e.g.",
+            "malabsorption)"
+        ]
+    },
+    "Myoclonus": {
+        "code": "141",
+        "symptoms": [
+            "brief_muscle_contractions_or_jerks",
+            "legs",
+            "often_affecting_the_arms",
+            "or_face",
+            "sudden"
+        ],
+        "treatments": [
+            "Identifying and treating underlying causes (e.g.",
+            "medication adjustments",
+            "metabolic imbalances)",
+            "medications (anti-seizure drugs",
+            "tranquilizers)",
+            "physical therapy",
+            "supportive care"
+        ]
+    },
+    "Bone Spur of the Calcaneus": {
+        "code": "142",
+        "symptoms": [
+            "especially_when_walking_or_standing",
+            "heel_pain",
+            "inflammation_of_the_surrounding_tissue",
+            "swelling",
+            "tenderness"
+        ],
+        "treatments": [
+            "Nonsteroidal anti-inflammatory drugs (NSAIDs)",
+            "orthotic devices",
+            "physical therapy",
+            "stretching exercises",
+            "shoe modifications",
+            "corticosteroid injections",
+            "surgical removal (in severe cases)"
+        ]
+    },
+    "Von Willebrand Disease": {
+        "code": "143",
+        "symptoms": [
+            "bleeding_gums",
+            "blood_in_urine_or_stool",
+            "easy_or_excessive_bruising",
+            "frequent_nosebleeds",
+            "heavy_or_prolonged_menstrual_periods",
+            "prolonged_or_excessive_bleeding_from_cuts_or_injuries"
+        ],
+        "treatments": [
+            "Desmopressin (DDAVP) medication",
+            "replacement therapy with von Willebrand factor (VWF) concentrate or cryoprecipitate",
+            "oral contraceptives (for women with heavy menstrual bleeding)",
+            "avoiding certain medications",
+            "dental care precautions",
+            "regular medical follow-up"
+        ]
+    },
+    "Heart Block": {
+        "code": "144",
+        "symptoms": [
+            "chest_pain_or_discomfort",
+            "dizziness",
+            "fainting",
+            "fatigue",
+            "irregular_heart_rhythms",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Medications (such as beta-blockers",
+            "calcium channel blockers)",
+            "pacemaker implantation (in severe cases or symptomatic heart block)",
+            "underlying condition management"
+        ]
+    },
+    "Colonic Polyp": {
+        "code": "145",
+        "symptoms": [
+            "most_colonic_polyps_do_not_cause_symptoms._some_larger_polyps_or_certain_types_may_cause_rectal_bleeding_or_changes_in_bowel_habits",
+            "such_as_diarrhea_or_constipation."
+        ],
+        "treatments": [
+            "Polypectomy (removal of polyp during colonoscopy)",
+            "surveillance colonoscopy (regular monitoring for recurrence or new polyps)",
+            "lifestyle modifications (healthy diet",
+            "regular exercise",
+            "smoking cessation)",
+            "follow-up based on pathology findings"
+        ]
+    },
+    "Hypospadias": {
+        "code": "146",
+        "symptoms": [
+            "abnormal_positioning_of_the_urethral_opening_on_the_underside_of_the_penis",
+            "difficulty_in_urination",
+            "penile_curvature",
+            "spraying_of_urine"
+        ],
+        "treatments": [
+            "Surgical repair (hypospadias repair surgery)",
+            "hormone therapy (in some cases)",
+            "counseling and support for the child and family"
+        ]
+    },
+    "Magnesium Deficiency": {
+        "code": "147",
+        "symptoms": [
+            "fatigue",
+            "irregular_heartbeat",
+            "irritability",
+            "loss_of_appetite",
+            "mental_confusion",
+            "muscle_twitches_or_cramps",
+            "nausea",
+            "personality_changes",
+            "seizures",
+            "tingling_or_numbness",
+            "vomiting",
+            "weakness"
+        ],
+        "treatments": [
+            "Dietary changes (consuming magnesium-rich foods)",
+            "oral magnesium supplements",
+            "intravenous magnesium therapy (in severe cases)",
+            "addressing underlying causes (e.g.",
+            "malabsorption)",
+            "medical supervision and monitoring"
+        ]
+    },
+    "Female Infertility of Unknown Cause": {
+        "code": "148",
+        "symptoms": [
+            "age-related_factors",
+            "hormonal_imbalances",
+            "inability_to_conceive_after_one_year_of_unprotected_intercourse",
+            "irregular_or_absent_menstrual_cycles",
+            "other"
+        ],
+        "treatments": [
+            "Fertility testing and evaluation (hormone tests",
+            "imaging",
+            "genetic screening)",
+            "lifestyle modifications (healthy diet",
+            "regular exercise",
+            "stress reduction)",
+            "fertility treatments (assisted reproductive technologies",
+            "fertility medications)"
+        ]
+    },
+    "Pericarditis": {
+        "code": "149",
+        "symptoms": [
+            "chest_pain_(sharp_and_stabbing)",
+            "fever",
+            "worsens_with_deep_breaths_or_lying_down"
+        ],
+        "treatments": [
+            "Nonsteroidal anti-inflammatory drugs (NSAIDs) to reduce inflammation and pain",
+            "colchicine (for recurrent or persistent pericarditis)",
+            "corticosteroids (in severe cases or when NSAIDs are ineffective)",
+            "antibiotics (if bacterial infection is present)",
+            "lifestyle modifications (rest",
+            "avoiding strenuous activity)",
+            "treating underlying causes (if identified)",
+            "potential pericardiocentesis (fluid drainage)"
+        ]
+    },
+    "Attention Deficit Hyperactivity Disorder (ADHD)": {
+        "code": "150",
+        "symptoms": [
+            "hyperactivity",
+            "impulsivity",
+            "inattention"
+        ],
+        "treatments": [
+            "Behavioral therapy",
+            "parent training programs",
+            "medication (such as stimulants or non-stimulants)",
+            "individualized education plans (IEPs) for academic support",
+            "accommodations and modifications in school",
+            "psychoeducation",
+            "counseling"
+        ]
+    },
+    "Neuromyelitis Optica": {
+        "code": "151",
+        "symptoms": [
+            "loss_of_bladder_or_bowel_control)",
+            "numbness",
+            "optic_neuritis_(vision_loss",
+            "or_paralysis_of_the_limbs",
+            "pain_with_eye_movement)",
+            "transverse_myelitis_(weakness"
+        ],
+        "treatments": [
+            "High-dose corticosteroids",
+            "plasma exchange (to remove antibodies from the blood)",
+            "immunosuppressive therapy (such as azathioprine or rituximab)",
+            "supportive care to manage symptoms",
+            "physical therapy or rehabilitation for functional recovery"
+        ]
+    },
+    "Pulmonic Valve Disease": {
+        "code": "152",
+        "symptoms": [
+            "chest_pain_or_discomfort",
+            "fainting_or_lightheadedness",
+            "fatigue",
+            "heart_palpitations",
+            "shortness_of_breath",
+            "swollen_legs_or_ankles"
+        ],
+        "treatments": [
+            "Medications (such as diuretics",
+            "beta-blockers",
+            "or calcium channel blockers)",
+            "surgical interventions (such as balloon valvuloplasty or valve replacement)",
+            "lifestyle modifications (such as regular exercise",
+            "heart-healthy diet",
+            "smoking cessation)",
+            "regular follow-up with a cardiologist"
+        ]
+    },
+    "Tietze Syndrome": {
+        "code": "153",
+        "symptoms": [
+            "chest_pain",
+            "swelling_and_tenderness_of_the_cartilage_connecting_the_ribs_to_the_breastbone"
+        ],
+        "treatments": [
+            "Nonsteroidal anti-inflammatory drugs (NSAIDs)",
+            "pain relievers",
+            "local heat or ice application",
+            "avoiding activities that worsen symptoms",
+            "supportive measures (such as wearing loose clothing or using supportive pillows)",
+            "physical therapy (to improve posture and strengthen muscles)",
+            "corticosteroid injections (in some cases)",
+            "stress reduction techniques"
+        ]
+    },
+    "Cranial Nerve Palsy": {
+        "code": "154",
+        "symptoms": [
+            "depends_on_the_specific_cranial_nerve_involved;_symptoms_can_include_vision_changes",
+            "difficulty_swallowing_or_speaking",
+            "eye_movement_abnormalities",
+            "facial_weakness_or_paralysis",
+            "loss_of_sensation_in_the_face_or_other_areas"
+        ],
+        "treatments": [
+            "Treatment depends on the underlying cause and specific cranial nerve affected. It may include medications (such as corticosteroids or antiviral drugs)",
+            "physical therapy",
+            "speech therapy",
+            "occupational therapy",
+            "eye exercises",
+            "surgery (in some cases)",
+            "and management of any underlying conditions."
+        ]
+    },
+    "Conversion Disorder": {
+        "code": "155",
+        "symptoms": [
+            "blindness",
+            "neurological_symptoms_that_cannot_be_explained_by_a_medical_condition_or_injury",
+            "or_difficulty_speaking",
+            "seizures",
+            "such_as_paralysis"
+        ],
+        "treatments": [
+            "Psychotherapy (such as cognitive-behavioral therapy or psychodynamic therapy)",
+            "physical therapy or rehabilitation (to improve physical function and reduce disability)",
+            "addressing underlying stressors or psychological factors",
+            "supportive care and reassurance",
+            "potentially medications (such as antidepressants or anti-anxiety medications)"
+        ]
+    },
+    "Complex Regional Pain Syndrome": {
+        "code": "156",
+        "symptoms": [
+            "abnormal_sweating",
+            "changes_in_skin_color_or_temperature",
+            "limited_range_of_motion",
+            "often_in_the_limbs",
+            "severe_and_chronic_pain",
+            "with_associated_swelling"
+        ],
+        "treatments": [
+            "Physical therapy (including exercises",
+            "stretching",
+            "and mirror therapy)",
+            "pain management techniques (such as medications",
+            "nerve blocks",
+            "or spinal cord stimulation)",
+            "sympathetic nerve blocks",
+            "psychological support (such as cognitive-behavioral therapy or counseling)",
+            "occupational therapy",
+            "graded motor imagery",
+            "transcutaneous electrical nerve stimulation (TENS)",
+            "patient education and self-management techniques"
+        ]
+    },
+    "Otosclerosis": {
+        "code": "157",
+        "symptoms": [
+            "dizziness_or_balance_problems",
+            "hearing_loss_(gradual_and_progressive)",
+            "tinnitus_(ringing_in_the_ears)"
+        ],
+        "treatments": [
+            "Hearing aids",
+            "surgical interventions (such as stapedectomy or stapedotomy to replace the affected bone in the middle ear)",
+            "sodium fluoride therapy (to slow down the progression of the condition)",
+            "communication strategies and support (such as lip-reading or sign language)",
+            "regular hearing assessments"
+        ]
+    },
+    "Hypothyroidism": {
+        "code": "158",
+        "symptoms": [
+            "constipation",
+            "depression",
+            "dry_skin",
+            "elevated_cholesterol_levels",
+            "fatigue",
+            "muscle_weakness",
+            "sensitivity_to_cold",
+            "weight_gain"
+        ],
+        "treatments": [
+            "Hormone replacement therapy with synthetic thyroid hormone (levothyroxine)",
+            "regular monitoring of thyroid hormone levels and adjustment of medication dosage",
+            "lifestyle modifications (such as healthy diet and regular exercise)",
+            "management of associated symptoms (such as cholesterol-lowering medications or antidepressants)",
+            "education and support for long-term management"
+        ]
+    },
+    "Primary Insomnia": {
+        "code": "159",
+        "symptoms": [
+            "daytime_sleepiness",
+            "difficulty_concentrating",
+            "difficulty_falling_asleep_or_staying_asleep",
+            "irritability"
+        ],
+        "treatments": [
+            "Cognitive-behavioral therapy for insomnia (CBT-I)",
+            "sleep hygiene practices (such as maintaining a regular sleep schedule",
+            "creating a comfortable sleep environment)",
+            "relaxation techniques",
+            "stimulus control techniques (such as limiting bed activities to sleep only)",
+            "sleep restriction therapy",
+            "medications for insomnia (such as sedative-hypnotics",
+            "melatonin agonists)"
+        ]
+    },
+    "Lice": {
+        "code": "160",
+        "symptoms": [
+            "itching_and_visible_presence_of_lice_or_nits_(eggs)_in_the_hair"
+        ],
+        "treatments": [
+            "Over-the-counter or prescription medications specifically designed to kill lice (such as pediculicides)",
+            "manual removal of lice and nits using a fine-toothed comb",
+            "washing and drying of infested clothing and bedding at high temperatures",
+            "vacuuming of upholstery and household surfaces",
+            "disinfection of personal items that cannot be washed or dried",
+            "avoiding direct head-to-head contact with infested individuals",
+            "education and prevention strategies"
+        ]
+    },
+    "Vitamin B12 Deficiency": {
+        "code": "161",
+        "symptoms": [
+            "balance_problems",
+            "fatigue",
+            "pale_skin",
+            "shortness_of_breath",
+            "sore_tongue",
+            "tingling_or_numbness_in_the_hands_and_feet",
+            "weakness"
+        ],
+        "treatments": [
+            "Vitamin B12 supplementation (such as oral supplements or injections)",
+            "dietary changes to include B12-rich foods (such as meat",
+            "fish",
+            "eggs",
+            "and dairy products)",
+            "identification and management of underlying causes (such as pernicious anemia or malabsorption disorders)",
+            "management of associated symptoms or complications (such as nerve pain or balance problems)",
+            "regular monitoring of B12 levels and treatment adjustment"
+        ]
+    },
+    "Vulvodynia": {
+        "code": "162",
+        "symptoms": [
+            "burning",
+            "itching",
+            "persistent_pain_or_discomfort_in_the_vulva",
+            "rawness",
+            "stinging"
+        ],
+        "treatments": [
+            "Topical medications (such as lidocaine or estrogen creams)",
+            "nerve blocks",
+            "physical therapy (including pelvic floor muscle relaxation exercises)",
+            "cognitive-behavioral therapy (CBT)",
+            "biofeedback",
+            "medications (such as tricyclic antidepressants or anticonvulsants)",
+            "vulvar care and hygiene practices",
+            "stress management techniques",
+            "alternative therapies (such as acupuncture or herbal remedies)"
+        ]
+    },
+    "Endometriosis": {
+        "code": "381",
+        "symptoms": [
+            "infertility",
+            "painful_periods",
+            "pelvic_pain"
+        ],
+        "treatments": [
+            "Pain medications",
+            "hormonal therapies",
+            "surgery"
+        ]
+    },
+    "Vasculitis": {
+        "code": "164",
+        "symptoms": [
+            "fatigue",
+            "fever",
+            "including_rash",
+            "inflammation_of_blood_vessels_leading_to_various_symptoms_depending_on_the_affected_organs",
+            "muscle_and_joint_pain",
+            "shortness_of_breath",
+            "weight_loss"
+        ],
+        "treatments": [
+            "Treatment depends on the type and severity of vasculitis. It may include corticosteroids",
+            "immunosuppressive medications (such as cyclophosphamide or azathioprine)",
+            "biologic therapies (such as rituximab)",
+            "disease-specific treatments (such as plasmapheresis for certain types)",
+            "supportive care to manage symptoms (such as pain relievers or blood pressure medications)",
+            "monitoring and management of associated complications (such as organ damage or infections)"
+        ]
+    },
+    "Concussion": {
+        "code": "165",
+        "symptoms": [
+            "confusion",
+            "dizziness",
+            "headache",
+            "memory_problems",
+            "mood_changes",
+            "nausea_or_vomiting",
+            "sensitivity_to_light_or_noise"
+        ],
+        "treatments": [
+            "Physical and cognitive rest",
+            "gradual return to normal activities",
+            "symptom management (such as pain relievers or anti-nausea medication)",
+            "monitoring for complications (such as changes in neurological function)",
+            "cognitive rehabilitation (if persistent cognitive problems)",
+            "management of associated symptoms (such as sleep disturbances or mood changes)",
+            "education and support for recovery",
+            "avoiding further head injuries"
+        ]
+    },
+    "Oral Leukoplakia": {
+        "code": "166",
+        "symptoms": [
+            "often_on_the_tongue_or_inside_of_the_cheeks",
+            "that_cannot_be_scraped_off",
+            "white_patches_or_plaques_in_the_mouth"
+        ],
+        "treatments": [
+            "Regular monitoring and follow-up",
+            "identification and elimination of potential irritants (such as tobacco or alcohol)",
+            "improving oral hygiene practices",
+            "medication (such as topical retinoids or antifungal agents)",
+            "surgical removal (in some cases)",
+            "cryotherapy (freezing the patches)",
+            "laser therapy",
+            "lifestyle modifications (such as healthy diet)",
+            "regular dental check-ups",
+            "education and support"
+        ]
+    },
+    "Chronic Kidney Disease": {
+        "code": "167",
+        "symptoms": [
+            "blood_in_urine",
+            "decreased_appetite",
+            "difficulty_concentrating",
+            "fatigue",
+            "high_blood_pressure",
+            "increased_urination_or_urine_changes",
+            "swelling_of_the_legs_or_ankles"
+        ],
+        "treatments": [
+            "Management of underlying conditions (such as diabetes or high blood pressure)",
+            "lifestyle modifications (such as healthy diet",
+            "regular exercise",
+            "smoking cessation)",
+            "medications (such as ACE inhibitors or diuretics)",
+            "dialysis (in advanced stages)",
+            "kidney transplant (in end-stage kidney disease)",
+            "management of associated complications (such as anemia or bone disease)",
+            "regular monitoring and follow-up with a nephrologist",
+            "education and support for self-care"
+        ]
+    },
+    "Bladder Disorder": {
+        "code": "168",
+        "symptoms": [
+            "frequent_urination",
+            "pelvic_pain",
+            "urgency"
+        ],
+        "treatments": [
+            "Medications",
+            "bladder training",
+            "lifestyle changes"
+        ]
+    },
+    "Chorioretinitis": {
+        "code": "169",
+        "symptoms": [
+            "blurred_vision",
+            "eye_pain",
+            "sensitivity_to_light"
+        ],
+        "treatments": [
+            "Antiviral medications",
+            "corticosteroids",
+            "eye drops"
+        ]
+    },
+    "Priapism": {
+        "code": "170",
+        "symptoms": [
+            "painful_erection",
+            "persistent"
+        ],
+        "treatments": [
+            "Medical intervention (aspiration",
+            "medication",
+            "surgery)"
+        ]
+    },
+    "Myositis": {
+        "code": "171",
+        "symptoms": [
+            "inflammation",
+            "muscle_weakness",
+            "pain"
+        ],
+        "treatments": [
+            "Medications (corticosteroids",
+            "immunosuppressants)",
+            "physical therapy"
+        ]
+    },
+    "Mononucleosis": {
+        "code": "172",
+        "symptoms": [
+            "fatigue",
+            "sore_throat",
+            "swollen_lymph_nodes"
+        ],
+        "treatments": [
+            "Rest",
+            "pain relievers",
+            "fluids",
+            "symptom management"
+        ]
+    },
+    "Neuralgia": {
+        "code": "173",
+        "symptoms": [
+            "sharp",
+            "shooting_pain_along_the_affected_nerve"
+        ],
+        "treatments": [
+            "Medications (pain relievers",
+            "anticonvulsants)",
+            "nerve blocks"
+        ]
+    },
+    "Polycystic Kidney Disease": {
+        "code": "174",
+        "symptoms": [
+            "abdominal_pain",
+            "high_blood_pressure",
+            "kidney_cysts"
+        ],
+        "treatments": [
+            "Symptom management",
+            "blood pressure control",
+            "dialysis"
+        ]
+    },
+    "Bipolar Disorder": {
+        "code": "175",
+        "symptoms": [
+            "depressive_episodes",
+            "manic_episodes",
+            "mood_swings"
+        ],
+        "treatments": [
+            "Medications (mood stabilizers",
+            "antipsychotics)",
+            "therapy"
+        ]
+    },
+    "Amyloidosis": {
+        "code": "176",
+        "symptoms": [
+            "fatigue",
+            "organ_dysfunction",
+            "weight_loss"
+        ],
+        "treatments": [
+            "Treatment depends on the type and extent of organ damage"
+        ]
+    },
+    "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)": {
+        "code": "177",
+        "symptoms": [
+            "numbness",
+            "tingling_in_limbs",
+            "weakness"
+        ],
+        "treatments": [
+            "Immunoglobulin therapy",
+            "corticosteroids",
+            "physical therapy"
+        ]
+    },
+    "Gastroesophageal Reflux Disease (GERD)": {
+        "code": "178",
+        "symptoms": [
+            "acid_reflux",
+            "chest_pain",
+            "heartburn"
+        ],
+        "treatments": [
+            "Lifestyle changes",
+            "medications (antacids",
+            "proton pump inhibitors)"
+        ]
+    },
+    "Vitreous Hemorrhage": {
+        "code": "179",
+        "symptoms": [
+            "blurry_vision",
+            "eye_pain",
+            "floaters_in_vision"
+        ],
+        "treatments": [
+            "Observation",
+            "laser treatment",
+            "vitrectomy (in severe cases)"
+        ]
+    },
+    "Antimicrobial Drugs Poisoning": {
+        "code": "180",
+        "symptoms": [
+            "diarrhea",
+            "nausea",
+            "neurological_symptoms",
+            "vomiting"
+        ],
+        "treatments": [
+            "Immediate medical attention",
+            "supportive care",
+            "antidote administration"
+        ]
+    },
+    "Scleroderma": {
+        "code": "181",
+        "symptoms": [
+            "raynaud's_phenomenon",
+            "thickening_of_the_skin"
+        ],
+        "treatments": [
+            "Medications (immunosuppressants)",
+            "therapy",
+            "symptom management"
+        ]
+    },
+    "Myasthenia Gravis": {
+        "code": "182",
+        "symptoms": [
+            "difficulty_speaking",
+            "fatigue",
+            "muscle_weakness"
+        ],
+        "treatments": [
+            "Medications (acetylcholinesterase inhibitors",
+            "immunosuppressants)",
+            "thymectomy (in some cases)"
+        ]
+    },
+    "Hypoglycemia": {
+        "code": "183",
+        "symptoms": [
+            "confusion",
+            "dizziness",
+            "shaking",
+            "sweating"
+        ],
+        "treatments": [
+            "Consuming glucose or sugar-containing foods",
+            "adjusting medication or insulin dosage"
+        ]
+    },
+    "Idiopathic Absence of Menstruation": {
+        "code": "184",
+        "symptoms": [
+            "lack_of_menstrual_periods"
+        ],
+        "treatments": [
+            "Evaluation to determine underlying cause",
+            "hormone therapy"
+        ]
+    },
+    "Dislocation of the Ankle": {
+        "code": "185",
+        "symptoms": [
+            "inability_to_bear_weight",
+            "severe_pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Reduction (realigning the bones)",
+            "immobilization",
+            "rehab"
+        ]
+    },
+    "Carbon Monoxide Poisoning": {
+        "code": "186",
+        "symptoms": [
+            "confusion",
+            "dizziness",
+            "headache",
+            "nausea"
+        ],
+        "treatments": [
+            "Fresh air",
+            "oxygen therapy",
+            "immediate medical attention"
+        ]
+    },
+    "Panic Attack": {
+        "code": "187",
+        "symptoms": [
+            "chest_pain",
+            "palpitations",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Breathing exercises",
+            "relaxation techniques",
+            "therapy"
+        ]
+    },
+    "Plantar Fasciitis": {
+        "code": "188",
+        "symptoms": [
+            "difficulty_walking",
+            "heel_pain",
+            "tenderness"
+        ],
+        "treatments": [
+            "Rest",
+            "stretching exercises",
+            "orthotic devices",
+            "physiotherapy"
+        ]
+    },
+    "Hyperopia": {
+        "code": "189",
+        "symptoms": [
+            "blurred_vision_when_focusing_on_near_objects",
+            "difficulty_seeing_objects_up_close"
+        ],
+        "treatments": [
+            "Eyeglasses",
+            "contact lenses",
+            "refractive surgery"
+        ]
+    },
+    "Sedatives Poisoning": {
+        "code": "190",
+        "symptoms": [
+            "confusion",
+            "drowsiness",
+            "slowed_breathing"
+        ],
+        "treatments": [
+            "Immediate medical attention",
+            "supportive care",
+            "antidote administration"
+        ]
+    },
+    "Pemphigus": {
+        "code": "191",
+        "symptoms": [
+            "painful_blisters_on_the_skin_and_mucous_membranes"
+        ],
+        "treatments": [
+            "Corticosteroids",
+            "immunosuppressants",
+            "wound care"
+        ]
+    },
+    "Peyronie Disease": {
+        "code": "192",
+        "symptoms": [
+            "curvature_of_the_penis",
+            "pain_during_erections"
+        ],
+        "treatments": [
+            "Medications",
+            "traction therapy",
+            "surgery"
+        ]
+    },
+    "Hiatal Hernia": {
+        "code": "193",
+        "symptoms": [
+            "chest_pain",
+            "difficulty_swallowing",
+            "heartburn"
+        ],
+        "treatments": [
+            "Lifestyle changes",
+            "medications (antacids",
+            "proton pump inhibitors)"
+        ]
+    },
+    "Extrapyramidal Effect of Drugs": {
+        "code": "194",
+        "symptoms": [
+            "involuntary_movements",
+            "muscle_stiffness",
+            "tremors"
+        ],
+        "treatments": [
+            "Adjusting medication dosage",
+            "switching to alternative medications"
+        ]
+    },
+    "Meniere Disease": {
+        "code": "195",
+        "symptoms": [
+            "ear_fullness",
+            "hearing_loss",
+            "tinnitus",
+            "vertigo"
+        ],
+        "treatments": [
+            "Medications (diuretics",
+            "anti-vertigo drugs)",
+            "lifestyle changes"
+        ]
+    },
+    "Anal Fissure": {
+        "code": "196",
+        "symptoms": [
+            "pain_during_bowel_movements",
+            "rectal_bleeding"
+        ],
+        "treatments": [
+            "Stool softeners",
+            "fiber supplements",
+            "topical ointments",
+            "surgical procedures (in severe cases)"
+        ]
+    },
+    "Chronic Otitis Media": {
+        "code": "197",
+        "symptoms": [
+            "ear_pain",
+            "hearing_loss",
+            "recurrent_ear_infections"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "ear drops",
+            "surgical intervention (in some cases)"
+        ]
+    },
+    "Hirschsprung Disease": {
+        "code": "198",
+        "symptoms": [
+            "abdominal_distension",
+            "chronic_constipation",
+            "failure_to_pass_meconium_(in_newborns)"
+        ],
+        "treatments": [
+            "Surgery to remove the affected part of the colon (pull-through procedure)"
+        ]
+    },
+    "Polymyalgia Rheumatica": {
+        "code": "199",
+        "symptoms": [
+            "fatigue",
+            "joint_pain",
+            "muscle_pain_and_stiffness"
+        ],
+        "treatments": [
+            "Low-dose corticosteroids",
+            "nonsteroidal anti-inflammatory drugs (NSAIDs)"
+        ]
+    },
+    "Lymphedema": {
+        "code": "200",
+        "symptoms": [
+            "feeling_of_heaviness_or_tightness",
+            "swelling_in_arms_or_legs"
+        ],
+        "treatments": [
+            "Compression therapy",
+            "exercise",
+            "lymphatic drainage techniques",
+            "surgery (in severe cases)"
+        ]
+    },
+    "Bladder Cancer": {
+        "code": "201",
+        "symptoms": [
+            "blood_in_urine",
+            "frequent_urination",
+            "pelvic_pain"
+        ],
+        "treatments": [
+            "Surgery",
+            "chemotherapy",
+            "radiation therapy"
+        ]
+    },
+    "Acute Bronchospasm": {
+        "code": "202",
+        "symptoms": [
+            "chest_tightness",
+            "shortness_of_breath",
+            "wheezing"
+        ],
+        "treatments": [
+            "Bronchodilators (inhaled medications)",
+            "corticosteroids",
+            "supplemental oxygen (if needed)"
+        ]
+    },
+    "Acute Glaucoma": {
+        "code": "203",
+        "symptoms": [
+            "blurred_vision",
+            "halos_around_lights",
+            "severe_eye_pain"
+        ],
+        "treatments": [
+            "Medications (eye drops)",
+            "laser therapy",
+            "surgery (in some cases)"
+        ]
+    },
+    "Dislocation of the Patella": {
+        "code": "204",
+        "symptoms": [
+            "inability_to_straighten_the_leg",
+            "knee_pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Manual reduction",
+            "immobilization",
+            "physical therapy"
+        ]
+    },
+    "Hypercalcemia": {
+        "code": "206",
+        "symptoms": [
+            "excessive_thirst",
+            "fatigue",
+            "kidney_stones",
+            "nausea"
+        ],
+        "treatments": [
+            "Treating underlying cause",
+            "hydration",
+            "medications"
+        ]
+    },
+    "Stress Incontinence": {
+        "code": "207",
+        "symptoms": [
+            "unintentional_urine_leakage_during_physical_activity"
+        ],
+        "treatments": [
+            "Pelvic floor exercises",
+            "behavioral techniques",
+            "surgery (in severe cases)"
+        ]
+    },
+    "Benign Kidney Cyst": {
+        "code": "208",
+        "symptoms": [
+            "abdominal_or_flank_pain",
+            "blood_in_urine",
+            "frequent_urination"
+        ],
+        "treatments": [
+            "Observation",
+            "medication (if needed)",
+            "surgery (in rare cases)"
+        ]
+    },
+    "Hydrocele of the Testicle": {
+        "code": "209",
+        "symptoms": [
+            "swelling_of_the_scrotum"
+        ],
+        "treatments": [
+            "Observation",
+            "surgical drainage (in some cases)"
+        ]
+    },
+    "Hirsutism": {
+        "code": "210",
+        "symptoms": [
+            "excessive_hair_growth_in_women"
+        ],
+        "treatments": [
+            "Medications (anti-androgens",
+            "oral contraceptives)",
+            "hair removal methods",
+            "lifestyle changes"
+        ]
+    },
+    "Hydronephrosis": {
+        "code": "211",
+        "symptoms": [
+            "flank_pain",
+            "swelling_in_the_abdomen",
+            "urinary_frequency"
+        ],
+        "treatments": [
+            "Treating underlying cause",
+            "medications",
+            "ureteral stent",
+            "surgery"
+        ]
+    },
+    "Diverticulosis": {
+        "code": "212",
+        "symptoms": [
+            "abdominal_pain",
+            "bloating",
+            "changes_in_bowel_movements"
+        ],
+        "treatments": [
+            "High-fiber diet",
+            "medications (pain relievers",
+            "antibiotics)"
+        ]
+    },
+    "Pain after an Operation": {
+        "code": "213",
+        "symptoms": [
+            "discomfort",
+            "surgical_site_pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Pain medications",
+            "ice packs",
+            "rest",
+            "wound care"
+        ]
+    },
+    "Huntington Disease": {
+        "code": "214",
+        "symptoms": [
+            "and_psychiatric_symptoms",
+            "cognitive",
+            "motor"
+        ],
+        "treatments": [
+            "Supportive care",
+            "medications (to manage symptoms)",
+            "therapy"
+        ]
+    },
+    "West Nile Virus": {
+        "code": "215",
+        "symptoms": [
+            "body_aches",
+            "fever",
+            "headache",
+            "rash"
+        ],
+        "treatments": [
+            "Supportive care",
+            "symptom management",
+            "prevention of mosquito bites"
+        ]
+    },
+    "Lymphoma": {
+        "code": "216",
+        "symptoms": [
+            "fatigue",
+            "swollen_lymph_nodes",
+            "unexplained_weight_loss"
+        ],
+        "treatments": [
+            "Chemotherapy",
+            "radiation therapy",
+            "immunotherapy",
+            "targeted therapy"
+        ]
+    },
+    "Dermatitis due to Sun Exposure": {
+        "code": "390",
+        "symptoms": [
+            "itching",
+            "redness",
+            "sunburn-like_rash"
+        ],
+        "treatments": [
+            "Moisturizers",
+            "cool compresses",
+            "topical corticosteroids"
+        ]
+    },
+    "Anemia due to Chronic Kidney Disease": {
+        "code": "218",
+        "symptoms": [
+            "fatigue",
+            "pale_skin",
+            "weakness"
+        ],
+        "treatments": [
+            "Erythropoiesis-stimulating agents (ESA)",
+            "iron supplementation",
+            "blood transfusions (in severe cases)"
+        ]
+    },
+    "Injury to Internal Organ": {
+        "code": "219",
+        "symptoms": [
+            "abdominal_pain",
+            "bleeding",
+            "organ_dysfunction"
+        ],
+        "treatments": [
+            "Immediate medical attention",
+            "diagnostic tests",
+            "surgery (in some cases)"
+        ]
+    },
+    "Scleritis": {
+        "code": "220",
+        "symptoms": [
+            "blurred_vision",
+            "eye_redness",
+            "severe_eye_pain"
+        ],
+        "treatments": [
+            "Steroid eye drops",
+            "nonsteroidal anti-inflammatory drugs (NSAIDs)",
+            "immunosuppressants"
+        ]
+    },
+    "Pterygium": {
+        "code": "221",
+        "symptoms": [
+            "growth_on_the_conjunctiva_(white_part_of_the_eye)"
+        ],
+        "treatments": [
+            "Artificial tears",
+            "eye lubricants",
+            "surgical removal (in severe cases)"
+        ]
+    },
+    "Fungal Infection of the Skin": {
+        "code": "222",
+        "symptoms": [
+            "itching",
+            "peeling_skin",
+            "rash",
+            "redness"
+        ],
+        "treatments": [
+            "Antifungal creams",
+            "powders",
+            "or oral medications",
+            "proper hygiene and skin care"
+        ]
+    },
+    "Insulin Overdose": {
+        "code": "223",
+        "symptoms": [
+            "confusion",
+            "low_blood_sugar_(hypoglycemia)_symptoms_(e.g.",
+            "sweating)"
+        ],
+        "treatments": [
+            "Immediate treatment of hypoglycemia",
+            "medical assistance",
+            "adjusting insulin dosage and regimen"
+        ]
+    },
+    "Syndrome of Inappropriate Secretion of ADH (SIADH)": {
+        "code": "224",
+        "symptoms": [
+            "excessively_concentrated_urine",
+            "low_blood_sodium_levels"
+        ],
+        "treatments": [
+            "Treating underlying cause",
+            "fluid restriction",
+            "medications to suppress ADH (vasopressin) secretion",
+            "addressing electrolyte imbalance"
+        ]
+    },
+    "Premenstrual Tension Syndrome": {
+        "code": "225",
+        "symptoms": [
+            "bloating",
+            "breast_tenderness",
+            "irritability",
+            "mood_swings"
+        ],
+        "treatments": [
+            "Lifestyle changes",
+            "medications (pain relievers",
+            "hormonal contraceptives)",
+            "therapy"
+        ]
+    },
+    "Orbital Cellulitis": {
+        "code": "226",
+        "symptoms": [
+            "eye_pain",
+            "redness",
+            "swelling",
+            "vision_changes"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "hospitalization (in severe cases)",
+            "surgical drainage (in some cases)"
+        ]
+    },
+    "Injury to the Leg": {
+        "code": "227",
+        "symptoms": [
+            "bruising",
+            "difficulty_walking",
+            "pain",
+            "swelling"
+        ],
+        "treatments": [
+            "R.I.C.E. (Rest",
+            "Ice",
+            "Compression",
+            "Elevation)",
+            "pain medications",
+            "physical therapy"
+        ]
+    },
+    "Hepatic Encephalopathy": {
+        "code": "228",
+        "symptoms": [
+            "confusion",
+            "forgetfulness",
+            "personality_changes",
+            "tremors"
+        ],
+        "treatments": [
+            "Treating underlying liver disease",
+            "medications to manage symptoms",
+            "dietary modifications"
+        ]
+    },
+    "Bone Cancer": {
+        "code": "229",
+        "symptoms": [
+            "bone_pain",
+            "fatigue",
+            "fractures",
+            "unexplained_weight_loss"
+        ],
+        "treatments": [
+            "Surgery",
+            "chemotherapy",
+            "radiation therapy",
+            "targeted therapy"
+        ]
+    },
+    "Leishmaniasis": {
+        "code": "230",
+        "symptoms": [
+            "enlarged_spleen_or_liver",
+            "fever",
+            "skin_sores",
+            "weight_loss"
+        ],
+        "treatments": [
+            "Antiparasitic medications",
+            "treatment of complications",
+            "vector control measures (in endemic areas)"
+        ]
+    },
+    "Chagas Disease": {
+        "code": "231",
+        "symptoms": [
+            "body_aches",
+            "fatigue",
+            "fever",
+            "heart_and_digestive_problems"
+        ],
+        "treatments": [
+            "Antiparasitic medications",
+            "medications to manage symptoms",
+            "supportive care"
+        ]
+    },
+    "Syringomyelia": {
+        "code": "232",
+        "symptoms": [
+            "chronic_pain",
+            "loss_of_sensation",
+            "muscle_weakness"
+        ],
+        "treatments": [
+            "Surgical decompression",
+            "draining of syrinx (cyst)",
+            "physical therapy",
+            "pain management techniques"
+        ]
+    },
+    "Pulmonary Fibrosis": {
+        "code": "233",
+        "symptoms": [
+            "dry_cough",
+            "fatigue",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Medications (immunosuppressants",
+            "antifibrotic drugs)",
+            "oxygen therapy",
+            "lung transplantation"
+        ]
+    },
+    "Mitral Valve Disease": {
+        "code": "234",
+        "symptoms": [
+            "fatigue",
+            "heart_palpitations",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Medications",
+            "lifestyle changes",
+            "surgical repair or replacement of the valve (in severe cases)"
+        ]
+    },
+    "Parkinson Disease": {
+        "code": "235",
+        "symptoms": [
+            "slowness_of_movement",
+            "stiffness",
+            "tremors"
+        ],
+        "treatments": [
+            "Medications (levodopa",
+            "dopamine agonists)",
+            "physical therapy",
+            "deep brain stimulation"
+        ]
+    },
+    "Gout": {
+        "code": "236",
+        "symptoms": [
+            "intense_joint_pain",
+            "redness",
+            "swelling"
+        ],
+        "treatments": [
+            "Medications (nonsteroidal anti-inflammatory drugs",
+            "colchicine)",
+            "lifestyle changes"
+        ]
+    },
+    "Otitis Media": {
+        "code": "237",
+        "symptoms": [
+            "ear_pain",
+            "fever",
+            "fluid_drainage_from_the_ear"
+        ],
+        "treatments": [
+            "Antibiotics (if bacterial infection)",
+            "pain relievers",
+            "observation (in some cases)"
+        ]
+    },
+    "Myelodysplastic Syndrome": {
+        "code": "238",
+        "symptoms": [
+            "easy_bruising_or_bleeding",
+            "fatigue",
+            "frequent_infections"
+        ],
+        "treatments": [
+            "Supportive care",
+            "blood transfusions",
+            "medications",
+            "bone marrow transplantation (in some cases)"
+        ]
+    },
+    "Fracture of the Shoulder": {
+        "code": "239",
+        "symptoms": [
+            "limited_range_of_motion",
+            "shoulder_pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Immobilization (sling",
+            "brace)",
+            "pain management",
+            "physical therapy",
+            "surgical intervention (in severe cases)"
+        ]
+    },
+    "Acute Kidney Injury": {
+        "code": "240",
+        "symptoms": [
+            "decreased_urine_output",
+            "fatigue",
+            "fluid_retention"
+        ],
+        "treatments": [
+            "Treating underlying cause",
+            "supportive care",
+            "medications to manage complications",
+            "dialysis (in severe cases)"
+        ]
+    },
+    "Threatened Pregnancy": {
+        "code": "241",
+        "symptoms": [
+            "abdominal_cramps",
+            "pelvic_pain",
+            "vaginal_bleeding"
+        ],
+        "treatments": [
+            "Bed rest",
+            "medications (progesterone)",
+            "monitoring",
+            "avoiding activities that may stress the pregnancy"
+        ]
+    },
+    "Intracranial Abscess": {
+        "code": "242",
+        "symptoms": [
+            "fever",
+            "headache",
+            "neurological_deficits"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "surgical drainage or removal of the abscess",
+            "supportive care"
+        ]
+    },
+    "Gum Disease": {
+        "code": "243",
+        "symptoms": [
+            "bleeding_gums",
+            "red",
+            "swollen",
+            "tender_gums"
+        ],
+        "treatments": [
+            "Oral hygiene practices (brushing",
+            "flossing)",
+            "professional dental cleanings",
+            "medications",
+            "surgical interventions"
+        ]
+    },
+    "Open Wound from Surgical Incision": {
+        "code": "244",
+        "symptoms": [
+            "discharge_from_the_wound",
+            "redness",
+            "swelling"
+        ],
+        "treatments": [
+            "Wound care (cleaning",
+            "dressing changes)",
+            "antibiotics (if infection is present)",
+            "surgical interventions"
+        ]
+    },
+    "Gastrointestinal Hemorrhage": {
+        "code": "245",
+        "symptoms": [
+            "abdominal_pain",
+            "bloody_or_black_stools",
+            "vomiting_blood"
+        ],
+        "treatments": [
+            "Blood transfusions",
+            "endoscopy",
+            "surgery (in severe cases)",
+            "medications to stop bleeding"
+        ]
+    },
+    "Seborrheic Dermatitis": {
+        "code": "246",
+        "symptoms": [
+            "and_oily_patches_of_skin",
+            "dandruff",
+            "flaky_scalp",
+            "itchy",
+            "red"
+        ],
+        "treatments": [
+            "Topical antifungal creams or ointments",
+            "medicated shampoos",
+            "corticosteroid creams"
+        ]
+    },
+    "Drug Abuse (Methamphetamine)": {
+        "code": "247",
+        "symptoms": [
+            "decreased_appetite",
+            "increased_energy_and_alertness",
+            "rapid_heartbeat"
+        ],
+        "treatments": [
+            "Detoxification",
+            "counseling",
+            "behavioral therapies",
+            "support groups",
+            "medication-assisted treatment (if applicable)"
+        ]
+    },
+    "Torticollis": {
+        "code": "248",
+        "symptoms": [
+            "and_abnormal_head_positioning",
+            "neck_pain",
+            "stiffness"
+        ],
+        "treatments": [
+            "Physical therapy exercises",
+            "pain relievers",
+            "botulinum toxin injections (in severe cases)"
+        ]
+    },
+    "Antihypertensives Poisoning": {
+        "code": "249",
+        "symptoms": [
+            "dizziness",
+            "low_blood_pressure",
+            "nausea",
+            "slow_heart_rate",
+            "vomiting"
+        ],
+        "treatments": [
+            "Immediate medical attention",
+            "activated charcoal administration",
+            "supportive care",
+            "specific antidotes"
+        ]
+    },
+    "Tension Headache": {
+        "code": "250",
+        "symptoms": [
+            "mild_to_moderate_head_pain",
+            "tightness_or_pressure_sensation_on_both_sides_of_head"
+        ],
+        "treatments": [
+            "Over-the-counter pain relievers",
+            "relaxation techniques",
+            "stress management"
+        ]
+    },
+    "Alcohol Intoxication": {
+        "code": "251",
+        "symptoms": [
+            "confusion",
+            "impaired_coordination",
+            "slurred_speech"
+        ],
+        "treatments": [
+            "Supportive care",
+            "ensuring hydration",
+            "monitoring vital signs",
+            "prevention of complications"
+        ]
+    },
+    "Scurvy": {
+        "code": "252",
+        "symptoms": [
+            "fatigue",
+            "joint_pain",
+            "swollen_and_bleeding_gums"
+        ],
+        "treatments": [
+            "Vitamin C supplementation",
+            "dietary changes",
+            "oral hygiene maintenance"
+        ]
+    },
+    "Narcolepsy": {
+        "code": "253",
+        "symptoms": [
+            "excessive_daytime_sleepiness",
+            "sudden_loss_of_muscle_tone_(cataplexy)"
+        ],
+        "treatments": [
+            "Stimulant medications",
+            "antidepressants",
+            "lifestyle modifications",
+            "scheduled naps"
+        ]
+    },
+    "Food Allergy": {
+        "code": "254",
+        "symptoms": [
+            "difficulty_breathing",
+            "gastrointestinal_symptoms",
+            "itching",
+            "rash",
+            "swelling"
+        ],
+        "treatments": [
+            "Avoidance of allergenic food",
+            "antihistamines",
+            "epinephrine (in severe cases)"
+        ]
+    },
+    "Labyrinthitis": {
+        "code": "255",
+        "symptoms": [
+            "dizziness",
+            "ear_pain",
+            "hearing_loss",
+            "nausea",
+            "vertigo"
+        ],
+        "treatments": [
+            "Medications (antibiotics",
+            "antivirals)",
+            "vestibular rehabilitation therapy"
+        ]
+    },
+    "Anxiety": {
+        "code": "256",
+        "symptoms": [
+            "excessive_worrying",
+            "increased_heart_rate",
+            "panic_attacks",
+            "restlessness"
+        ],
+        "treatments": [
+            "Therapy (cognitive-behavioral therapy",
+            "psychotherapy)",
+            "medications (antidepressants",
+            "anti-anxiety drugs)"
+        ]
+    },
+    "Impulse Control Disorder": {
+        "code": "257",
+        "symptoms": [
+            "difficulty_resisting_urges",
+            "gambling",
+            "impulsive_behaviors_(e.g.",
+            "stealing)"
+        ],
+        "treatments": [
+            "Psychotherapy",
+            "medication (in some cases)",
+            "support groups",
+            "behavioral interventions"
+        ]
+    },
+    "Stenosis of the Tear Duct": {
+        "code": "258",
+        "symptoms": [
+            "excessive_tearing",
+            "eye_discharge",
+            "recurrent_eye_infections"
+        ],
+        "treatments": [
+            "Tear duct probing",
+            "dilation",
+            "surgical correction"
+        ]
+    },
+    "Abscess of Nose": {
+        "code": "259",
+        "symptoms": [
+            "discharge_from_the_nose",
+            "pain",
+            "redness",
+            "swelling"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "warm compresses",
+            "surgical drainage (in severe cases)"
+        ]
+    },
+    "Omphalitis": {
+        "code": "260",
+        "symptoms": [
+            "discharge",
+            "foul_odor_around_the_umbilical_area",
+            "redness",
+            "swelling"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "wound care",
+            "surgical intervention (in severe cases)"
+        ]
+    },
+    "Leukemia": {
+        "code": "261",
+        "symptoms": [
+            "easy_bleeding_or_bruising",
+            "fatigue",
+            "frequent_infections",
+            "pale_skin"
+        ],
+        "treatments": [
+            "Chemotherapy",
+            "radiation therapy",
+            "stem cell transplant",
+            "targeted therapy",
+            "supportive care"
+        ]
+    },
+    "Bell Palsy": {
+        "code": "262",
+        "symptoms": [
+            "drooping_of_the_mouth_or_eyelid",
+            "facial_weakness_or_paralysis"
+        ],
+        "treatments": [
+            "Corticosteroids",
+            "antiviral medications",
+            "eye protection",
+            "physical therapy"
+        ]
+    },
+    "Conjunctivitis due to Allergy": {
+        "code": "263",
+        "symptoms": [
+            "itching",
+            "redness",
+            "swollen_eyelids",
+            "watery_discharge"
+        ],
+        "treatments": [
+            "Allergen avoidance",
+            "antihistamine eye drops",
+            "cold compresses",
+            "lubricating eye drops"
+        ]
+    },
+    "Drug Reaction": {
+        "code": "264",
+        "symptoms": [
+            "fever",
+            "itching",
+            "rash",
+            "respiratory_symptoms",
+            "swelling"
+        ],
+        "treatments": [
+            "Discontinuation of the offending drug",
+            "supportive care",
+            "antihistamines",
+            "corticosteroids (in severe cases)"
+        ]
+    },
+    "Adrenal Cancer": {
+        "code": "265",
+        "symptoms": [
+            "abdominal_or_back_pain",
+            "hormonal_imbalances",
+            "unexplained_weight_loss"
+        ],
+        "treatments": [
+            "Surgery (adrenalectomy)",
+            "chemotherapy",
+            "radiation therapy",
+            "targeted therapy",
+            "hormone replacement therapy"
+        ]
+    },
+    "Myopia": {
+        "code": "266",
+        "symptoms": [
+            "blurred_distance_vision",
+            "eyestrain",
+            "squinting"
+        ],
+        "treatments": [
+            "Eyeglasses",
+            "contact lenses",
+            "refractive surgery (LASIK)",
+            "orthokeratology (for some cases)"
+        ]
+    },
+    "Osteoarthritis": {
+        "code": "267",
+        "symptoms": [
+            "joint_pain",
+            "stiffness",
+            "swelling"
+        ],
+        "treatments": [
+            "Pain relievers",
+            "physical therapy",
+            "weight management",
+            "assistive devices",
+            "surgery (in severe cases)"
+        ]
+    },
+    "Thyroid Disease": {
+        "code": "268",
+        "symptoms": [
+            "dry_skin",
+            "fatigue",
+            "mood_swings",
+            "weight_changes"
+        ],
+        "treatments": [
+            "Medications (thyroid hormone replacement",
+            "antithyroid drugs)",
+            "radioactive iodine therapy",
+            "surgery (in some cases)"
+        ]
+    },
+    "Pharyngitis": {
+        "code": "269",
+        "symptoms": [
+            "difficulty_swallowing",
+            "sore_throat",
+            "swollen_lymph_nodes"
+        ],
+        "treatments": [
+            "Rest",
+            "pain relievers",
+            "throat lozenges",
+            "antibiotics (if bacterial infection)",
+            "symptomatic relief"
+        ]
+    },
+    "Chronic Rheumatic Fever": {
+        "code": "270",
+        "symptoms": [
+            "fever",
+            "heart_inflammation",
+            "joint_pain",
+            "rash"
+        ],
+        "treatments": [
+            "Antibiotics (to treat streptococcal infections)",
+            "anti-inflammatory medications",
+            "medications for heart complications"
+        ]
+    },
+    "Hypocalcemia": {
+        "code": "271",
+        "symptoms": [
+            "muscle_cramps",
+            "numbness_or_tingling_in_fingers_or_around_the_mouth"
+        ],
+        "treatments": [
+            "Calcium and vitamin D supplements",
+            "treating underlying causes",
+            "intravenous calcium (in severe cases)"
+        ]
+    },
+    "Macular Degeneration": {
+        "code": "272",
+        "symptoms": [
+            "blind_spots",
+            "blurred_or_distorted_central_vision"
+        ],
+        "treatments": [
+            "Vision aids",
+            "medications (injections into the eye)",
+            "laser therapy",
+            "photodynamic therapy",
+            "surgical intervention"
+        ]
+    },
+    "Pneumonia": {
+        "code": "273",
+        "symptoms": [
+            "chest_pain",
+            "cough",
+            "difficulty_breathing",
+            "fever"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "antiviral medications (if applicable)",
+            "rest",
+            "fluids",
+            "symptomatic relief"
+        ]
+    },
+    "Cold Sore": {
+        "code": "274",
+        "symptoms": [
+            "painful_blisters_on_the_lips_or_around_the_mouth",
+            "small"
+        ],
+        "treatments": [
+            "Antiviral medications (topical or oral)",
+            "pain relievers",
+            "antiviral creams",
+            "self-care measures"
+        ]
+    },
+    "Premature Ventricular Contractions (PVCs)": {
+        "code": "275",
+        "symptoms": [
+            "lightheadedness",
+            "palpitations",
+            "skipped_or_extra_heartbeats"
+        ],
+        "treatments": [
+            "Monitoring (in most cases)",
+            "lifestyle changes",
+            "medications (beta-blockers",
+            "antiarrhythmics)"
+        ]
+    },
+    "Chancroid": {
+        "code": "276",
+        "symptoms": [
+            "painful_ulcers_or_sores_on_the_genital_area",
+            "swollen_lymph_nodes_in_the_groin"
+        ],
+        "treatments": [
+            "Antibiotics (such as azithromycin or ceftriaxone)",
+            "pain management",
+            "warm compresses",
+            "good hygiene"
+        ]
+    },
+    "Testicular Cancer": {
+        "code": "277",
+        "symptoms": [
+            "changes_in_testicular_size_or_shape",
+            "lump_or_swelling_in_the_testicles",
+            "pain_or_discomfort"
+        ],
+        "treatments": [
+            "Surgery (orchiectomy)",
+            "chemotherapy",
+            "radiation therapy",
+            "surveillance (for some cases)"
+        ]
+    },
+    "Hydrocephalus": {
+        "code": "278",
+        "symptoms": [
+            "cognitive_or_developmental_problems",
+            "enlarged_head_in_infants",
+            "headache",
+            "nausea",
+            "vomiting"
+        ],
+        "treatments": [
+            "Shunt placement (to divert excess cerebrospinal fluid)",
+            "endoscopic third ventriculostomy",
+            "medication (in some cases)"
+        ]
+    },
+    "Breast Cancer": {
+        "code": "279",
+        "symptoms": [
+            "breast_lump",
+            "breast_pain",
+            "changes_in_breast_size_or_shape",
+            "nipple_changes"
+        ],
+        "treatments": [
+            "Surgery (lumpectomy or mastectomy)",
+            "radiation therapy",
+            "chemotherapy",
+            "hormone therapy",
+            "targeted therapy"
+        ]
+    },
+    "Anemia due to Malignancy": {
+        "code": "280",
+        "symptoms": [
+            "fatigue",
+            "pale_skin",
+            "shortness_of_breath",
+            "weakness"
+        ],
+        "treatments": [
+            "Treating underlying malignancy",
+            "blood transfusions",
+            "medications (erythropoiesis-stimulating agents",
+            "iron supplements)"
+        ]
+    },
+    "Esophageal Varices": {
+        "code": "281",
+        "symptoms": [
+            "black",
+            "swollen_blood_vessels_in_the_esophagus",
+            "tarry_stools",
+            "vomiting_blood"
+        ],
+        "treatments": [
+            "Medications (beta-blockers",
+            "vasoconstrictors)",
+            "endoscopic therapies",
+            "band ligation",
+            "transjugular intrahepatic portosystemic shunt (TIPS)",
+            "surgical interventions"
+        ]
+    },
+    "Endometrial Cancer": {
+        "code": "282",
+        "symptoms": [
+            "abnormal_vaginal_bleeding",
+            "changes_in_bowel_or_bladder_habits",
+            "pelvic_pain_or_discomfort"
+        ],
+        "treatments": [
+            "Surgery (hysterectomy)",
+            "radiation therapy",
+            "chemotherapy",
+            "hormone therapy"
+        ]
+    },
+    "Cystic Fibrosis": {
+        "code": "283",
+        "symptoms": [
+            "persistent_cough_with_thick_mucus",
+            "poor_growth_or_weight_gain",
+            "recurrent_lung_infections",
+            "salty-tasting_skin"
+        ],
+        "treatments": [
+            "Medications (mucus-thinning drugs",
+            "bronchodilators)",
+            "chest physical therapy",
+            "enzyme supplements",
+            "lung transplant (in severe cases)"
+        ]
+    },
+    "Intertrigo": {
+        "code": "284",
+        "symptoms": [
+            "itching_or_burning_sensation",
+            "or_inflamed_skin_in_skin_folds_(such_as_armpits_or_groin)",
+            "raw",
+            "red"
+        ],
+        "treatments": [
+            "Keeping the affected area clean and dry",
+            "applying topical antifungal or antibacterial creams",
+            "using barrier creams"
+        ]
+    },
+    "Parathyroid Adenoma": {
+        "code": "285",
+        "symptoms": [
+            "bone_pain",
+            "fatigue",
+            "frequent_urination",
+            "kidney_stones",
+            "weakness"
+        ],
+        "treatments": [
+            "Surgical removal of the adenoma (parathyroidectomy)",
+            "medications to manage calcium levels"
+        ]
+    },
+    "Glucocorticoid Deficiency": {
+        "code": "286",
+        "symptoms": [
+            "abdominal_pain",
+            "fatigue",
+            "low_blood_pressure",
+            "weakness",
+            "weight_loss"
+        ],
+        "treatments": [
+            "Hormone replacement therapy with glucocorticoid medications"
+        ]
+    },
+    "Temporomandibular Joint Disorder": {
+        "code": "287",
+        "symptoms": [
+            "clicking_or_popping_sounds_in_the_jaw_joint",
+            "difficulty_chewing_or_opening_the_mouth",
+            "jaw_pain_or_tenderness"
+        ],
+        "treatments": [
+            "Self-care measures (rest",
+            "applying heat or cold",
+            "jaw exercises)",
+            "pain medications",
+            "physical therapy",
+            "oral splints"
+        ]
+    },
+    "Wilson Disease": {
+        "code": "288",
+        "symptoms": [
+            "abdominal_pain_or_swelling",
+            "difficulty_speaking_or_walking)",
+            "fatigue",
+            "jaundice",
+            "neurological_symptoms_(tremors"
+        ],
+        "treatments": [
+            "Medications to remove copper from the body (chelators)",
+            "dietary changes",
+            "liver transplant (in severe cases)"
+        ]
+    },
+    "Vesicoureteral Reflux": {
+        "code": "289",
+        "symptoms": [
+            "bedwetting_(in_children)",
+            "frequent_urinary_tract_infections",
+            "high_blood_pressure_(in_severe_cases)",
+            "urinary_urgency_or_frequency"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "bladder training exercises",
+            "surgical correction (in some cases)"
+        ]
+    },
+    "Vitamin A Deficiency": {
+        "code": "290",
+        "symptoms": [
+            "dry_eyes",
+            "dry_or_rough_skin",
+            "night_blindness",
+            "poor_wound_healing",
+            "weakened_immune_system"
+        ],
+        "treatments": [
+            "Vitamin A supplementation",
+            "dietary changes to include foods rich in vitamin A"
+        ]
+    },
+    "Gonorrhea": {
+        "code": "291",
+        "symptoms": [
+            "abnormal_discharge_from_the_genitals",
+            "painful_urination",
+            "pelvic_pain"
+        ],
+        "treatments": [
+            "Antibiotics (dual therapy with ceftriaxone and azithromycin)",
+            "safe sexual practices",
+            "partner notification"
+        ]
+    },
+    "Fracture of the Rib": {
+        "code": "292",
+        "symptoms": [
+            "chest_pain",
+            "difficulty_breathing",
+            "tenderness_or_swelling_over_the_ribcage"
+        ],
+        "treatments": [
+            "Pain management",
+            "rest",
+            "immobilization (splinting or bracing)",
+            "physical therapy"
+        ]
+    },
+    "Ependymoma": {
+        "code": "293",
+        "symptoms": [
+            "changes_in_coordination_or_balance",
+            "headaches",
+            "nausea",
+            "seizures"
+        ],
+        "treatments": [
+            "Surgery",
+            "radiation therapy",
+            "chemotherapy",
+            "targeted therapy",
+            "rehabilitation"
+        ]
+    },
+    "Hepatitis due to a Toxin": {
+        "code": "294",
+        "symptoms": [
+            "abdominal_pain",
+            "fatigue",
+            "jaundice",
+            "nausea",
+            "vomiting"
+        ],
+        "treatments": [
+            "Supportive care",
+            "removal or avoidance of the toxic substance",
+            "management of symptoms"
+        ]
+    },
+    "Vaginal Cyst": {
+        "code": "295",
+        "symptoms": [
+            "discomfort_or_pain_during_intercourse",
+            "small_lump_or_swelling_in_the_vaginal_wall"
+        ],
+        "treatments": [
+            "Observation (if asymptomatic)",
+            "warm compresses",
+            "sitz baths",
+            "surgical removal (if necessary)"
+        ]
+    },
+    "Chronic Knee Pain": {
+        "code": "296",
+        "symptoms": [
+            "limited_range_of_motion",
+            "persistent_knee_pain",
+            "stiffness",
+            "swelling"
+        ],
+        "treatments": [
+            "Pain management",
+            "physical therapy",
+            "lifestyle modifications",
+            "knee braces or supports"
+        ]
+    },
+    "Pinguecula": {
+        "code": "297",
+        "symptoms": [
+            "usually_near_the_cornea",
+            "yellowish_or_white_growth_on_the_conjunctiva_(eye's_surface)"
+        ],
+        "treatments": [
+            "Artificial tears",
+            "lubricating eye drops",
+            "sunglasses for UV protection",
+            "surgical removal (in severe cases)"
+        ]
+    },
+    "Hypergammaglobulinemia": {
+        "code": "298",
+        "symptoms": [
+            "elevated_levels_of_gamma_globulins_in_the_blood",
+            "may_be_asymptomatic_or_associated_with_other_underlying_conditions"
+        ],
+        "treatments": [
+            "Treatment of underlying cause or associated condition",
+            "immunosuppressive therapy (in some cases)"
+        ]
+    },
+    "Pituitary Disorder": {
+        "code": "299",
+        "symptoms": [
+            "including_hormonal_imbalances",
+            "various_symptoms_depending_on_the_specific_disorder"
+        ],
+        "treatments": [
+            "Treatment depends on the specific pituitary disorder and may involve medications",
+            "surgery",
+            "hormone replacement therapy"
+        ]
+    },
+    "Kidney Stone": {
+        "code": "300",
+        "symptoms": [
+            "blood_in_the_urine",
+            "frequent_urination",
+            "severe_pain_in_the_side_or_back"
+        ],
+        "treatments": [
+            "Pain management",
+            "increased fluid intake",
+            "medication to facilitate stone passage",
+            "minimally invasive procedures or surgery"
+        ]
+    },
+    "Autism": {
+        "code": "301",
+        "symptoms": [
+            "challenges_with_social_interaction",
+            "communication_difficulties",
+            "restricted_interests_or_repetitive_behaviors"
+        ],
+        "treatments": [
+            "Behavioral therapy",
+            "educational interventions",
+            "speech and language therapy",
+            "medications for associated symptoms"
+        ]
+    },
+    "Cat Scratch Disease": {
+        "code": "302",
+        "symptoms": [
+            "fatigue",
+            "fever",
+            "headache",
+            "rash",
+            "swollen_lymph_nodes"
+        ],
+        "treatments": [
+            "Antibiotics (azithromycin",
+            "doxycycline)",
+            "pain management",
+            "supportive care"
+        ]
+    },
+    "Chronic Glaucoma": {
+        "code": "303",
+        "symptoms": [
+            "eye_pain_or_discomfort",
+            "gradual_vision_loss",
+            "halos_around_lights",
+            "peripheral_vision_impairment"
+        ],
+        "treatments": [
+            "Eye drops (to reduce intraocular pressure)",
+            "oral medications",
+            "laser therapy",
+            "surgery (trabeculectomy",
+            "implantable devices)",
+            "regular eye exams"
+        ]
+    },
+    "Retinal Detachment": {
+        "code": "304",
+        "symptoms": [
+            "curtain-like_shadow_over_vision",
+            "flashes_of_light",
+            "floaters_(spots_or_cobweb-like_shapes_in_vision)",
+            "sudden_vision_loss"
+        ],
+        "treatments": [
+            "Surgical intervention (pneumatic retinopexy",
+            "scleral buckle",
+            "vitrectomy)",
+            "laser therapy",
+            "cryotherapy",
+            "gas or silicone oil injection",
+            "positioning",
+            "regular eye exams"
+        ]
+    },
+    "Aplastic Anemia": {
+        "code": "305",
+        "symptoms": [
+            "fatigue",
+            "frequent_infections",
+            "pale_skin",
+            "prolonged_bleeding_or_bruising",
+            "rapid_or_irregular_heartbeats",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Blood transfusions",
+            "bone marrow-stimulating medications",
+            "immunosuppressive therapy",
+            "stem cell transplant (in severe cases)",
+            "supportive care"
+        ]
+    },
+    "Overflow Incontinence": {
+        "code": "306",
+        "symptoms": [
+            "frequent_or_constant_dribbling_of_urine",
+            "inability_to_completely_empty_the_bladder",
+            "weak_urine_stream"
+        ],
+        "treatments": [
+            "Bladder training exercises",
+            "double voiding",
+            "catheterization",
+            "medications (alpha-blockers",
+            "anticholinergics)",
+            "surgery (in severe cases)",
+            "lifestyle modifications"
+        ]
+    },
+    "Rabies": {
+        "code": "307",
+        "symptoms": [
+            "anxiety",
+            "confusion",
+            "difficulty_swallowing",
+            "fatigue)",
+            "flu-like_symptoms_(fever",
+            "hallucinations",
+            "headache"
+        ],
+        "treatments": [
+            "Immediate medical attention (post-exposure prophylaxis)",
+            "wound care",
+            "administration of rabies vaccine and immunoglobulin",
+            "supportive care",
+            "monitoring and management of symptoms"
+        ]
+    },
+    "Hemolytic Anemia": {
+        "code": "308",
+        "symptoms": [
+            "fatigue",
+            "jaundice",
+            "pale_skin",
+            "shortness_of_breath",
+            "weakness"
+        ],
+        "treatments": [
+            "Treatment of underlying cause",
+            "blood transfusions",
+            "medications (immunosuppressants",
+            "corticosteroids)",
+            "splenectomy (in some cases)",
+            "supportive care",
+            "folic acid or iron supplementation"
+        ]
+    },
+    "Lateral Epicondylitis (Tennis Elbow)": {
+        "code": "309",
+        "symptoms": [
+            "difficulty_with_forearm_movements",
+            "pain_or_tenderness_on_the_outer_side_of_the_elbow",
+            "weak_grip_strength"
+        ],
+        "treatments": [
+            "Rest",
+            "ice or cold therapy",
+            "compression",
+            "elbow brace or strap",
+            "pain relievers",
+            "physical therapy exercises",
+            "corticosteroid injections (in severe cases)",
+            "ergonomic modifications"
+        ]
+    },
+    "Syphilis": {
+        "code": "310",
+        "symptoms": [
+            "and_other_organs",
+            "brain",
+            "fever",
+            "latent_stage:_no_symptoms",
+            "primary_stage:_painless_sores_(chancre)_at_the_site_of_infection",
+            "secondary_stage:_skin_rash",
+            "sore_throat",
+            "swollen_lymph_nodes",
+            "tertiary_stage:_severe_complications_affecting_the_heart"
+        ],
+        "treatments": [
+            "Antibiotics (usually penicillin)",
+            "treatment of complications",
+            "regular follow-up and testing"
+        ]
+    },
+    "Diabetic Kidney Disease": {
+        "code": "311",
+        "symptoms": [
+            "fatigue",
+            "high_blood_pressure",
+            "increased_need_to_urinate",
+            "loss_of_appetite",
+            "nausea",
+            "swelling_in_the_legs_and_ankles"
+        ],
+        "treatments": [
+            "Blood pressure control",
+            "blood sugar control",
+            "medications to protect the kidneys (such as ACE inhibitors or ARBs)",
+            "lifestyle modifications (healthy diet",
+            "regular exercise",
+            "quitting smoking)",
+            "management of underlying diabetes",
+            "treatment of complications (such as dialysis or kidney transplantation in advanced stages)"
+        ]
+    },
+    "Nose Disorder": {
+        "code": "312",
+        "symptoms": [
+            "facial_pain_or_pressure",
+            "loss_of_smell",
+            "nasal_congestion",
+            "runny_nose",
+            "sneezing"
+        ],
+        "treatments": [
+            "Treatment depends on the underlying cause (such as allergies",
+            "sinusitis",
+            "or nasal polyps)",
+            "and may include medications (such as decongestants",
+            "antihistamines",
+            "nasal sprays)",
+            "saline nasal irrigation",
+            "steam inhalation",
+            "allergy management",
+            "antibiotics (if bacterial infection is present)",
+            "surgical intervention (in some cases)"
+        ]
+    },
+    "Drug Withdrawal": {
+        "code": "313",
+        "symptoms": [
+            "anxiety",
+            "drug_cravings",
+            "insomnia",
+            "irritability",
+            "nausea",
+            "restlessness",
+            "sweating",
+            "tremors",
+            "vomiting"
+        ],
+        "treatments": [
+            "Gradual tapering of the drug under medical supervision",
+            "medications to manage withdrawal symptoms (such as benzodiazepines",
+            "clonidine",
+            "or buprenorphine)",
+            "behavioral therapy",
+            "support groups",
+            "counseling",
+            "rehabilitation programs"
+        ]
+    },
+    "Dental Caries": {
+        "code": "314",
+        "symptoms": [
+            "bad_breath",
+            "dark_spots_on_the_teeth",
+            "tooth_sensitivity",
+            "toothache",
+            "visible_pits_or_holes_in_the_teeth"
+        ],
+        "treatments": [
+            "Dental fillings",
+            "crowns",
+            "root canal treatment",
+            "tooth extraction (in severe cases)",
+            "oral hygiene practices (brushing and flossing)",
+            "regular dental check-ups",
+            "fluoride treatments",
+            "dietary modifications (reducing sugary and acidic foods and drinks)",
+            "dental sealants (for prevention)",
+            "education on proper oral care"
+        ]
+    },
+    "Hypercholesterolemia": {
+        "code": "315",
+        "symptoms": [
+            "chest_pain_or_angina",
+            "fatty_deposits_(xanthomas)_on_the_skin_or_tendons",
+            "heart_attacks",
+            "high_levels_of_cholesterol_in_the_blood",
+            "strokes"
+        ],
+        "treatments": [
+            "Lifestyle modifications (healthy diet",
+            "regular exercise",
+            "weight management",
+            "smoking cessation)",
+            "medications to lower cholesterol levels (such as statins)",
+            "regular monitoring of cholesterol levels",
+            "management of underlying conditions (such as diabetes or high blood pressure)",
+            "potential additional treatments (such as bile acid sequestrants or PCSK9 inhibitors)"
+        ]
+    },
+    "Fracture of the Patella": {
+        "code": "316",
+        "symptoms": [
+            "bruising",
+            "deformity",
+            "difficulty_straightening_or_bending_the_knee",
+            "severe_pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Immobilization (splint",
+            "cast",
+            "or brace)",
+            "pain management",
+            "physical therapy",
+            "exercises to restore mobility and strength",
+            "potential surgical intervention (in severe cases or if displacement is present)"
+        ]
+    },
+    "Kidney Failure": {
+        "code": "317",
+        "symptoms": [
+            "chest_pain",
+            "confusion",
+            "decreased_urine_output",
+            "fatigue",
+            "fluid_retention",
+            "nausea",
+            "seizures",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Treatment depends on the underlying cause and may include medications to manage blood pressure and symptoms",
+            "dietary modifications (restricting salt",
+            "protein",
+            "and potassium)",
+            "dialysis (hemodialysis or peritoneal dialysis) or kidney transplantation (in end-stage kidney failure)",
+            "treatment of complications",
+            "management of fluid and electrolyte balance",
+            "lifestyle modifications (exercise",
+            "quitting smoking",
+            "healthy diet)"
+        ]
+    },
+    "Fracture of the Neck": {
+        "code": "318",
+        "symptoms": [
+            "difficulty_moving_or_turning_the_head",
+            "numbness_or_weakness_in_the_arms_or_legs",
+            "severe_neck_pain",
+            "swelling",
+            "tenderness"
+        ],
+        "treatments": [
+            "Immobilization (cervical collar",
+            "brace)",
+            "pain management",
+            "potential surgical intervention (in severe cases)"
+        ]
+    },
+    "Muscle Spasm": {
+        "code": "319",
+        "symptoms": [
+            "involuntary_muscle_contractions",
+            "limited_range_of_motion",
+            "muscle_pain",
+            "stiffness",
+            "sudden"
+        ],
+        "treatments": [
+            "Stretching and relaxation exercises",
+            "heat or cold therapy",
+            "over-the-counter pain relievers",
+            "muscle relaxants",
+            "physical therapy",
+            "lifestyle modifications"
+        ]
+    },
+    "Hemophilia": {
+        "code": "320",
+        "symptoms": [
+            "excessive_bleeding_and_bruising",
+            "prolonged_bleeding_from_wounds_or_after_dental_work_or_surgery",
+            "spontaneous_bleeding_in_joints_or_muscles"
+        ],
+        "treatments": [
+            "Replacement therapy with clotting factor concentrates",
+            "medications to control bleeding",
+            "physical therapy",
+            "joint protection measures",
+            "genetic counseling and testing for family members"
+        ]
+    },
+    "Hyperosmotic Hyperketotic State": {
+        "code": "321",
+        "symptoms": [
+            "confusion",
+            "excessive_thirst",
+            "fatigue",
+            "frequent_urination",
+            "fruity_breath_odor",
+            "increased_blood_sugar_levels",
+            "increased_ketone_production"
+        ],
+        "treatments": [
+            "Insulin therapy to regulate blood sugar levels",
+            "intravenous fluids to correct dehydration",
+            "electrolyte replacement",
+            "correction of underlying causes (e.g.",
+            "diabetes management)"
+        ]
+    },
+    "Peritonsillar Abscess": {
+        "code": "322",
+        "symptoms": [
+            "difficulty_swallowing",
+            "fever",
+            "neck_pain_or_stiffness",
+            "severe_sore_throat",
+            "swollen_tonsils",
+            "voice_changes"
+        ],
+        "treatments": [
+            "Antibiotics to treat infection",
+            "drainage of the abscess (needle aspiration or incision and drainage)",
+            "pain relievers",
+            "warm saltwater gargles",
+            "rest",
+            "fluids",
+            "surgical removal of the tonsils (in chronic or recurrent cases)"
+        ]
+    },
+    "Gastroparesis": {
+        "code": "323",
+        "symptoms": [
+            "abdominal_pain",
+            "bloating",
+            "early_satiety",
+            "nausea",
+            "poor_appetite",
+            "vomiting"
+        ],
+        "treatments": [
+            "Dietary modifications (small",
+            "frequent meals; low-fiber",
+            "low-fat diet)",
+            "medication to promote gastric emptying",
+            "managing underlying cause if possible"
+        ]
+    },
+    "Fat Embolism": {
+        "code": "324",
+        "symptoms": [
+            "chest_pain",
+            "confusion",
+            "neurological_symptoms",
+            "petechial_rash_(small_red_or_purple_spots)",
+            "respiratory_distress"
+        ],
+        "treatments": [
+            "Supportive care (oxygen therapy",
+            "fluid resuscitation)",
+            "managing symptoms (pain medication",
+            "anticoagulants)",
+            "treatment of underlying cause if possible"
+        ]
+    },
+    "Polycythemia Vera": {
+        "code": "325",
+        "symptoms": [
+            "dizziness",
+            "enlarged_spleen",
+            "fatigue",
+            "headache",
+            "increased_red_blood_cell_count",
+            "itching"
+        ],
+        "treatments": [
+            "Phlebotomy (removal of blood)",
+            "medication (hydroxyurea",
+            "interferon)",
+            "low-dose aspirin",
+            "managing complications (blood thinners",
+            "medication for itching)"
+        ]
+    },
+    "Thrombocytopenia": {
+        "code": "326",
+        "symptoms": [
+            "easy_bruising",
+            "excessive_menstrual_bleeding",
+            "nosebleeds",
+            "petechiae_(red_or_purple_spots_on_the_skin)",
+            "prolonged_bleeding_from_cuts"
+        ],
+        "treatments": [
+            "Treatment of underlying cause",
+            "platelet transfusion (if severe)",
+            "medication (corticosteroids",
+            "immunosuppressants)",
+            "avoiding medications that can worsen platelet counts"
+        ]
+    },
+    "Head and Neck Cancer": {
+        "code": "327",
+        "symptoms": [
+            "difficulty_swallowing",
+            "ear_pain",
+            "neck_mass",
+            "persistent_sore_throat",
+            "voice_changes",
+            "weight_loss"
+        ],
+        "treatments": [
+            "Treatment depends on the specific type and stage of cancer",
+            "and may include surgery",
+            "radiation therapy",
+            "chemotherapy",
+            "targeted therapy",
+            "immunotherapy"
+        ]
+    },
+    "Pseudohypoparathyroidism": {
+        "code": "328",
+        "symptoms": [
+            "hypocalcemia_(low_calcium_levels)",
+            "rounded_face",
+            "short_stature",
+            "tetany_(muscle_spasms)"
+        ],
+        "treatments": [
+            "Calcium and vitamin D supplementation",
+            "management of complications",
+            "hormone replacement therapy (if necessary)"
+        ]
+    },
+    "Goiter": {
+        "code": "329",
+        "symptoms": [
+            "difficulty_swallowing_or_breathing",
+            "enlarged_thyroid_gland_in_the_neck",
+            "swelling_or_visible_protrusion"
+        ],
+        "treatments": [
+            "Treatment depends on the underlying cause (medication",
+            "radioactive iodine therapy",
+            "surgery)"
+        ]
+    },
+    "Urge Incontinence": {
+        "code": "330",
+        "symptoms": [
+            "intense_urge_to_urinate_followed_by_involuntary_urine_leakage",
+            "sudden"
+        ],
+        "treatments": [
+            "Behavioral therapies (bladder training",
+            "pelvic floor exercises)",
+            "medications (anticholinergics",
+            "beta-3 agonists)",
+            "medical devices"
+        ]
+    },
+    "Edward Syndrome": {
+        "code": "331",
+        "symptoms": [
+            "developmental_delays",
+            "distinct_facial_features_(small_jaw",
+            "heart_defects",
+            "intellectual_disability",
+            "low-set_ears)"
+        ],
+        "treatments": [
+            "Supportive care",
+            "addressing associated medical issues",
+            "early intervention programs",
+            "palliative care"
+        ]
+    },
+    "Muscular Dystrophy": {
+        "code": "332",
+        "symptoms": [
+            "difficulty_walking_or_moving",
+            "muscle_wasting",
+            "progressive_muscle_weakness_and_degeneration"
+        ],
+        "treatments": [
+            "Supportive care",
+            "physical therapy",
+            "assistive devices",
+            "medications for symptom management",
+            "gene therapies (in some cases)"
+        ]
+    },
+    "Mittelschmerz": {
+        "code": "333",
+        "symptoms": [
+            "lower_abdominal_pain_and_discomfort_occurring_around_the_time_of_ovulation"
+        ],
+        "treatments": [
+            "Pain management (over-the-counter pain relievers",
+            "heat therapy)",
+            "hormonal birth control (if severe or recurrent)"
+        ]
+    },
+    "Corneal Abrasion": {
+        "code": "334",
+        "symptoms": [
+            "eye_pain",
+            "foreign_body_sensation",
+            "redness",
+            "sensitivity_to_light"
+        ],
+        "treatments": [
+            "Eye patching",
+            "lubricating eye drops",
+            "antibiotic ointments (if infected)",
+            "avoiding further eye irritation"
+        ]
+    },
+    "Anemia of Chronic Disease": {
+        "code": "335",
+        "symptoms": [
+            "decreased_exercise_tolerance",
+            "fatigue",
+            "pale_skin",
+            "shortness_of_breath",
+            "weakness"
+        ],
+        "treatments": [
+            "Treating the underlying chronic disease",
+            "addressing nutritional deficiencies",
+            "blood transfusions (in severe cases)"
+        ]
+    },
+    "Dysthymic Disorder": {
+        "code": "336",
+        "symptoms": [
+            "changes_in_sleep_and_appetite)",
+            "lack_of_interest",
+            "lasting_for_at_least_two_years",
+            "persistent_depressive_symptoms_(low_mood"
+        ],
+        "treatments": [
+            "Psychotherapy (cognitive-behavioral therapy",
+            "interpersonal therapy)",
+            "antidepressant medications"
+        ]
+    },
+    "Scarlet Fever": {
+        "code": "337",
+        "symptoms": [
+            "fever",
+            "rash_(red",
+            "sandpaper-like)",
+            "sore_throat",
+            "swollen_glands"
+        ],
+        "treatments": [
+            "Antibiotics (such as penicillin or erythromycin)",
+            "rest",
+            "fluids",
+            "symptomatic relief"
+        ]
+    },
+    "Hypertensive Heart Disease": {
+        "code": "338",
+        "symptoms": [
+            "chest_pain_or_discomfort",
+            "fatigue",
+            "high_blood_pressure",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Medications (antihypertensives)",
+            "lifestyle changes (healthy diet",
+            "exercise",
+            "stress management)",
+            "treatment of underlying conditions"
+        ]
+    },
+    "Drug Abuse (Barbiturates)": {
+        "code": "339",
+        "symptoms": [
+            "confusion",
+            "drowsiness",
+            "respiratory_depression",
+            "sedation",
+            "slurred_speech"
+        ],
+        "treatments": [
+            "Medical detoxification",
+            "supportive care",
+            "counseling",
+            "rehabilitation programs"
+        ]
+    },
+    "Polycystic Ovarian Syndrome": {
+        "code": "340",
+        "symptoms": [
+            "acne",
+            "excessive_hair_growth",
+            "irregular_periods",
+            "ovarian_cysts",
+            "weight_gain"
+        ],
+        "treatments": [
+            "Lifestyle changes (diet",
+            "exercise",
+            "weight management)",
+            "hormonal contraceptives",
+            "fertility treatments (if needed)"
+        ]
+    },
+    "Encephalitis": {
+        "code": "341",
+        "symptoms": [
+            "confusion",
+            "fever",
+            "headache",
+            "neurological_symptoms",
+            "seizures"
+        ],
+        "treatments": [
+            "Hospitalization",
+            "antiviral medications (if caused by a viral infection)",
+            "supportive care"
+        ]
+    },
+    "Cyst of the Eyelid": {
+        "code": "342",
+        "symptoms": [
+            "painful_lump_or_swelling_on_the_eyelid",
+            "redness",
+            "tenderness"
+        ],
+        "treatments": [
+            "Warm compresses",
+            "good eyelid hygiene",
+            "antibiotic ointments (if infected)",
+            "surgical removal (if necessary)"
+        ]
+    },
+    "Balanitis": {
+        "code": "343",
+        "symptoms": [
+            "inflammation_of_the_glans_penis_(tip_of_the_penis)",
+            "pain",
+            "redness",
+            "swelling"
+        ],
+        "treatments": [
+            "Good hygiene",
+            "topical antifungal or antibacterial creams",
+            "corticosteroid creams (if severe)",
+            "treating underlying causes"
+        ]
+    },
+    "Foreign Body in the Throat": {
+        "code": "344",
+        "symptoms": [
+            "difficulty_swallowing_or_speaking",
+            "sensation_of_a_foreign_object_stuck_in_the_throat"
+        ],
+        "treatments": [
+            "Immediate medical attention",
+            "removal of the foreign body",
+            "evaluation for any complications"
+        ]
+    },
+    "Drug Abuse (Cocaine)": {
+        "code": "345",
+        "symptoms": [
+            "dilated_pupils",
+            "euphoria",
+            "high_blood_pressure",
+            "increased_energy",
+            "rapid_heart_rate",
+            "risk_of_heart_attack_or_stroke"
+        ],
+        "treatments": [
+            "Medical detoxification",
+            "counseling",
+            "behavioral therapies",
+            "support groups"
+        ]
+    },
+    "Optic Neuritis": {
+        "code": "346",
+        "symptoms": [
+            "color_vision_impairment",
+            "eye_pain_with_eye_movement",
+            "flashing_lights_or_floaters",
+            "vision_loss_or_blurry_vision"
+        ],
+        "treatments": [
+            "High-dose intravenous corticosteroids",
+            "treatment of underlying cause",
+            "symptom management",
+            "visual rehabilitation"
+        ]
+    },
+    "Intestinal Malabsorption": {
+        "code": "347",
+        "symptoms": [
+            "abdominal_pain_or_bloating",
+            "chronic_diarrhea",
+            "failure_to_thrive",
+            "fatigue",
+            "minerals)",
+            "nutrient_deficiencies_(vitamins",
+            "weight_loss"
+        ],
+        "treatments": [
+            "Dietary modifications (specific to the underlying cause)",
+            "supplementation of deficient nutrients",
+            "medications (to manage symptoms or underlying condition)",
+            "treatment of underlying cause"
+        ]
+    },
+    "Lead Poisoning": {
+        "code": "348",
+        "symptoms": [
+            "abdominal_pain",
+            "anemia",
+            "developmental_delays_(in_children)",
+            "fatigue",
+            "joint_pain",
+            "memory_loss_or_cognitive_difficulties"
+        ],
+        "treatments": [
+            "Removal of lead source",
+            "chelation therapy (in severe cases)",
+            "supportive care",
+            "medication to manage symptoms",
+            "addressing complications (such as anemia)"
+        ]
+    },
+    "Viral Warts": {
+        "code": "349",
+        "symptoms": [
+            "may_appear_in_clusters_or_as_single_lesions",
+            "rough_growths_on_the_skin_or_mucous_membranes",
+            "small",
+            "typically_painless"
+        ],
+        "treatments": [
+            "Topical treatments (salicylic acid",
+            "cryotherapy)",
+            "laser therapy",
+            "surgical removal",
+            "immune therapy (for persistent or recurrent cases)"
+        ]
+    },
+    "Hyperhidrosis": {
+        "code": "350",
+        "symptoms": [
+            "excessive_sweating_(beyond_what_is_necessary_for_temperature_regulation)",
+            "may_interfere_with_daily_activities",
+            "soles",
+            "typically_in_specific_areas_(such_as_palms",
+            "underarms)"
+        ],
+        "treatments": [
+            "Antiperspirants",
+            "medications (anticholinergics",
+            "beta blockers)",
+            "iontophoresis",
+            "Botox injections",
+            "surgical interventions (sympathectomy",
+            "sweat gland removal)"
+        ]
+    },
+    "Stroke": {
+        "code": "351",
+        "symptoms": [
+            "arm",
+            "confusion",
+            "or_leg_(typically_on_one_side_of_the_body)",
+            "severe_headache",
+            "sudden_numbness_or_weakness_of_the_face",
+            "trouble_speaking_or_understanding"
+        ],
+        "treatments": [
+            "Emergency medical attention",
+            "medication (clot-busting drugs",
+            "anticoagulants)",
+            "supportive care",
+            "rehabilitation (physical therapy",
+            "speech therapy)",
+            "lifestyle modifications (diet",
+            "exercise",
+            "smoking cessation)",
+            "addressing underlying risk factors"
+        ]
+    },
+    "Pilonidal Cyst": {
+        "code": "352",
+        "symptoms": [
+            "abscess_formation",
+            "drainage_of_pus_or_blood",
+            "pain_or_discomfort_in_the_tailbone_area",
+            "redness",
+            "swelling"
+        ],
+        "treatments": [
+            "Warm compresses",
+            "pain management",
+            "antibiotics (for infection)",
+            "incision and drainage",
+            "surgical removal or excision",
+            "wound care",
+            "lifestyle modifications to prevent recurrence"
+        ]
+    },
+    "Crushing Injury": {
+        "code": "353",
+        "symptoms": [
+            "bruising",
+            "deformity",
+            "difficulty_moving_or_using_the_affected_area",
+            "severe_pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Emergency medical attention",
+            "immobilization",
+            "pain management",
+            "surgery (to repair or reconstruct affected tissues)",
+            "rehabilitation (physical therapy",
+            "occupational therapy)"
+        ]
+    },
+    "Normal Pressure Hydrocephalus": {
+        "code": "354",
+        "symptoms": [
+            "cognitive_decline_or_dementia-like_symptoms",
+            "gait_disturbances",
+            "urinary_incontinence"
+        ],
+        "treatments": [
+            "Ventriculoperitoneal shunt placement",
+            "medication management for symptoms"
+        ]
+    },
+    "Alopecia": {
+        "code": "355",
+        "symptoms": [
+            "hair_loss_or_balding",
+            "patchy_or_generalized_hair_loss"
+        ],
+        "treatments": [
+            "Topical medications (minoxidil)",
+            "oral medications (finasteride)",
+            "steroid injections",
+            "hair transplant surgery",
+            "wigs or hairpieces"
+        ]
+    },
+    "Hashimoto Thyroiditis": {
+        "code": "356",
+        "symptoms": [
+            "constipation",
+            "depression",
+            "dry_skin",
+            "fatigue",
+            "muscle_aches_and_stiffness",
+            "sensitivity_to_cold",
+            "weight_gain"
+        ],
+        "treatments": [
+            "Thyroid hormone replacement (levothyroxine)",
+            "monitoring and management of symptoms"
+        ]
+    },
+    "Flat Feet": {
+        "code": "357",
+        "symptoms": [
+            "difficulty_with_foot_and_ankle_movement",
+            "foot_fatigue",
+            "foot_pain_or_achiness",
+            "swelling"
+        ],
+        "treatments": [
+            "Supportive footwear",
+            "orthotic inserts",
+            "physical therapy exercises",
+            "pain management",
+            "surgery (in severe cases)"
+        ]
+    },
+    "Nonalcoholic Liver Disease (NASH)": {
+        "code": "358",
+        "symptoms": [
+            "abdominal_swelling_or_pain",
+            "elevated_liver_enzymes",
+            "enlarged_liver",
+            "fatigue",
+            "insulin_resistance"
+        ],
+        "treatments": [
+            "Lifestyle changes (weight loss",
+            "healthy diet",
+            "regular exercise)",
+            "management of underlying conditions",
+            "medication as needed"
+        ]
+    },
+    "Hemarthrosis": {
+        "code": "359",
+        "symptoms": [
+            "joint_swelling",
+            "limited_range_of_motion",
+            "pain",
+            "warmth"
+        ],
+        "treatments": [
+            "RICE method (Rest",
+            "Ice",
+            "Compression",
+            "Elevation)",
+            "pain management",
+            "joint aspiration or drainage (in severe cases)"
+        ]
+    },
+    "Pelvic Organ Prolapse": {
+        "code": "360",
+        "symptoms": [
+            "bowel_movement_difficulties",
+            "discomfort_or_pain_during_intercourse",
+            "pelvic_pressure_or_heaviness",
+            "urinary_incontinence"
+        ],
+        "treatments": [
+            "Pelvic floor exercises",
+            "pessary use",
+            "hormone therapy",
+            "surgical repair (in severe cases)"
+        ]
+    },
+    "Fracture of the Arm": {
+        "code": "361",
+        "symptoms": [
+            "bruising",
+            "deformity",
+            "limited_mobility_or_difficulty_moving_the_arm",
+            "pain",
+            "swelling"
+        ],
+        "treatments": [
+            "Immobilization (cast or splint)",
+            "pain management",
+            "physical therapy",
+            "surgery (in complex fractures)"
+        ]
+    },
+    "Coagulation (Bleeding) Disorder": {
+        "code": "362",
+        "symptoms": [
+            "easy_bruising",
+            "excessive_bleeding_from_minor_cuts_or_abrasions",
+            "frequent_nosebleeds",
+            "heavy_menstrual_bleeding",
+            "prolonged_bleeding_after_injury_or_surgery"
+        ],
+        "treatments": [
+            "Blood transfusions",
+            "clotting factor replacement therapy",
+            "medications to stimulate clotting",
+            "lifestyle modifications",
+            "surgery (in some cases)"
+        ]
+    },
+    "Intracranial Hemorrhage": {
+        "code": "363",
+        "symptoms": [
+            "changes_in_vision",
+            "loss_of_consciousness",
+            "nausea_or_vomiting",
+            "seizures",
+            "severe_headache"
+        ],
+        "treatments": [
+            "Emergency medical attention",
+            "surgery (if needed)",
+            "medications to control bleeding and manage symptoms"
+        ]
+    },
+    "Hyperkalemia": {
+        "code": "364",
+        "symptoms": [
+            "irregular_heartbeat_or_palpitations",
+            "muscle_weakness_or_fatigue",
+            "nausea_or_vomiting",
+            "numbness_or_tingling"
+        ],
+        "treatments": [
+            "Treatment of underlying cause",
+            "medications to reduce potassium levels",
+            "dietary modifications",
+            "dialysis (in severe cases)"
+        ]
+    },
+    "Cornea Infection": {
+        "code": "365",
+        "symptoms": [
+            "blurred_or_decreased_vision",
+            "eye_redness",
+            "increased_sensitivity_to_light",
+            "pain_or_discomfort"
+        ],
+        "treatments": [
+            "Antibiotic or antifungal eye drops",
+            "oral medications",
+            "supportive care",
+            "possible corneal transplant (in severe cases)"
+        ]
+    },
+    "Abscess of the Lung": {
+        "code": "366",
+        "symptoms": [
+            "chest_pain",
+            "cough_with_phlegm_or_pus",
+            "fatigue",
+            "fever",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Antibiotics",
+            "drainage or surgical removal of the abscess",
+            "supportive care",
+            "management of underlying lung conditions"
+        ]
+    },
+    "Dengue Fever": {
+        "code": "367",
+        "symptoms": [
+            "bleeding_tendencies",
+            "high_fever",
+            "joint_and_muscle_pain",
+            "nausea_or_vomiting",
+            "rash",
+            "severe_headache"
+        ],
+        "treatments": [
+            "Supportive care (hydration",
+            "pain relievers",
+            "rest)",
+            "monitoring",
+            "medical attention for severe cases (fluid replacement",
+            "blood transfusion",
+            "hospitalization)"
+        ]
+    },
+    "Chronic Sinusitis": {
+        "code": "368",
+        "symptoms": [
+            "cough",
+            "facial_pain_or_pressure",
+            "fatigue",
+            "nasal_congestion",
+            "postnasal_drip",
+            "thick_nasal_discharge"
+        ],
+        "treatments": [
+            "Saline nasal irrigation",
+            "nasal corticosteroids",
+            "antibiotics (in bacterial cases)",
+            "decongestants",
+            "pain relievers",
+            "surgery (in severe or chronic cases)"
+        ]
+    },
+    "Cholesteatoma": {
+        "code": "369",
+        "symptoms": [
+            "dizziness_or_vertigo",
+            "ear_drainage",
+            "ear_pain",
+            "hearing_loss",
+            "tinnitus"
+        ],
+        "treatments": [
+            "Surgical removal",
+            "antibiotics (for associated infections)"
+        ]
+    },
+    "Volvulus": {
+        "code": "370",
+        "symptoms": [
+            "abdominal_pain",
+            "bloating",
+            "bloody_stool",
+            "constipation",
+            "nausea",
+            "vomiting"
+        ],
+        "treatments": [
+            "Emergency surgery to untwist the affected organ and restore blood flow"
+        ]
+    },
+    "Injury to the Finger": {
+        "code": "371",
+        "symptoms": [
+            "bruising",
+            "deformity",
+            "difficulty_gripping_or_using_the_finger",
+            "pain",
+            "restricted_range_of_motion",
+            "swelling"
+        ],
+        "treatments": [
+            "RICE method (Rest",
+            "Ice",
+            "Compression",
+            "Elevation)",
+            "splinting",
+            "pain medication",
+            "physical therapy",
+            "surgery (in severe cases)"
+        ]
+    },
+    "Poisoning due to Analgesics": {
+        "code": "372",
+        "symptoms": [
+            "abdominal_pain",
+            "confusion",
+            "dizziness",
+            "liver_or_kidney_damage",
+            "nausea",
+            "respiratory_distress",
+            "vomiting"
+        ],
+        "treatments": [
+            "Immediate medical attention",
+            "activated charcoal administration",
+            "supportive care",
+            "antidote (if available)",
+            "treatment for complications"
+        ]
+    },
+    "Atrial Fibrillation": {
+        "code": "373",
+        "symptoms": [
+            "chest_pain_or_discomfort",
+            "dizziness_or_lightheadedness",
+            "fatigue",
+            "irregular_or_rapid_heartbeat",
+            "palpitations",
+            "shortness_of_breath"
+        ],
+        "treatments": [
+            "Medications (antiarrhythmics",
+            "anticoagulants)",
+            "electrical cardioversion",
+            "catheter ablation",
+            "lifestyle changes"
+        ]
+    },
+    "Pinworm Infection": {
+        "code": "374",
+        "symptoms": [
+            "abdominal_pain_or_discomfort",
+            "anal_or_vaginal_discharge",
+            "irritability",
+            "itching_around_the_anus_or_vagina",
+            "loss_of_appetite",
+            "restless_sleep"
+        ],
+        "treatments": [
+            "Anthelmintic medication",
+            "hygiene measures (handwashing",
+            "trimming nails",
+            "laundering bedding)",
+            "treatment for household members"
+        ]
+    },
+    "Urethral Valves": {
+        "code": "375",
+        "symptoms": [
+            "abdominal_distension",
+            "difficulty_or_poor_urinary_stream",
+            "poor_weight_gain",
+            "urinary_frequency_or_urgency",
+            "urinary_tract_infections"
+        ],
+        "treatments": [
+            "Surgical intervention (valve ablation or resection)",
+            "catheterization",
+            "medications for symptoms and complications"
+        ]
+    },
+    "Migraine": {
+        "code": "376",
+        "symptoms": [
+            "nausea",
+            "sensitivity_to_light_and_sound",
+            "severe_headaches"
+        ],
+        "treatments": [
+            "Pain-relieving medications",
+            "lifestyle changes",
+            "preventive medications"
+        ]
+    },
+    "Arthritis": {
+        "code": "377",
+        "symptoms": [
+            "joint_pain",
+            "stiffness",
+            "swelling"
+        ],
+        "treatments": [
+            "Medications",
+            "physical therapy",
+            "surgery (in severe cases)"
+        ]
+    },
+    "Lupus": {
+        "code": "380",
+        "symptoms": [
+            "fatigue",
+            "joint_pain",
+            "skin_rashes"
+        ],
+        "treatments": [
+            "Medications (anti-inflammatory",
+            "immunosuppressants)",
+            "lifestyle modifications"
+        ]
+    },
+    "Chronic Headache": {
+        "code": "382",
+        "symptoms": [
+            "persistent_head_pain",
+            "tension_in_neck_and_shoulders"
+        ],
+        "treatments": [
+            "Pain-relieving medications",
+            "relaxation techniques",
+            "stress management"
+        ]
+    },
+    "Dry Skin": {
+        "code": "383",
+        "symptoms": [
+            "dry",
+            "flaky_skin_with_itching"
+        ],
+        "treatments": [
+            "Moisturizing creams or lotions",
+            "avoiding hot showers or baths",
+            "using mild soaps"
+        ]
+    },
+    "Eczema": {
+        "code": "384",
+        "symptoms": [
+            "inflamed_skin",
+            "itchy",
+            "rash",
+            "red"
+        ],
+        "treatments": [
+            "Emollients (moisturizers)",
+            "topical corticosteroids or immunomodulators",
+            "avoiding triggers"
+        ]
+    },
+    "Psoriasis": {
+        "code": "385",
+        "symptoms": [
+            "itching",
+            "red",
+            "scaly_patches_on_the_skin"
+        ],
+        "treatments": [
+            "Topical treatments (corticosteroids",
+            "salicylic acid)",
+            "systemic medications (retinoids",
+            "immunosuppressants)",
+            "phototherapy"
+        ]
+    },
+    "Scabies": {
+        "code": "386",
+        "symptoms": [
+            "especially_at_night",
+            "intense_itching",
+            "small_blisters_or_bumps"
+        ],
+        "treatments": [
+            "Prescription medications (topical or oral scabicides)",
+            "washing clothes and bedding in hot water",
+            "vacuuming and cleaning home"
+        ]
+    },
+    "Urticaria (Hives)": {
+        "code": "387",
+        "symptoms": [
+            "itchy_welts_on_the_skin",
+            "raised"
+        ],
+        "treatments": [
+            "Antihistamines",
+            "avoiding triggers",
+            "corticosteroids (in severe cases)"
+        ]
+    },
+    "Insect Bites": {
+        "code": "388",
+        "symptoms": [
+            "itchy_bumps",
+            "red",
+            "swollen"
+        ],
+        "treatments": [
+            "Topical corticosteroids",
+            "oral antihistamines",
+            "cold compresses"
+        ]
+    },
+    "Contact Dermatitis": {
+        "code": "389",
+        "symptoms": [
+            "itchy",
+            "red_rash_caused_by_contact_with_irritants_or_allergens"
+        ],
+        "treatments": [
+            "Avoiding the trigger",
+            "corticosteroid creams or ointments",
+            "antihistamines"
+        ]
+    },
+    "Parasitic Infections": {
+        "code": "391",
+        "symptoms": [
+            "intense_itching",
+            "visible_lice_or_nits_in_the_affected_area"
+        ],
+        "treatments": [
+            "Prescription medications (topical or oral antiparasitic agents)",
+            "washing clothes and bedding in hot water"
+        ]
+    },
+    "Influenza (Flu)": {
+        "code": "392",
+        "symptoms": [
+            "body_aches",
+            "congestion",
+            "cough",
+            "fatigue",
+            "high_fever",
+            "sore_throat"
+        ],
+        "treatments": [
+            "Rest",
+            "fluids",
+            "over-the-counter medications for symptom relief",
+            "antiviral medications (in some cases)"
+        ]
+    },
+    "Bronchitis": {
+        "code": "394",
+        "symptoms": [
+            "chest_congestion",
+            "fatigue",
+            "persistent_cough_with_yellow_or_green_mucus"
+        ],
+        "treatments": [
+            "Rest",
+            "fluids",
+            "over-the-counter cough suppressants",
+            "inhalers (if prescribed)",
+            "treating underlying cause"
+        ]
+    },
+    "Gastroenteritis (Stomach Flu)": {
+        "code": "395",
+        "symptoms": [
+            "abdominal_pain_or_cramps",
+            "diarrhea",
+            "fever",
+            "nausea",
+            "vomiting"
+        ],
+        "treatments": [
+            "Rest",
+            "fluids (electrolyte solutions)",
+            "bland diet",
+            "avoiding irritating foods",
+            "over-the-counter medications for symptom relief"
+        ]
+    },
+    "Urinary Stones (Kidney Stones)": {
+        "code": "396",
+        "symptoms": [
+            "blood_in_urine",
+            "frequent_urination",
+            "pain_during_urination",
+            "severe_abdominal_or_back_pain"
+        ],
+        "treatments": [
+            "Pain management",
+            "increased fluid intake",
+            "medications to help pass the stones",
+            "procedures or surgery"
+        ]
+    },
+    "Osteoporosis": {
+        "code": "397",
+        "symptoms": [
+            "back_pain",
+            "fractures",
+            "fragile_bones",
+            "loss_of_height_over_time"
+        ],
+        "treatments": [
+            "Calcium and vitamin D supplements",
+            "regular exercise",
+            "medications to slow bone loss"
+        ]
+    },
+    "Rheumatoid Arthritis": {
+        "code": "398",
+        "symptoms": [
+            "fatigue",
+            "joint_pain",
+            "loss_of_appetite",
+            "stiffness",
+            "swelling"
+        ],
+        "treatments": [
+            "Medications (nonsteroidal anti-inflammatory drugs",
+            "disease-modifying antirheumatic drugs)",
+            "physical therapy",
+            "exercise"
+        ]
+    },
+    "Type 1 Diabetes": {
+        "code": "399",
+        "symptoms": [
+            "frequent_urination",
+            "increased_thirst",
+            "weight_loss"
+        ],
+        "treatments": [
+            "Insulin therapy",
+            "Blood sugar monitoring",
+            "Healthy eating",
+            "Regular exercise"
+        ]
+    },
+    "Type 2 Diabetes": {
+        "code": "400",
+        "symptoms": [
+            "fatigue",
+            "increased_hunger",
+            "slow_healing_of_wounds"
+        ],
+        "treatments": [
+            "Oral medications",
+            "Insulin therapy (in some cases)",
+            "Blood sugar monitoring",
+            "Exercise"
+        ]
+    }
+}

@@ -1,0 +1,6370 @@
+{
+    "dizziness": {
+        "frequency": 13,
+        "diseases": [
+            "Antihypertensives Poisoning",
+            "Carbon Monoxide Poisoning",
+            "Concussion",
+            "Coronary Atherosclerosis",
+            "Ethylene glycol poisoning-2",
+            "Heart Block",
+            "Hypoglycemia",
+            "Labyrinthitis",
+            "Panic disorder",
+            "Poisoning due to Analgesics",
+            "Poisoning due to Antidepressants",
+            "Polycythemia Vera",
+            "Subdural hemorrhage"
+        ]
+    },
+    "fear_of_losing_control": {
+        "frequency": 1,
+        "diseases": [
+            "Panic disorder"
+        ]
+    },
+    "palpitations": {
+        "frequency": 4,
+        "diseases": [
+            "Atrial Fibrillation",
+            "Panic Attack",
+            "Panic disorder",
+            "Premature Ventricular Contractions (PVCs)"
+        ]
+    },
+    "shortness_of_breath": {
+        "frequency": 25,
+        "diseases": [
+            "Abscess of the Lung",
+            "Acute Bronchospasm",
+            "Anemia",
+            "Anemia due to Malignancy",
+            "Anemia of Chronic Disease",
+            "Aplastic Anemia",
+            "Asthma",
+            "Atrial Fibrillation",
+            "Coronary Atherosclerosis",
+            "Emphysema",
+            "Heart Block",
+            "Hemolytic Anemia",
+            "Hypertensive Heart Disease",
+            "Hypertrophic Obstructive Cardiomyopathy (HOCM)",
+            "Kidney Failure",
+            "Mitral Valve Disease",
+            "Panic Attack",
+            "Panic disorder",
+            "Pulmonary Congestion",
+            "Pulmonary Eosinophilia",
+            "Pulmonary Fibrosis",
+            "Pulmonic Valve Disease",
+            "Thoracic Aortic Aneurysm",
+            "Vasculitis",
+            "Vitamin B12 Deficiency"
+        ]
+    },
+    "sweating": {
+        "frequency": 4,
+        "diseases": [
+            "Coronary Atherosclerosis",
+            "Drug Withdrawal",
+            "Hypoglycemia",
+            "Panic disorder"
+        ]
+    },
+    "trembling": {
+        "frequency": 1,
+        "diseases": [
+            "Panic disorder"
+        ]
+    },
+    "hoarseness": {
+        "frequency": 3,
+        "diseases": [
+            "Esophageal Cancer",
+            "Thoracic Aortic Aneurysm",
+            "Vocal cord polyp"
+        ]
+    },
+    "vocal_changes": {
+        "frequency": 1,
+        "diseases": [
+            "Vocal cord polyp"
+        ]
+    },
+    "vocal_fatigue": {
+        "frequency": 1,
+        "diseases": [
+            "Vocal cord polyp"
+        ]
+    },
+    "gonadal_dysgenesis": {
+        "frequency": 1,
+        "diseases": [
+            "Turner syndrome"
+        ]
+    },
+    "lymphedema": {
+        "frequency": 1,
+        "diseases": [
+            "Turner syndrome"
+        ]
+    },
+    "short_stature": {
+        "frequency": 2,
+        "diseases": [
+            "Pseudohypoparathyroidism",
+            "Turner syndrome"
+        ]
+    },
+    "webbed_neck": {
+        "frequency": 1,
+        "diseases": [
+            "Turner syndrome"
+        ]
+    },
+    "abnormal_positioning_of_the_testicle(s)_(higher_in_the_groin_area)": {
+        "frequency": 1,
+        "diseases": [
+            "Cryptorchidism"
+        ]
+    },
+    "absence_or_undescended_testicle(s)": {
+        "frequency": 1,
+        "diseases": [
+            "Cryptorchidism"
+        ]
+    },
+    "empty_scrotum": {
+        "frequency": 1,
+        "diseases": [
+            "Cryptorchidism"
+        ]
+    },
+    "inguinal_hernia": {
+        "frequency": 1,
+        "diseases": [
+            "Cryptorchidism"
+        ]
+    },
+    "smaller_or_underdeveloped_testicle(s)": {
+        "frequency": 1,
+        "diseases": [
+            "Cryptorchidism"
+        ]
+    },
+    "abdominal_pain": {
+        "frequency": 15,
+        "diseases": [
+            "Abdominal Injury",
+            "Diverticulosis",
+            "Ethylene glycol poisoning-1",
+            "Gastrointestinal Hemorrhage",
+            "Gastroparesis",
+            "Glucocorticoid Deficiency",
+            "Hepatitis due to a Toxin",
+            "Indigestion",
+            "Induced Abortion",
+            "Injury to Internal Organ",
+            "Lead Poisoning",
+            "Liver Cancer",
+            "Poisoning due to Analgesics",
+            "Polycystic Kidney Disease",
+            "Volvulus"
+        ]
+    },
+    "frequent_urination": {
+        "frequency": 14,
+        "diseases": [
+            "Atrophic vaginitis",
+            "Benign Kidney Cyst",
+            "Bladder Cancer",
+            "Bladder Disorder",
+            "Ethylene glycol poisoning-1",
+            "Hyperosmotic Hyperketotic State",
+            "Kidney Stone",
+            "Parathyroid Adenoma",
+            "Pyelonephritis",
+            "Type 1 Diabetes",
+            "Urinary Stones (Kidney Stones)",
+            "Urinary Tract Infection (UTI)",
+            "Uterine Fibroids"
+        ]
+    },
+    "general_malaise": {
+        "frequency": 1,
+        "diseases": [
+            "Ethylene glycol poisoning-1"
+        ]
+    },
+    "increased_thirst": {
+        "frequency": 2,
+        "diseases": [
+            "Ethylene glycol poisoning-1",
+            "Type 1 Diabetes"
+        ]
+    },
+    "nausea": {
+        "frequency": 29,
+        "diseases": [
+            "Abdominal Injury",
+            "Acute Pancreatitis",
+            "Antihypertensives Poisoning",
+            "Antimicrobial Drugs Poisoning",
+            "Carbon Monoxide Poisoning",
+            "Choledocholithiasis",
+            "Coronary Atherosclerosis",
+            "Diabetic Kidney Disease",
+            "Drug Withdrawal",
+            "Ependymoma",
+            "Ethylene glycol poisoning-1",
+            "Gastroenteritis (Stomach Flu)",
+            "Gastroparesis",
+            "Hepatitis due to a Toxin",
+            "Hydrocephalus",
+            "Hypercalcemia",
+            "Indigestion",
+            "Induced Abortion",
+            "Ischemia of the Bowel",
+            "Kidney Failure",
+            "Labyrinthitis",
+            "Liver Cancer",
+            "Magnesium Deficiency",
+            "Migraine",
+            "Ovarian Torsion",
+            "Peritonitis",
+            "Poisoning due to Analgesics",
+            "Poisoning due to Antidepressants",
+            "Volvulus"
+        ]
+    },
+    "vomiting": {
+        "frequency": 19,
+        "diseases": [
+            "Abdominal Injury",
+            "Acute Pancreatitis",
+            "Antihypertensives Poisoning",
+            "Antimicrobial Drugs Poisoning",
+            "Choledocholithiasis",
+            "Drug Withdrawal",
+            "Ethylene glycol poisoning-1",
+            "Gastroenteritis (Stomach Flu)",
+            "Gastroparesis",
+            "Hepatitis due to a Toxin",
+            "Hydrocephalus",
+            "Ischemia of the Bowel",
+            "Liver Cancer",
+            "Magnesium Deficiency",
+            "Ovarian Torsion",
+            "Peritonitis",
+            "Poisoning due to Analgesics",
+            "Poisoning due to Antidepressants",
+            "Volvulus"
+        ]
+    },
+    "weakness": {
+        "frequency": 12,
+        "diseases": [
+            "Anemia",
+            "Anemia due to Chronic Kidney Disease",
+            "Anemia due to Malignancy",
+            "Anemia of Chronic Disease",
+            "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+            "Ethylene glycol poisoning-1",
+            "Glucocorticoid Deficiency",
+            "Hemolytic Anemia",
+            "Magnesium Deficiency",
+            "Parathyroid Adenoma",
+            "Protein Deficiency",
+            "Vitamin B12 Deficiency"
+        ]
+    },
+    "apid_breathing": {
+        "frequency": 1,
+        "diseases": [
+            "Ethylene glycol poisoning-2"
+        ]
+    },
+    "confusion": {
+        "frequency": 19,
+        "diseases": [
+            "Alcohol Intoxication",
+            "Carbon Monoxide Poisoning",
+            "Cirrhosis",
+            "Concussion",
+            "Drug Abuse (Barbiturates)",
+            "Encephalitis",
+            "Ethylene glycol poisoning-2",
+            "Fat Embolism",
+            "Hepatic Encephalopathy",
+            "Hyperosmotic Hyperketotic State",
+            "Hypoglycemia",
+            "Insulin Overdose",
+            "Kidney Failure",
+            "Poisoning due to Analgesics",
+            "Poisoning due to Antidepressants",
+            "Rabies",
+            "Sedatives Poisoning",
+            "Stroke",
+            "Subdural hemorrhage"
+        ]
+    },
+    "headache": {
+        "frequency": 16,
+        "diseases": [
+            "Acute Sinusitis",
+            "Angle-Closure Glaucoma",
+            "Carbon Monoxide Poisoning",
+            "Cat Scratch Disease",
+            "Concussion",
+            "Cryptococcosis",
+            "Encephalitis",
+            "Ethylene glycol poisoning-2",
+            "Hydrocephalus",
+            "Intracranial Abscess",
+            "Mastoiditis",
+            "Mumps",
+            "Polycythemia Vera",
+            "Rabies",
+            "Subdural hemorrhage",
+            "West Nile Virus"
+        ]
+    },
+    "metabolic_acidosis": {
+        "frequency": 1,
+        "diseases": [
+            "Ethylene glycol poisoning-2"
+        ]
+    },
+    "rapid_heart_rate": {
+        "frequency": 3,
+        "diseases": [
+            "Drug Abuse (Cocaine)",
+            "Ethylene glycol poisoning-2",
+            "Ischemia of the Bowel"
+        ]
+    },
+    "seizures": {
+        "frequency": 10,
+        "diseases": [
+            "Conversion Disorder",
+            "Encephalitis",
+            "Ependymoma",
+            "Ethylene glycol poisoning-2",
+            "Intracranial Hemorrhage",
+            "Kidney Failure",
+            "Magnesium Deficiency",
+            "Poisoning due to Antidepressants",
+            "Subdural hemorrhage",
+            "Tuberous Sclerosis"
+        ]
+    },
+    "and_signs_of_fluid_overload": {
+        "frequency": 1,
+        "diseases": [
+            "Ethylene glycol poisoning-3"
+        ]
+    },
+    "decreased_urine_output": {
+        "frequency": 3,
+        "diseases": [
+            "Acute Kidney Injury",
+            "Ethylene glycol poisoning-3",
+            "Kidney Failure"
+        ]
+    },
+    "severe_kidney_damage": {
+        "frequency": 1,
+        "diseases": [
+            "Ethylene glycol poisoning-3"
+        ]
+    },
+    "swelling_in_the_legs_and_ankles": {
+        "frequency": 2,
+        "diseases": [
+            "Diabetic Kidney Disease",
+            "Ethylene glycol poisoning-3"
+        ]
+    },
+    "painful_intercourse": {
+        "frequency": 1,
+        "diseases": [
+            "Atrophic vaginitis"
+        ]
+    },
+    "urinary_tract_infections": {
+        "frequency": 2,
+        "diseases": [
+            "Atrophic vaginitis",
+            "Urethral Valves"
+        ]
+    },
+    "vaginal_burning": {
+        "frequency": 1,
+        "diseases": [
+            "Atrophic vaginitis"
+        ]
+    },
+    "vaginal_dryness": {
+        "frequency": 1,
+        "diseases": [
+            "Atrophic vaginitis"
+        ]
+    },
+    "bruising": {
+        "frequency": 7,
+        "diseases": [
+            "Abdominal Injury",
+            "Crushing Injury",
+            "Fracture",
+            "Fracture of the Arm",
+            "Fracture of the Patella",
+            "Injury to the Finger",
+            "Injury to the Leg"
+        ]
+    },
+    "deformity": {
+        "frequency": 5,
+        "diseases": [
+            "Crushing Injury",
+            "Fracture",
+            "Fracture of the Arm",
+            "Fracture of the Patella",
+            "Injury to the Finger"
+        ]
+    },
+    "difficulty_moving": {
+        "frequency": 1,
+        "diseases": [
+            "Fracture"
+        ]
+    },
+    "loss_of_function": {
+        "frequency": 1,
+        "diseases": [
+            "Fracture"
+        ]
+    },
+    "pain": {
+        "frequency": 14,
+        "diseases": [
+            "Abscess",
+            "Abscess of Nose",
+            "Balanitis",
+            "Cellulitis",
+            "Fracture",
+            "Fracture of the Arm",
+            "Hemarthrosis",
+            "Injury to the Finger",
+            "Injury to the Leg",
+            "Myositis",
+            "Parotid stones",
+            "Sialolithiasis",
+            "Submandibular stones",
+            "Wharton's duct stones"
+        ]
+    },
+    "swelling": {
+        "frequency": 47,
+        "diseases": [
+            "Abdominal Injury",
+            "Abscess",
+            "Abscess of Nose",
+            "Acinic cell carcinoma",
+            "Adenoid cystic carcinoma",
+            "Arthritis",
+            "Balanitis",
+            "Bone Spur of the Calcaneus",
+            "Bursitis",
+            "Cellulitis",
+            "Chronic Knee Pain",
+            "Complex Regional Pain Syndrome (CRPS)",
+            "Crushing Injury",
+            "Dislocation of the Ankle",
+            "Dislocation of the Elbow",
+            "Dislocation of the Patella",
+            "Drug Reaction",
+            "Endophthalmitis",
+            "Flat Feet",
+            "Food Allergy",
+            "Fracture",
+            "Fracture of the Arm",
+            "Fracture of the Neck",
+            "Fracture of the Patella",
+            "Fracture of the Shoulder",
+            "Gout",
+            "Infection of Open Wound",
+            "Injury to the Finger",
+            "Injury to the Leg",
+            "Juvenile Rheumatoid Arthritis",
+            "Mucoepidermoid carcinoma",
+            "Omphalitis",
+            "Open Wound from Surgical Incision",
+            "Orbital Cellulitis",
+            "Osteoarthritis",
+            "Osteochondrosis",
+            "Ovarian Torsion",
+            "Pain after an Operation",
+            "Parotid stones",
+            "Pilonidal Cyst",
+            "Preeclampsia",
+            "Rheumatoid Arthritis",
+            "Sialolithiasis",
+            "Submandibular stones",
+            "Thrombophlebitis",
+            "Wharton's duct stones"
+        ]
+    },
+    "lymph_node_enlargement": {
+        "frequency": 1,
+        "diseases": [
+            "Cellulitis"
+        ]
+    },
+    "redness": {
+        "frequency": 18,
+        "diseases": [
+            "Abscess",
+            "Abscess of Nose",
+            "Balanitis",
+            "Cellulitis",
+            "Conjunctivitis due to Allergy",
+            "Corneal Abrasion",
+            "Cyst of the Eyelid",
+            "Dermatitis due to Sun Exposure",
+            "Endophthalmitis",
+            "Fungal Infection of the Skin",
+            "Gout",
+            "Infection of Open Wound",
+            "Omphalitis",
+            "Open Wound from Surgical Incision",
+            "Orbital Cellulitis",
+            "Pilonidal Cyst",
+            "Thrombophlebitis"
+        ]
+    },
+    "skin_changes": {
+        "frequency": 1,
+        "diseases": [
+            "Cellulitis"
+        ]
+    },
+    "tenderness": {
+        "frequency": 10,
+        "diseases": [
+            "Abdominal Injury",
+            "Bone Spur of the Calcaneus",
+            "Bursitis",
+            "Cellulitis",
+            "Chalazion",
+            "Cyst of the Eyelid",
+            "Fracture of the Neck",
+            "Peritonitis",
+            "Plantar Fasciitis",
+            "Sialolithiasis"
+        ]
+    },
+    "double_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Eye alignment disorder"
+        ]
+    },
+    "eye_fatigue": {
+        "frequency": 1,
+        "diseases": [
+            "Eye alignment disorder"
+        ]
+    },
+    "head_tilting": {
+        "frequency": 1,
+        "diseases": [
+            "Eye alignment disorder"
+        ]
+    },
+    "poor_depth_perception": {
+        "frequency": 1,
+        "diseases": [
+            "Eye alignment disorder"
+        ]
+    },
+    "throbbing_headache": {
+        "frequency": 1,
+        "diseases": [
+            "Headache after lumbar puncture"
+        ]
+    },
+    "dehydration": {
+        "frequency": 1,
+        "diseases": [
+            "Pyloric stenosis"
+        ]
+    },
+    "fussiness": {
+        "frequency": 1,
+        "diseases": [
+            "Pyloric stenosis"
+        ]
+    },
+    "palpable_mass": {
+        "frequency": 1,
+        "diseases": [
+            "Pyloric stenosis"
+        ]
+    },
+    "persistent_hunger": {
+        "frequency": 1,
+        "diseases": [
+            "Pyloric stenosis"
+        ]
+    },
+    "visible_peristalsis": {
+        "frequency": 1,
+        "diseases": [
+            "Pyloric stenosis"
+        ]
+    },
+    "weight_loss": {
+        "frequency": 11,
+        "diseases": [
+            "Amyloidosis",
+            "Cirrhosis",
+            "Emphysema",
+            "Glucocorticoid Deficiency",
+            "Head and Neck Cancer",
+            "Intestinal Malabsorption",
+            "Leishmaniasis",
+            "Pulmonary Eosinophilia",
+            "Pyloric stenosis",
+            "Type 1 Diabetes",
+            "Vasculitis"
+        ]
+    },
+    "facial_numbness": {
+        "frequency": 1,
+        "diseases": [
+            "Adenoid cystic carcinoma"
+        ]
+    },
+    "lump": {
+        "frequency": 3,
+        "diseases": [
+            "Acinic cell carcinoma",
+            "Adenoid cystic carcinoma",
+            "Mucoepidermoid carcinoma"
+        ]
+    },
+    "tingling": {
+        "frequency": 3,
+        "diseases": [
+            "Adenoid cystic carcinoma",
+            "Carpal Tunnel Syndrome",
+            "Sciatica"
+        ]
+    },
+    "facial_changes": {
+        "frequency": 3,
+        "diseases": [
+            "Acinic cell carcinoma",
+            "Pleomorphic adenoma",
+            "Warthin tumor"
+        ]
+    },
+    "painless_lump_or_swelling": {
+        "frequency": 2,
+        "diseases": [
+            "Pleomorphic adenoma",
+            "Warthin tumor"
+        ]
+    },
+    "difficulty": {
+        "frequency": 1,
+        "diseases": [
+            "Mucoepidermoid carcinoma"
+        ]
+    },
+    "facial_paralysis": {
+        "frequency": 1,
+        "diseases": [
+            "Mucoepidermoid carcinoma"
+        ]
+    },
+    "facial_weakness": {
+        "frequency": 1,
+        "diseases": [
+            "Mucoepidermoid carcinoma"
+        ]
+    },
+    "pain_when_swallowing_and_speaking": {
+        "frequency": 1,
+        "diseases": [
+            "Mucoepidermoid carcinoma"
+        ]
+    },
+    "painless_fluid-filled_swelling_in_the_oral_cavity": {
+        "frequency": 1,
+        "diseases": [
+            "Mucocele"
+        ]
+    },
+    "joint_pain": {
+        "frequency": 12,
+        "diseases": [
+            "Arthritis",
+            "Bursitis",
+            "Chronic Rheumatic Fever",
+            "Juvenile Rheumatoid Arthritis",
+            "Lead Poisoning",
+            "Lupus",
+            "Osteoarthritis",
+            "Osteochondrosis",
+            "Polymyalgia Rheumatica",
+            "Rheumatoid Arthritis",
+            "Scurvy",
+            "Sj\u00f6gren's syndrome"
+        ]
+    },
+    "reduced_range_of_motion": {
+        "frequency": 1,
+        "diseases": [
+            "Osteochondrosis"
+        ]
+    },
+    "stiffness": {
+        "frequency": 11,
+        "diseases": [
+            "Arthritis",
+            "Chronic Knee Pain",
+            "Complex Regional Pain Syndrome (CRPS)",
+            "Juvenile Rheumatoid Arthritis",
+            "Muscle Spasm",
+            "Osteoarthritis",
+            "Osteochondrosis",
+            "Parkinson Disease",
+            "Rheumatoid Arthritis",
+            "Spondylosis",
+            "Torticollis"
+        ]
+    },
+    "difficulty_eating": {
+        "frequency": 1,
+        "diseases": [
+            "Sialolithiasis"
+        ]
+    },
+    "bad_taste": {
+        "frequency": 3,
+        "diseases": [
+            "Parotid stones",
+            "Submandibular stones",
+            "Wharton's duct stones"
+        ]
+    },
+    "dry_mouth": {
+        "frequency": 3,
+        "diseases": [
+            "Parotid stones",
+            "Submandibular stones",
+            "Wharton's duct stones"
+        ]
+    },
+    "frequent_episodes_of_stone_formation": {
+        "frequency": 1,
+        "diseases": [
+            "Recurrent salivary stones"
+        ]
+    },
+    "fatigue": {
+        "frequency": 67,
+        "diseases": [
+            "Abscess of the Lung",
+            "Acute Kidney Injury",
+            "Acute Sinusitis",
+            "Amyloidosis",
+            "Anemia",
+            "Anemia due to Chronic Kidney Disease",
+            "Anemia due to Malignancy",
+            "Anemia of Chronic Disease",
+            "Aplastic Anemia",
+            "Atrial Fibrillation",
+            "Bone Cancer",
+            "Bronchitis",
+            "Cat Scratch Disease",
+            "Chagas Disease",
+            "Chronic Kidney Disease",
+            "Chronic Sinusitis",
+            "Cirrhosis",
+            "Coronary Atherosclerosis",
+            "Cryptococcosis",
+            "Diabetic Kidney Disease",
+            "Emphysema",
+            "Fibromyalgia",
+            "Glucocorticoid Deficiency",
+            "Hashimoto Thyroiditis",
+            "Heart Block",
+            "Hemolytic Anemia",
+            "Hepatitis due to a Toxin",
+            "Hypercalcemia",
+            "Hyperosmotic Hyperketotic State",
+            "Hypertensive Heart Disease",
+            "Hypertrophic Obstructive Cardiomyopathy (HOCM)",
+            "Hypothyroidism",
+            "Induced Abortion",
+            "Influenza (Flu)",
+            "Intestinal Malabsorption",
+            "Kidney Failure",
+            "Lead Poisoning",
+            "Leukemia",
+            "Liver Cancer",
+            "Lupus",
+            "Lymphoma",
+            "Magnesium Deficiency",
+            "Mitral Valve Disease",
+            "Mononucleosis",
+            "Mumps",
+            "Myasthenia Gravis",
+            "Myelodysplastic Syndrome",
+            "Nonalcoholic Liver Disease (NASH)",
+            "Parathyroid Adenoma",
+            "Pituitary Adenoma",
+            "Polycythemia Vera",
+            "Polymyalgia Rheumatica",
+            "Protein Deficiency",
+            "Pulmonary Congestion",
+            "Pulmonary Eosinophilia",
+            "Pulmonary Fibrosis",
+            "Pulmonic Valve Disease",
+            "Rheumatoid Arthritis",
+            "Scurvy",
+            "Sj\u00f6gren's syndrome",
+            "Spondylitis",
+            "Thyroid Disease",
+            "Type 2 Diabetes",
+            "Vasculitis",
+            "Vitamin B12 Deficiency",
+            "Wilson Disease"
+        ]
+    },
+    "fever": {
+        "frequency": 35,
+        "diseases": [
+            "Abscess",
+            "Abscess of the Lung",
+            "Acute Otitis Media",
+            "Acute Pancreatitis",
+            "Cat Scratch Disease",
+            "Chagas Disease",
+            "Chronic Rheumatic Fever",
+            "Cryptococcosis",
+            "Drug Reaction",
+            "Empyema",
+            "Encephalitis",
+            "Endophthalmitis",
+            "Gastroenteritis (Stomach Flu)",
+            "Herpangina",
+            "Infection of Open Wound",
+            "Intracranial Abscess",
+            "Ischemia of the Bowel",
+            "Juvenile Rheumatoid Arthritis",
+            "Leishmaniasis",
+            "Ludwig's angina",
+            "Mastoiditis",
+            "Mumps",
+            "Otitis Media",
+            "Ovarian Torsion",
+            "Pericarditis",
+            "Peritonitis",
+            "Peritonsillar Abscess",
+            "Pneumonia",
+            "Pulmonary Eosinophilia",
+            "Pyelonephritis",
+            "Scarlet Fever",
+            "Syphilis",
+            "Thrombophlebitis",
+            "Vasculitis",
+            "West Nile Virus"
+        ]
+    },
+    "swollen_salivary_glands_(usually_parotid)": {
+        "frequency": 1,
+        "diseases": [
+            "Mumps"
+        ]
+    },
+    "difficulty_swallowing": {
+        "frequency": 11,
+        "diseases": [
+            "Achalasia",
+            "Esophageal Cancer",
+            "Foreign Body in the Gastrointestinal Tract",
+            "Head and Neck Cancer",
+            "Herpangina",
+            "Hiatal Hernia",
+            "Ludwig's angina",
+            "Peritonsillar Abscess",
+            "Pharyngitis",
+            "Rabies",
+            "Thoracic Aortic Aneurysm"
+        ]
+    },
+    "drooling": {
+        "frequency": 2,
+        "diseases": [
+            "Foreign Body in the Gastrointestinal Tract",
+            "Ludwig's angina"
+        ]
+    },
+    "severe_swelling_of_the_floor_of_the_mouth": {
+        "frequency": 1,
+        "diseases": [
+            "Ludwig's angina"
+        ]
+    },
+    "painless_swelling": {
+        "frequency": 1,
+        "diseases": [
+            "Mucocele"
+        ]
+    },
+    "usually_on_the_lower_lip_or_floor_of_the_mouth": {
+        "frequency": 1,
+        "diseases": [
+            "Mucocele"
+        ]
+    },
+    "pus_formation": {
+        "frequency": 1,
+        "diseases": [
+            "Abscess"
+        ]
+    },
+    "dry_mouth_and_eyes": {
+        "frequency": 1,
+        "diseases": [
+            "Sj\u00f6gren's syndrome"
+        ]
+    },
+    "dry_skin": {
+        "frequency": 4,
+        "diseases": [
+            "Hashimoto Thyroiditis",
+            "Hypothyroidism",
+            "Sj\u00f6gren's syndrome",
+            "Thyroid Disease"
+        ]
+    },
+    "gradual_loss_of_peripheral_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Open-Angle Glaucoma"
+        ]
+    },
+    "tunnel_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Open-Angle Glaucoma"
+        ]
+    },
+    "blurred_vision": {
+        "frequency": 6,
+        "diseases": [
+            "Acute Glaucoma",
+            "Angle-Closure Glaucoma",
+            "Chorioretinitis",
+            "Endophthalmitis",
+            "Pigmentary Glaucoma",
+            "Scleritis"
+        ]
+    },
+    "halos_around_lights": {
+        "frequency": 4,
+        "diseases": [
+            "Acute Glaucoma",
+            "Angle-Closure Glaucoma",
+            "Chronic Glaucoma",
+            "Pigmentary Glaucoma"
+        ]
+    },
+    "nausea_and_vomiting": {
+        "frequency": 1,
+        "diseases": [
+            "Angle-Closure Glaucoma"
+        ]
+    },
+    "severe_eye_pain": {
+        "frequency": 3,
+        "diseases": [
+            "Acute Glaucoma",
+            "Angle-Closure Glaucoma",
+            "Scleritis"
+        ]
+    },
+    "gradual_loss_of_vision": {
+        "frequency": 2,
+        "diseases": [
+            "Low-Tension Glaucoma",
+            "Normal-Tension Glaucoma"
+        ]
+    },
+    "visual_field_defects": {
+        "frequency": 2,
+        "diseases": [
+            "Low-Tension Glaucoma",
+            "Normal-Tension Glaucoma"
+        ]
+    },
+    "cloudy_or_hazy_eyes": {
+        "frequency": 1,
+        "diseases": [
+            "Congenital Glaucoma"
+        ]
+    },
+    "excessive_tearing": {
+        "frequency": 4,
+        "diseases": [
+            "Congenital Glaucoma",
+            "Corneal Disorder",
+            "Endophthalmitis",
+            "Stenosis of the Tear Duct"
+        ]
+    },
+    "sensitivity_to_light": {
+        "frequency": 4,
+        "diseases": [
+            "Chalazion",
+            "Chorioretinitis",
+            "Congenital Glaucoma",
+            "Corneal Abrasion"
+        ]
+    },
+    "varies_depending_on_the_underlying_cause": {
+        "frequency": 1,
+        "diseases": [
+            "Secondary Glaucoma"
+        ]
+    },
+    "eye_pain": {
+        "frequency": 6,
+        "diseases": [
+            "Chorioretinitis",
+            "Corneal Abrasion",
+            "Endophthalmitis",
+            "Orbital Cellulitis",
+            "Pigmentary Glaucoma",
+            "Vitreous Hemorrhage"
+        ]
+    },
+    "elevated_intraocular_pressure": {
+        "frequency": 1,
+        "diseases": [
+            "Exfoliation Glaucoma"
+        ]
+    },
+    "visual_field_loss": {
+        "frequency": 1,
+        "diseases": [
+            "Exfoliation Glaucoma"
+        ]
+    },
+    "elevated_intraocular_pressure_without_optic_nerve_damage": {
+        "frequency": 1,
+        "diseases": [
+            "Ocular Hypertension"
+        ]
+    },
+    "distorted_body_image": {
+        "frequency": 1,
+        "diseases": [
+            "Anorexia Nervosa"
+        ]
+    },
+    "extreme_weight_loss": {
+        "frequency": 1,
+        "diseases": [
+            "Anorexia Nervosa"
+        ]
+    },
+    "fear_of_gaining_weight": {
+        "frequency": 1,
+        "diseases": [
+            "Anorexia Nervosa"
+        ]
+    },
+    "recurrent_episodes_of_binge_eating_followed_by_purging_behaviors": {
+        "frequency": 1,
+        "diseases": [
+            "Bulimia Nervosa"
+        ]
+    },
+    "recurrent_episodes_of_binge_eating_without_compensatory_behaviors": {
+        "frequency": 1,
+        "diseases": [
+            "Binge Eating Disorder"
+        ]
+    },
+    "avoidance_or_restriction_of_certain_foods_or_entire_food_groups": {
+        "frequency": 1,
+        "diseases": [
+            "Avoidant/Restrictive Food Intake Disorder (ARFID)"
+        ]
+    },
+    "significant_weight_loss_or_failure_to_gain_weight": {
+        "frequency": 1,
+        "diseases": [
+            "Avoidant/Restrictive Food Intake Disorder (ARFID)"
+        ]
+    },
+    "symptoms_that_do_not_meet_the_full_criteria_for_a_specific_eating_disorder": {
+        "frequency": 1,
+        "diseases": [
+            "Other Specified Feeding or Eating Disorder (OSFED)"
+        ]
+    },
+    "healthy_food_choices": {
+        "frequency": 1,
+        "diseases": [
+            "Orthorexia Nervosa"
+        ]
+    },
+    "obsessive_focus_on_\"clean\"_eating": {
+        "frequency": 1,
+        "diseases": [
+            "Orthorexia Nervosa"
+        ]
+    },
+    "persistent_consumption_of_non-food_substances": {
+        "frequency": 1,
+        "diseases": [
+            "Pica"
+        ]
+    },
+    "repeated_regurgitation_and_re-chewing_of_food": {
+        "frequency": 1,
+        "diseases": [
+            "Rumination Disorder"
+        ]
+    },
+    "sudden_onset_of_neurological_symptoms_that_resolve_within_24_hours": {
+        "frequency": 1,
+        "diseases": [
+            "Transient ischemic attack"
+        ]
+    },
+    "back_or_flank_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Pyelonephritis"
+        ]
+    },
+    "chills": {
+        "frequency": 1,
+        "diseases": [
+            "Pyelonephritis"
+        ]
+    },
+    "limited_range_of_motion": {
+        "frequency": 9,
+        "diseases": [
+            "Bursitis",
+            "Chronic Knee Pain",
+            "Complex Regional Pain Syndrome",
+            "Fracture of the Shoulder",
+            "Hemarthrosis",
+            "Juvenile Rheumatoid Arthritis",
+            "Muscle Spasm",
+            "Rotator Cuff Injury",
+            "Spondylosis"
+        ]
+    },
+    "shoulder_pain": {
+        "frequency": 2,
+        "diseases": [
+            "Fracture of the Shoulder",
+            "Rotator Cuff Injury"
+        ]
+    },
+    "shoulder_stiffness": {
+        "frequency": 1,
+        "diseases": [
+            "Rotator Cuff Injury"
+        ]
+    },
+    "weakness_or_loss_of_strength": {
+        "frequency": 1,
+        "diseases": [
+            "Rotator Cuff Injury"
+        ]
+    },
+    "sleep_disturbances": {
+        "frequency": 2,
+        "diseases": [
+            "Fibromyalgia"
+        ]
+    },
+    "widespread_musculoskeletal_pain": {
+        "frequency": 2,
+        "diseases": [
+            "Fibromyalgia"
+        ]
+    },
+    "cognitive_difficulties": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Fatigue Syndrome"
+        ]
+    },
+    "extreme_fatigue": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Fatigue Syndrome"
+        ]
+    },
+    "unrefreshing_sleep": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Fatigue Syndrome"
+        ]
+    },
+    "changes_in_skin_color_or_temperature": {
+        "frequency": 2,
+        "diseases": [
+            "Complex Regional Pain Syndrome",
+            "Complex Regional Pain Syndrome (CRPS)"
+        ]
+    },
+    "severe_and_persistent_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Complex Regional Pain Syndrome (CRPS)"
+        ]
+    },
+    "localized_muscle_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Myofascial Pain Syndrome"
+        ]
+    },
+    "trigger_points": {
+        "frequency": 1,
+        "diseases": [
+            "Myofascial Pain Syndrome"
+        ]
+    },
+    "disabling_migraines": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Migraine"
+        ]
+    },
+    "recurrent": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Migraine"
+        ]
+    },
+    "shooting_or_burning_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Neuropathic Pain"
+        ]
+    },
+    "tingling_or_numbness": {
+        "frequency": 2,
+        "diseases": [
+            "Magnesium Deficiency",
+            "Neuropathic Pain"
+        ]
+    },
+    "high_blood_sugar_levels_during_pregnancy": {
+        "frequency": 1,
+        "diseases": [
+            "Gestational Diabetes"
+        ]
+    },
+    "high_blood_pressure_during_pregnancy": {
+        "frequency": 1,
+        "diseases": [
+            "Pregnancy-Induced Hypertension"
+        ]
+    },
+    "high_blood_pressure_without_proteinuria_(preeclampsia)": {
+        "frequency": 1,
+        "diseases": [
+            "Gestational Hypertension"
+        ]
+    },
+    "headaches": {
+        "frequency": 4,
+        "diseases": [
+            "Astigmatism",
+            "Ependymoma",
+            "Pituitary Adenoma",
+            "Preeclampsia"
+        ]
+    },
+    "high_blood_pressure": {
+        "frequency": 6,
+        "diseases": [
+            "Chronic Kidney Disease",
+            "Diabetic Kidney Disease",
+            "Drug Abuse (Cocaine)",
+            "Hypertensive Heart Disease",
+            "Polycystic Kidney Disease",
+            "Preeclampsia"
+        ]
+    },
+    "proteinuria": {
+        "frequency": 1,
+        "diseases": [
+            "Preeclampsia"
+        ]
+    },
+    "visual_disturbances": {
+        "frequency": 1,
+        "diseases": [
+            "Preeclampsia"
+        ]
+    },
+    "severe_nausea_and_vomiting_during_pregnancy": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperemesis Gravidarum"
+        ]
+    },
+    "cloudy_urine": {
+        "frequency": 1,
+        "diseases": [
+            "Urinary Tract Infection (UTI)"
+        ]
+    },
+    "painful_urination": {
+        "frequency": 2,
+        "diseases": [
+            "Gonorrhea",
+            "Urinary Tract Infection (UTI)"
+        ]
+    },
+    "pelvic_pain": {
+        "frequency": 7,
+        "diseases": [
+            "Bladder Cancer",
+            "Bladder Disorder",
+            "Endometriosis",
+            "Gonorrhea",
+            "Threatened Pregnancy",
+            "Urinary Tract Infection (UTI)"
+        ]
+    },
+    "pale_skin": {
+        "frequency": 8,
+        "diseases": [
+            "Anemia",
+            "Anemia due to Chronic Kidney Disease",
+            "Anemia due to Malignancy",
+            "Anemia of Chronic Disease",
+            "Aplastic Anemia",
+            "Hemolytic Anemia",
+            "Leukemia",
+            "Vitamin B12 Deficiency"
+        ]
+    },
+    "discomfort_in_the_pelvic_area": {
+        "frequency": 1,
+        "diseases": [
+            "Pregnancy-Related Back Pain"
+        ]
+    },
+    "lower_back_pain": {
+        "frequency": 2,
+        "diseases": [
+            "Pregnancy-Related Back Pain",
+            "Sciatica"
+        ]
+    },
+    "sharp_or_aching_pain_in_the_lower_abdomen_or_groin": {
+        "frequency": 1,
+        "diseases": [
+            "Round Ligament Pain"
+        ]
+    },
+    "painless_bleeding_in_the_third_trimester": {
+        "frequency": 1,
+        "diseases": [
+            "Placenta Previa"
+        ]
+    },
+    "vaginal_bleeding": {
+        "frequency": 4,
+        "diseases": [
+            "Ectopic Pregnancy",
+            "Induced Abortion",
+            "Placenta Previa",
+            "Threatened Pregnancy"
+        ]
+    },
+    "and_pain_in_the_hand_and_fingers": {
+        "frequency": 1,
+        "diseases": [
+            "Carpal Tunnel Syndrome"
+        ]
+    },
+    "numbness": {
+        "frequency": 3,
+        "diseases": [
+            "Carpal Tunnel Syndrome",
+            "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+            "Neuromyelitis Optica"
+        ]
+    },
+    "or_numbness_that_radiates_from_the_lower_back_through_the_hips_and_down_the_leg": {
+        "frequency": 1,
+        "diseases": [
+            "Sciatica"
+        ]
+    },
+    "sharp_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Sciatica"
+        ]
+    },
+    "enlarged": {
+        "frequency": 1,
+        "diseases": [
+            "Varicose Veins"
+        ]
+    },
+    "often_in_the_legs": {
+        "frequency": 1,
+        "diseases": [
+            "Varicose Veins"
+        ]
+    },
+    "swollen_veins": {
+        "frequency": 1,
+        "diseases": [
+            "Varicose Veins"
+        ]
+    },
+    "itchy": {
+        "frequency": 4,
+        "diseases": [
+            "Contact Dermatitis",
+            "Eczema",
+            "Hemorrhoids",
+            "Seborrheic Dermatitis"
+        ]
+    },
+    "or_painful_veins_in_the_rectal_area": {
+        "frequency": 1,
+        "diseases": [
+            "Hemorrhoids"
+        ]
+    },
+    "swollen": {
+        "frequency": 3,
+        "diseases": [
+            "Gum Disease",
+            "Hemorrhoids",
+            "Insect Bites"
+        ]
+    },
+    "itchy_skin": {
+        "frequency": 1,
+        "diseases": [
+            "Gestational Cholestasis"
+        ]
+    },
+    "particularly_on_the_hands_and_feet": {
+        "frequency": 1,
+        "diseases": [
+            "Gestational Cholestasis"
+        ]
+    },
+    "jaundice_(yellowing_of_the_skin_and_eyes)": {
+        "frequency": 1,
+        "diseases": [
+            "Liver Cancer"
+        ]
+    },
+    "loss_of_appetite": {
+        "frequency": 9,
+        "diseases": [
+            "Cirrhosis",
+            "Diabetic Kidney Disease",
+            "Foreign Body in the Gastrointestinal Tract",
+            "Herpangina",
+            "Liver Cancer",
+            "Magnesium Deficiency",
+            "Peritonitis",
+            "Pinworm Infection",
+            "Rheumatoid Arthritis"
+        ]
+    },
+    "unexplained_weight_loss": {
+        "frequency": 4,
+        "diseases": [
+            "Adrenal Cancer",
+            "Bone Cancer",
+            "Liver Cancer",
+            "Lymphoma"
+        ]
+    },
+    "chest_pain": {
+        "frequency": 13,
+        "diseases": [
+            "Abscess of the Lung",
+            "Atelectasis",
+            "Empyema",
+            "Esophageal Cancer",
+            "Fat Embolism",
+            "Fracture of the Rib",
+            "Gastroesophageal Reflux Disease (GERD)",
+            "Hiatal Hernia",
+            "Kidney Failure",
+            "Panic Attack",
+            "Pneumonia",
+            "Pulmonary Eosinophilia",
+            "Tietze Syndrome"
+        ]
+    },
+    "difficulty_breathing": {
+        "frequency": 5,
+        "diseases": [
+            "Abdominal Injury",
+            "Atelectasis",
+            "Food Allergy",
+            "Fracture of the Rib",
+            "Pneumonia"
+        ]
+    },
+    "rapid_breathing": {
+        "frequency": 1,
+        "diseases": [
+            "Atelectasis"
+        ]
+    },
+    "abdominal_pain_or_cramping": {
+        "frequency": 1,
+        "diseases": [
+            "Ectopic Pregnancy"
+        ]
+    },
+    "shoulder_pain_(if_the_fallopian_tube_ruptures)": {
+        "frequency": 1,
+        "diseases": [
+            "Ectopic Pregnancy"
+        ]
+    },
+    "abdominal_pain_(often_in_the_upper_right_quadrant)": {
+        "frequency": 1,
+        "diseases": [
+            "Choledocholithiasis"
+        ]
+    },
+    "cholecystectomy": {
+        "frequency": 1,
+        "diseases": [
+            "Choledocholithiasis"
+        ]
+    },
+    "dark_urine": {
+        "frequency": 2,
+        "diseases": [
+            "Choledocholithiasis",
+            "Neonatal Jaundice"
+        ]
+    },
+    "endoscopic_retrograde_cholangiopancreatography_(ercp)_with_stone_removal": {
+        "frequency": 1,
+        "diseases": [
+            "Choledocholithiasis"
+        ]
+    },
+    "jaundice": {
+        "frequency": 6,
+        "diseases": [
+            "Acute Pancreatitis",
+            "Choledocholithiasis",
+            "Cirrhosis",
+            "Hemolytic Anemia",
+            "Hepatitis due to a Toxin",
+            "Wilson Disease"
+        ]
+    },
+    "pale_stools": {
+        "frequency": 2,
+        "diseases": [
+            "Choledocholithiasis",
+            "Neonatal Jaundice"
+        ]
+    },
+    "sphincterotomy": {
+        "frequency": 1,
+        "diseases": [
+            "Choledocholithiasis"
+        ]
+    },
+    "abdominal_swelling_(ascites)": {
+        "frequency": 1,
+        "diseases": [
+            "Cirrhosis"
+        ]
+    },
+    "easy_bruising_and_bleeding": {
+        "frequency": 1,
+        "diseases": [
+            "Cirrhosis"
+        ]
+    },
+    "chest_or_back_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Thoracic Aortic Aneurysm"
+        ]
+    },
+    "nausea_or_vomiting": {
+        "frequency": 6,
+        "diseases": [
+            "Concussion",
+            "Dengue Fever",
+            "Foreign Body in the Gastrointestinal Tract",
+            "Hyperkalemia",
+            "Intracranial Hemorrhage",
+            "Subdural hemorrhage"
+        ]
+    },
+    "weakness_or_numbness": {
+        "frequency": 1,
+        "diseases": [
+            "Subdural hemorrhage"
+        ]
+    },
+    "developmental_delays": {
+        "frequency": 4,
+        "diseases": [
+            "Congenital rubella",
+            "Edward Syndrome",
+            "Fetal Alcohol Syndrome",
+            "Tuberous Sclerosis"
+        ]
+    },
+    "hearing_loss": {
+        "frequency": 5,
+        "diseases": [
+            "Cholesteatoma",
+            "Chronic Otitis Media",
+            "Congenital rubella",
+            "Labyrinthitis",
+            "Meniere Disease"
+        ]
+    },
+    "heart_defects": {
+        "frequency": 2,
+        "diseases": [
+            "Congenital rubella",
+            "Edward Syndrome"
+        ]
+    },
+    "intellectual_disability": {
+        "frequency": 3,
+        "diseases": [
+            "Congenital rubella",
+            "Edward Syndrome",
+            "Fetal Alcohol Syndrome"
+        ]
+    },
+    "liver_or_spleen_enlargement": {
+        "frequency": 1,
+        "diseases": [
+            "Congenital rubella"
+        ]
+    },
+    "rash_at_birth": {
+        "frequency": 1,
+        "diseases": [
+            "Congenital rubella"
+        ]
+    },
+    "vision_problems": {
+        "frequency": 1,
+        "diseases": [
+            "Congenital rubella"
+        ]
+    },
+    "blurred_or_distorted_vision": {
+        "frequency": 2,
+        "diseases": [
+            "Astigmatism",
+            "Diabetic retinopathy"
+        ]
+    },
+    "dark_or_empty_areas_in_the_visual_field": {
+        "frequency": 1,
+        "diseases": [
+            "Diabetic retinopathy"
+        ]
+    },
+    "floaters": {
+        "frequency": 1,
+        "diseases": [
+            "Diabetic retinopathy"
+        ]
+    },
+    "impaired_color_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Diabetic retinopathy"
+        ]
+    },
+    "vision_loss": {
+        "frequency": 2,
+        "diseases": [
+            "Corneal Disorder",
+            "Diabetic retinopathy"
+        ]
+    },
+    "cognitive_difficulties_(fibro_fog)": {
+        "frequency": 1,
+        "diseases": [
+            "Fibromyalgia"
+        ]
+    },
+    "mood_changes": {
+        "frequency": 3,
+        "diseases": [
+            "Concussion",
+            "Fibromyalgia",
+            "Pituitary Adenoma"
+        ]
+    },
+    "bloody_stools": {
+        "frequency": 1,
+        "diseases": [
+            "Ischemia of the Bowel"
+        ]
+    },
+    "diarrhea": {
+        "frequency": 3,
+        "diseases": [
+            "Antimicrobial Drugs Poisoning",
+            "Gastroenteritis (Stomach Flu)",
+            "Ischemia of the Bowel"
+        ]
+    },
+    "low_blood_pressure": {
+        "frequency": 4,
+        "diseases": [
+            "Antihypertensives Poisoning",
+            "Glucocorticoid Deficiency",
+            "Ischemia of the Bowel",
+            "Poisoning due to Antidepressants"
+        ]
+    },
+    "severe_abdominal_pain": {
+        "frequency": 2,
+        "diseases": [
+            "Ischemia of the Bowel",
+            "Peritonitis"
+        ]
+    },
+    "facial_abnormalities": {
+        "frequency": 1,
+        "diseases": [
+            "Fetal Alcohol Syndrome"
+        ]
+    },
+    "growth_deficiencies": {
+        "frequency": 1,
+        "diseases": [
+            "Fetal Alcohol Syndrome"
+        ]
+    },
+    "bloating": {
+        "frequency": 7,
+        "diseases": [
+            "Diverticulosis",
+            "Gastroparesis",
+            "Indigestion",
+            "Ovarian Torsion",
+            "Peritonitis",
+            "Premenstrual Tension Syndrome",
+            "Volvulus"
+        ]
+    },
+    "increased_heart_rate": {
+        "frequency": 2,
+        "diseases": [
+            "Anxiety",
+            "Peritonitis"
+        ]
+    },
+    "blood_in_urine_or_stool": {
+        "frequency": 2,
+        "diseases": [
+            "Abdominal Injury",
+            "Von Willebrand Disease"
+        ]
+    },
+    "changes_in_bowel_movements": {
+        "frequency": 2,
+        "diseases": [
+            "Abdominal Injury",
+            "Diverticulosis"
+        ]
+    },
+    "rapid_pulse": {
+        "frequency": 1,
+        "diseases": [
+            "Acute Pancreatitis"
+        ]
+    },
+    "severe_upper_abdominal_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Acute Pancreatitis"
+        ]
+    },
+    "swollen_and_tender_abdomen": {
+        "frequency": 1,
+        "diseases": [
+            "Acute Pancreatitis"
+        ]
+    },
+    "and_tenderness_along_a_vein": {
+        "frequency": 1,
+        "diseases": [
+            "Thrombophlebitis"
+        ]
+    },
+    "pain_or_discomfort": {
+        "frequency": 3,
+        "diseases": [
+            "Cornea Infection",
+            "Testicular Cancer",
+            "Thrombophlebitis"
+        ]
+    },
+    "skin_discoloration": {
+        "frequency": 1,
+        "diseases": [
+            "Thrombophlebitis"
+        ]
+    },
+    "visible_veins": {
+        "frequency": 1,
+        "diseases": [
+            "Thrombophlebitis"
+        ]
+    },
+    "warmth": {
+        "frequency": 3,
+        "diseases": [
+            "Hemarthrosis",
+            "Infection of Open Wound",
+            "Thrombophlebitis"
+        ]
+    },
+    "chest_tightness": {
+        "frequency": 3,
+        "diseases": [
+            "Acute Bronchospasm",
+            "Asthma",
+            "Emphysema"
+        ]
+    },
+    "coughing": {
+        "frequency": 1,
+        "diseases": [
+            "Asthma"
+        ]
+    },
+    "especially_at_night_or_in_response_to_triggers_such_as_allergens_or_exercise": {
+        "frequency": 1,
+        "diseases": [
+            "Asthma"
+        ]
+    },
+    "recurrent_episodes_of_wheezing": {
+        "frequency": 1,
+        "diseases": [
+            "Asthma"
+        ]
+    },
+    "uncomfortable_sensation_in_the_legs": {
+        "frequency": 1,
+        "diseases": [
+            "Restless Leg Syndrome"
+        ]
+    },
+    "urge_to_move_legs_for_relief": {
+        "frequency": 1,
+        "diseases": [
+            "Restless Leg Syndrome"
+        ]
+    },
+    "usually_in_the_evening_or_at_night": {
+        "frequency": 1,
+        "diseases": [
+            "Restless Leg Syndrome"
+        ]
+    },
+    "chronic_cough": {
+        "frequency": 1,
+        "diseases": [
+            "Emphysema"
+        ]
+    },
+    "wheezing": {
+        "frequency": 5,
+        "diseases": [
+            "Acute Bronchospasm",
+            "Emphysema",
+            "Lung Contusion",
+            "Pulmonary Congestion",
+            "Pulmonary Eosinophilia"
+        ]
+    },
+    "cramping": {
+        "frequency": 1,
+        "diseases": [
+            "Induced Abortion"
+        ]
+    },
+    "emotional_distress": {
+        "frequency": 1,
+        "diseases": [
+            "Induced Abortion"
+        ]
+    },
+    "cough": {
+        "frequency": 7,
+        "diseases": [
+            "Acute Sinusitis",
+            "Chronic Sinusitis",
+            "Cryptococcosis",
+            "Influenza (Flu)",
+            "Pneumonia",
+            "Pulmonary Congestion",
+            "Pulmonary Eosinophilia"
+        ]
+    },
+    "facial_pain_or_pressure": {
+        "frequency": 3,
+        "diseases": [
+            "Acute Sinusitis",
+            "Chronic Sinusitis",
+            "Nose Disorder"
+        ]
+    },
+    "fever_(in_some_cases)": {
+        "frequency": 1,
+        "diseases": [
+            "Acute Sinusitis"
+        ]
+    },
+    "nasal_congestion": {
+        "frequency": 3,
+        "diseases": [
+            "Acute Sinusitis",
+            "Chronic Sinusitis",
+            "Nose Disorder"
+        ]
+    },
+    "post-nasal_drip": {
+        "frequency": 1,
+        "diseases": [
+            "Acute Sinusitis"
+        ]
+    },
+    "thick_nasal_discharge": {
+        "frequency": 2,
+        "diseases": [
+            "Acute Sinusitis",
+            "Chronic Sinusitis"
+        ]
+    },
+    "hemangioblastomas_(tumors_in_the_brain": {
+        "frequency": 1,
+        "diseases": [
+            "Von Hippel-Lindau Disease"
+        ]
+    },
+    "or_other_organs)": {
+        "frequency": 1,
+        "diseases": [
+            "Von Hippel-Lindau Disease"
+        ]
+    },
+    "other_tumors_or_cysts": {
+        "frequency": 1,
+        "diseases": [
+            "Von Hippel-Lindau Disease"
+        ]
+    },
+    "pancreatic_cysts/tumors": {
+        "frequency": 1,
+        "diseases": [
+            "Von Hippel-Lindau Disease"
+        ]
+    },
+    "pheochromocytomas_(adrenal_gland_tumors)": {
+        "frequency": 1,
+        "diseases": [
+            "Von Hippel-Lindau Disease"
+        ]
+    },
+    "renal_cell_carcinomas_(kidney_tumors)": {
+        "frequency": 1,
+        "diseases": [
+            "Von Hippel-Lindau Disease"
+        ]
+    },
+    "retinal_angiomas_(abnormal_blood_vessel_growth_in_the_retina)": {
+        "frequency": 1,
+        "diseases": [
+            "Von Hippel-Lindau Disease"
+        ]
+    },
+    "spinal_cord": {
+        "frequency": 1,
+        "diseases": [
+            "Von Hippel-Lindau Disease"
+        ]
+    },
+    "anxiety": {
+        "frequency": 4,
+        "diseases": [
+            "Alcohol Use Disorder",
+            "Drug Withdrawal",
+            "Marijuana Abuse",
+            "Rabies"
+        ]
+    },
+    "continued_use_despite_negative_consequences_(such_as_relationship_problems": {
+        "frequency": 4,
+        "diseases": [
+            "Alcohol Use Disorder",
+            "Benzodiazepine Use Disorder",
+            "Cannabis Use Disorder",
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder"
+        ]
+    },
+    "cravings_for_alcohol": {
+        "frequency": 1,
+        "diseases": [
+            "Alcohol Use Disorder"
+        ]
+    },
+    "health_issues)": {
+        "frequency": 1,
+        "diseases": [
+            "Alcohol Use Disorder"
+        ]
+    },
+    "inability_to_control_or_limit_alcohol_consumption": {
+        "frequency": 1,
+        "diseases": [
+            "Alcohol Use Disorder"
+        ]
+    },
+    "neglecting_responsibilities": {
+        "frequency": 1,
+        "diseases": [
+            "Alcohol Use Disorder"
+        ]
+    },
+    "sweating)_when_attempting_to_stop_or_reduce_alcohol_use": {
+        "frequency": 1,
+        "diseases": [
+            "Alcohol Use Disorder"
+        ]
+    },
+    "tolerance_to_alcohol": {
+        "frequency": 1,
+        "diseases": [
+            "Alcohol Use Disorder"
+        ]
+    },
+    "withdrawal_symptoms_(such_as_tremors": {
+        "frequency": 1,
+        "diseases": [
+            "Alcohol Use Disorder"
+        ]
+    },
+    "anxiety)_when_attempting_to_stop_or_reduce_use": {
+        "frequency": 1,
+        "diseases": [
+            "Opioid Use Disorder"
+        ]
+    },
+    "compulsive_use_of_opioids": {
+        "frequency": 1,
+        "diseases": [
+            "Opioid Use Disorder"
+        ]
+    },
+    "continued_use_despite_negative_consequences_(such_as_legal_issues": {
+        "frequency": 1,
+        "diseases": [
+            "Opioid Use Disorder"
+        ]
+    },
+    "health_problems)": {
+        "frequency": 1,
+        "diseases": [
+            "Opioid Use Disorder"
+        ]
+    },
+    "inability_to_control_or_reduce_opioid_use": {
+        "frequency": 1,
+        "diseases": [
+            "Opioid Use Disorder"
+        ]
+    },
+    "muscle_aches": {
+        "frequency": 1,
+        "diseases": [
+            "Opioid Use Disorder"
+        ]
+    },
+    "strong_desire_or_cravings_for_opioids": {
+        "frequency": 1,
+        "diseases": [
+            "Opioid Use Disorder"
+        ]
+    },
+    "tolerance_to_opioids": {
+        "frequency": 1,
+        "diseases": [
+            "Opioid Use Disorder"
+        ]
+    },
+    "withdrawal_symptoms_(such_as_nausea": {
+        "frequency": 1,
+        "diseases": [
+            "Opioid Use Disorder"
+        ]
+    },
+    "decreased_appetite": {
+        "frequency": 3,
+        "diseases": [
+            "Chronic Kidney Disease",
+            "Drug Abuse (Methamphetamine)",
+            "Stimulant Use Disorder"
+        ]
+    },
+    "euphoria": {
+        "frequency": 2,
+        "diseases": [
+            "Drug Abuse (Cocaine)",
+            "Stimulant Use Disorder"
+        ]
+    },
+    "increased_energy_and_alertness": {
+        "frequency": 2,
+        "diseases": [
+            "Drug Abuse (Methamphetamine)",
+            "Stimulant Use Disorder"
+        ]
+    },
+    "increased_heart_rate_and_blood_pressure": {
+        "frequency": 1,
+        "diseases": [
+            "Stimulant Use Disorder"
+        ]
+    },
+    "insomnia": {
+        "frequency": 4,
+        "diseases": [
+            "Benzodiazepine Use Disorder",
+            "Drug Withdrawal",
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder",
+            "Stimulant Use Disorder"
+        ]
+    },
+    "irritability": {
+        "frequency": 7,
+        "diseases": [
+            "Drug Withdrawal",
+            "Magnesium Deficiency",
+            "Pinworm Infection",
+            "Postpartum Depression",
+            "Premenstrual Tension Syndrome",
+            "Primary Insomnia",
+            "Stimulant Use Disorder"
+        ]
+    },
+    "paranoia": {
+        "frequency": 1,
+        "diseases": [
+            "Stimulant Use Disorder"
+        ]
+    },
+    "psychosis_(in_severe_cases)": {
+        "frequency": 1,
+        "diseases": [
+            "Stimulant Use Disorder"
+        ]
+    },
+    "restlessness": {
+        "frequency": 3,
+        "diseases": [
+            "Anxiety",
+            "Drug Withdrawal",
+            "Stimulant Use Disorder"
+        ]
+    },
+    "altered_perception_of_time": {
+        "frequency": 1,
+        "diseases": [
+            "Cannabis Use Disorder"
+        ]
+    },
+    "anxiety_or_paranoia_(in_some_individuals)": {
+        "frequency": 2,
+        "diseases": [
+            "Cannabis Use Disorder",
+            "Hallucinogen Use Disorder"
+        ]
+    },
+    "bloodshot_eyes": {
+        "frequency": 1,
+        "diseases": [
+            "Cannabis Use Disorder"
+        ]
+    },
+    "impaired_memory_and_concentration": {
+        "frequency": 1,
+        "diseases": [
+            "Cannabis Use Disorder"
+        ]
+    },
+    "increased_appetite": {
+        "frequency": 1,
+        "diseases": [
+            "Cannabis Use Disorder"
+        ]
+    },
+    "insomnia)_when_attempting_to_stop_or_reduce_cannabis_use": {
+        "frequency": 1,
+        "diseases": [
+            "Cannabis Use Disorder"
+        ]
+    },
+    "job_difficulties)": {
+        "frequency": 1,
+        "diseases": [
+            "Cannabis Use Disorder"
+        ]
+    },
+    "relaxation": {
+        "frequency": 3,
+        "diseases": [
+            "Benzodiazepine Use Disorder",
+            "Cannabis Use Disorder",
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder"
+        ]
+    },
+    "withdrawal_symptoms_(such_as_irritability": {
+        "frequency": 1,
+        "diseases": [
+            "Cannabis Use Disorder"
+        ]
+    },
+    "drowsiness": {
+        "frequency": 5,
+        "diseases": [
+            "Benzodiazepine Use Disorder",
+            "Drug Abuse (Barbiturates)",
+            "Poisoning due to Antidepressants",
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder",
+            "Sedatives Poisoning"
+        ]
+    },
+    "health_risks)": {
+        "frequency": 2,
+        "diseases": [
+            "Benzodiazepine Use Disorder",
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder"
+        ]
+    },
+    "memory_impairment": {
+        "frequency": 2,
+        "diseases": [
+            "Benzodiazepine Use Disorder",
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder"
+        ]
+    },
+    "poor_coordination": {
+        "frequency": 2,
+        "diseases": [
+            "Benzodiazepine Use Disorder",
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder"
+        ]
+    },
+    "reduced_anxiety": {
+        "frequency": 2,
+        "diseases": [
+            "Benzodiazepine Use Disorder",
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder"
+        ]
+    },
+    "sedation": {
+        "frequency": 3,
+        "diseases": [
+            "Benzodiazepine Use Disorder",
+            "Drug Abuse (Barbiturates)",
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder"
+        ]
+    },
+    "tremors)_when_attempting_to_stop_or_reduce_benzodiazepine_use": {
+        "frequency": 1,
+        "diseases": [
+            "Benzodiazepine Use Disorder"
+        ]
+    },
+    "withdrawal_symptoms_(such_as_rebound_anxiety": {
+        "frequency": 2,
+        "diseases": [
+            "Benzodiazepine Use Disorder",
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder"
+        ]
+    },
+    "altered_perception_of_reality": {
+        "frequency": 1,
+        "diseases": [
+            "Hallucinogen Use Disorder"
+        ]
+    },
+    "changes_in_sensory_experiences": {
+        "frequency": 1,
+        "diseases": [
+            "Hallucinogen Use Disorder"
+        ]
+    },
+    "feelings_of_connection_or_disconnection": {
+        "frequency": 1,
+        "diseases": [
+            "Hallucinogen Use Disorder"
+        ]
+    },
+    "flashbacks_(in_some_individuals)": {
+        "frequency": 1,
+        "diseases": [
+            "Hallucinogen Use Disorder"
+        ]
+    },
+    "introspective_thoughts": {
+        "frequency": 1,
+        "diseases": [
+            "Hallucinogen Use Disorder"
+        ]
+    },
+    "visual_or_auditory_hallucinations": {
+        "frequency": 1,
+        "diseases": [
+            "Hallucinogen Use Disorder"
+        ]
+    },
+    "tremors)_when_attempting_to_stop_or_reduce_use": {
+        "frequency": 1,
+        "diseases": [
+            "Sedative, Hypnotic, or Anxiolytic Use Disorder"
+        ]
+    },
+    "changes_in_appetite_or_sleep_patterns": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "difficulty_bonding_with_the_baby": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "emptiness": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "feelings_of_guilt_or_worthlessness": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "frequent_crying": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "loss_of_interest_or_pleasure_in_activities": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "or_hopelessness": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "overwhelming_fatigue": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "persistent_feelings_of_sadness": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "thoughts_of_self-harm_or_harming_the_baby": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "trouble_concentrating_or_making_decisions": {
+        "frequency": 1,
+        "diseases": [
+            "Postpartum Depression"
+        ]
+    },
+    "chest_pain_or_discomfort_(angina)": {
+        "frequency": 1,
+        "diseases": [
+            "Coronary Atherosclerosis"
+        ]
+    },
+    "heart_attack_(when_a_coronary_artery_becomes_completely_blocked)": {
+        "frequency": 1,
+        "diseases": [
+            "Coronary Atherosclerosis"
+        ]
+    },
+    "irregular_heartbeat": {
+        "frequency": 2,
+        "diseases": [
+            "Coronary Atherosclerosis",
+            "Magnesium Deficiency"
+        ]
+    },
+    "jaw_or_arm_pain_(in_some_cases)": {
+        "frequency": 1,
+        "diseases": [
+            "Coronary Atherosclerosis"
+        ]
+    },
+    "chronic_back_pain_and_stiffness": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylitis"
+        ]
+    },
+    "difficulty_maintaining_proper_posture": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylitis"
+        ]
+    },
+    "discomfort_or_pain_in_the_neck": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylitis"
+        ]
+    },
+    "especially_in_the_morning_or_after_periods_of_inactivity": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylitis"
+        ]
+    },
+    "inflammation_and_pain_in_other_joints_(such_as_hips": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylitis"
+        ]
+    },
+    "knees)": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylitis"
+        ]
+    },
+    "limited_range_of_motion_in_the_spine": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylitis"
+        ]
+    },
+    "shoulders": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylitis"
+        ]
+    },
+    "tenderness_or_swelling_in_affected_areas": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylitis"
+        ]
+    },
+    "tingling_or_numbness_in_extremities_in_severe_cases": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylitis"
+        ]
+    },
+    "cognitive_impairments": {
+        "frequency": 1,
+        "diseases": [
+            "Pituitary Adenoma"
+        ]
+    },
+    "erectile_dysfunction": {
+        "frequency": 1,
+        "diseases": [
+            "Pituitary Adenoma"
+        ]
+    },
+    "growth_abnormalities_in_children": {
+        "frequency": 1,
+        "diseases": [
+            "Pituitary Adenoma"
+        ]
+    },
+    "hormonal_imbalances_(such_as_excessive_production_or_deficiency_of_specific_hormones)": {
+        "frequency": 1,
+        "diseases": [
+            "Pituitary Adenoma"
+        ]
+    },
+    "infertility": {
+        "frequency": 3,
+        "diseases": [
+            "Endometriosis",
+            "Pituitary Adenoma"
+        ]
+    },
+    "menstrual_irregularities": {
+        "frequency": 1,
+        "diseases": [
+            "Pituitary Adenoma"
+        ]
+    },
+    "vision_problems_(such_as_blurred_vision_or_loss_of_peripheral_vision)": {
+        "frequency": 1,
+        "diseases": [
+            "Pituitary Adenoma"
+        ]
+    },
+    "weight_gain_or_loss": {
+        "frequency": 1,
+        "diseases": [
+            "Pituitary Adenoma"
+        ]
+    },
+    "backache": {
+        "frequency": 1,
+        "diseases": [
+            "Uterine Fibroids"
+        ]
+    },
+    "constipation": {
+        "frequency": 4,
+        "diseases": [
+            "Hashimoto Thyroiditis",
+            "Hypothyroidism",
+            "Uterine Fibroids",
+            "Volvulus"
+        ]
+    },
+    "difficulty_emptying_the_bladder": {
+        "frequency": 1,
+        "diseases": [
+            "Uterine Fibroids"
+        ]
+    },
+    "enlarged_abdomen_or_uterus": {
+        "frequency": 1,
+        "diseases": [
+            "Uterine Fibroids"
+        ]
+    },
+    "heavy_or_prolonged_menstrual_periods": {
+        "frequency": 2,
+        "diseases": [
+            "Uterine Fibroids",
+            "Von Willebrand Disease"
+        ]
+    },
+    "infertility_or_recurrent_miscarriages_(in_some_cases)": {
+        "frequency": 1,
+        "diseases": [
+            "Uterine Fibroids"
+        ]
+    },
+    "leg_pain": {
+        "frequency": 2,
+        "diseases": [
+            "Sciatica",
+            "Uterine Fibroids"
+        ]
+    },
+    "pelvic_pain_or_pressure": {
+        "frequency": 1,
+        "diseases": [
+            "Uterine Fibroids"
+        ]
+    },
+    "abnormal_vaginal_bleeding_outside_of_the_menstrual_period": {
+        "frequency": 1,
+        "diseases": [
+            "Idiopathic Nonmenstrual Bleeding"
+        ]
+    },
+    "bleeding_after_menopause": {
+        "frequency": 1,
+        "diseases": [
+            "Idiopathic Nonmenstrual Bleeding"
+        ]
+    },
+    "bleeding_after_sexual_intercourse": {
+        "frequency": 1,
+        "diseases": [
+            "Idiopathic Nonmenstrual Bleeding"
+        ]
+    },
+    "prolonged_or_heavy_bleeding": {
+        "frequency": 1,
+        "diseases": [
+            "Idiopathic Nonmenstrual Bleeding"
+        ]
+    },
+    "spotting_or_light_bleeding_between_periods": {
+        "frequency": 1,
+        "diseases": [
+            "Idiopathic Nonmenstrual Bleeding"
+        ]
+    },
+    "unpredictable_bleeding_episodes": {
+        "frequency": 1,
+        "diseases": [
+            "Idiopathic Nonmenstrual Bleeding"
+        ]
+    },
+    "blurred_vision_(if_the_chalazion_affects_the_line_of_sight)": {
+        "frequency": 1,
+        "diseases": [
+            "Chalazion"
+        ]
+    },
+    "localized_inflammation_and_swelling": {
+        "frequency": 1,
+        "diseases": [
+            "Chalazion"
+        ]
+    },
+    "mild_discomfort": {
+        "frequency": 1,
+        "diseases": [
+            "Chalazion"
+        ]
+    },
+    "painful": {
+        "frequency": 1,
+        "diseases": [
+            "Chalazion"
+        ]
+    },
+    "red_lump_or_swelling_on_the_eyelid": {
+        "frequency": 1,
+        "diseases": [
+            "Chalazion"
+        ]
+    },
+    "usually_on_the_upper_eyelid": {
+        "frequency": 1,
+        "diseases": [
+            "Chalazion"
+        ]
+    },
+    "abdominal_tenderness": {
+        "frequency": 1,
+        "diseases": [
+            "Ovarian Torsion"
+        ]
+    },
+    "abnormal_bleeding_or_spotting": {
+        "frequency": 1,
+        "diseases": [
+            "Ovarian Torsion"
+        ]
+    },
+    "pain_during_intercourse": {
+        "frequency": 1,
+        "diseases": [
+            "Ovarian Torsion"
+        ]
+    },
+    "rapid_heartbeat": {
+        "frequency": 2,
+        "diseases": [
+            "Drug Abuse (Methamphetamine)",
+            "Ovarian Torsion"
+        ]
+    },
+    "sharp_or_stabbing_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Ovarian Torsion"
+        ]
+    },
+    "sudden_and_severe_abdominal_or_pelvic_pain_on_one_side": {
+        "frequency": 1,
+        "diseases": [
+            "Ovarian Torsion"
+        ]
+    },
+    "burning_sensation_during_urination": {
+        "frequency": 2,
+        "diseases": [
+            "Urinary Tract Infection (UTI)",
+            "Vaginal Yeast Infection"
+        ]
+    },
+    "clumpy_vaginal_discharge_(resembling_cottage_cheese)": {
+        "frequency": 1,
+        "diseases": [
+            "Vaginal Yeast Infection"
+        ]
+    },
+    "itching_and_irritation_in_the_vagina_and_vulva": {
+        "frequency": 1,
+        "diseases": [
+            "Vaginal Yeast Infection"
+        ]
+    },
+    "pain_during_sexual_intercourse": {
+        "frequency": 1,
+        "diseases": [
+            "Vaginal Yeast Infection"
+        ]
+    },
+    "rash_or_soreness_in_the_affected_area": {
+        "frequency": 1,
+        "diseases": [
+            "Vaginal Yeast Infection"
+        ]
+    },
+    "redness_and_swelling_of_the_vulva": {
+        "frequency": 1,
+        "diseases": [
+            "Vaginal Yeast Infection"
+        ]
+    },
+    "thick": {
+        "frequency": 1,
+        "diseases": [
+            "Vaginal Yeast Infection"
+        ]
+    },
+    "white": {
+        "frequency": 1,
+        "diseases": [
+            "Vaginal Yeast Infection"
+        ]
+    },
+    "drainage_of_fluid_or_pus_from_the_ear": {
+        "frequency": 1,
+        "diseases": [
+            "Mastoiditis"
+        ]
+    },
+    "ear_pain_(particularly_behind_the_ear)": {
+        "frequency": 1,
+        "diseases": [
+            "Mastoiditis"
+        ]
+    },
+    "earache": {
+        "frequency": 1,
+        "diseases": [
+            "Mastoiditis"
+        ]
+    },
+    "hearing_loss_or_impaired_hearing": {
+        "frequency": 1,
+        "diseases": [
+            "Mastoiditis"
+        ]
+    },
+    "irritability_(in_infants_and_young_children)": {
+        "frequency": 1,
+        "diseases": [
+            "Mastoiditis"
+        ]
+    },
+    "mastoid_bone_protrusion_or_swelling": {
+        "frequency": 1,
+        "diseases": [
+            "Mastoiditis"
+        ]
+    },
+    "swelling_and_redness_of_the_ear_or_the_area_behind_the_ear": {
+        "frequency": 1,
+        "diseases": [
+            "Mastoiditis"
+        ]
+    },
+    "tenderness_or_pain_when_touching_the_area": {
+        "frequency": 1,
+        "diseases": [
+            "Mastoiditis"
+        ]
+    },
+    "chest_pain_(sharp_or_dull)": {
+        "frequency": 1,
+        "diseases": [
+            "Lung Contusion"
+        ]
+    },
+    "chest_wall_bruising": {
+        "frequency": 1,
+        "diseases": [
+            "Lung Contusion"
+        ]
+    },
+    "coughing_up_blood_or_pink-tinged_sputum": {
+        "frequency": 1,
+        "diseases": [
+            "Lung Contusion"
+        ]
+    },
+    "cyanosis_(bluish_discoloration_of_the_skin)": {
+        "frequency": 1,
+        "diseases": [
+            "Lung Contusion"
+        ]
+    },
+    "decreased_oxygen_levels": {
+        "frequency": 1,
+        "diseases": [
+            "Lung Contusion"
+        ]
+    },
+    "difficulty_breathing_or_shortness_of_breath": {
+        "frequency": 1,
+        "diseases": [
+            "Lung Contusion"
+        ]
+    },
+    "rapid_or_shallow_breathing": {
+        "frequency": 1,
+        "diseases": [
+            "Lung Contusion"
+        ]
+    },
+    "rib_fractures_(associated_injuries)": {
+        "frequency": 1,
+        "diseases": [
+            "Lung Contusion"
+        ]
+    },
+    "chest_pain_or_discomfort": {
+        "frequency": 5,
+        "diseases": [
+            "Atrial Fibrillation",
+            "Heart Block",
+            "Hypertensive Heart Disease",
+            "Hypertrophic Obstructive Cardiomyopathy (HOCM)",
+            "Pulmonic Valve Disease"
+        ]
+    },
+    "dizziness_or_lightheadedness": {
+        "frequency": 2,
+        "diseases": [
+            "Atrial Fibrillation",
+            "Hypertrophic Obstructive Cardiomyopathy (HOCM)"
+        ]
+    },
+    "especially_during_physical_activity_or_exertion": {
+        "frequency": 1,
+        "diseases": [
+            "Hypertrophic Obstructive Cardiomyopathy (HOCM)"
+        ]
+    },
+    "fainting_or_near-fainting_episodes": {
+        "frequency": 1,
+        "diseases": [
+            "Hypertrophic Obstructive Cardiomyopathy (HOCM)"
+        ]
+    },
+    "feet": {
+        "frequency": 1,
+        "diseases": [
+            "Hypertrophic Obstructive Cardiomyopathy (HOCM)"
+        ]
+    },
+    "heart_palpitations_(rapid_or_irregular_heartbeat)": {
+        "frequency": 1,
+        "diseases": [
+            "Hypertrophic Obstructive Cardiomyopathy (HOCM)"
+        ]
+    },
+    "or_legs": {
+        "frequency": 1,
+        "diseases": [
+            "Hypertrophic Obstructive Cardiomyopathy (HOCM)"
+        ]
+    },
+    "swelling_in_the_ankles": {
+        "frequency": 1,
+        "diseases": [
+            "Hypertrophic Obstructive Cardiomyopathy (HOCM)"
+        ]
+    },
+    "elevated_eosinophil_count_in_the_blood_or_sputum": {
+        "frequency": 1,
+        "diseases": [
+            "Pulmonary Eosinophilia"
+        ]
+    },
+    "night_sweats": {
+        "frequency": 1,
+        "diseases": [
+            "Pulmonary Eosinophilia"
+        ]
+    },
+    "blurred_or_hazy_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Corneal Disorder"
+        ]
+    },
+    "corneal_abrasions_or_ulcers": {
+        "frequency": 1,
+        "diseases": [
+            "Corneal Disorder"
+        ]
+    },
+    "distorted_or_irregular_corneal_shape": {
+        "frequency": 1,
+        "diseases": [
+            "Corneal Disorder"
+        ]
+    },
+    "dryness_or_excessive_tearing": {
+        "frequency": 1,
+        "diseases": [
+            "Corneal Disorder"
+        ]
+    },
+    "eye_pain_or_discomfort": {
+        "frequency": 2,
+        "diseases": [
+            "Chronic Glaucoma",
+            "Corneal Disorder"
+        ]
+    },
+    "foreign_body_sensation": {
+        "frequency": 2,
+        "diseases": [
+            "Corneal Abrasion",
+            "Corneal Disorder"
+        ]
+    },
+    "redness_or_irritation_of_the_eye": {
+        "frequency": 1,
+        "diseases": [
+            "Corneal Disorder"
+        ]
+    },
+    "sensitivity_to_light_(photophobia)": {
+        "frequency": 1,
+        "diseases": [
+            "Corneal Disorder"
+        ]
+    },
+    "abdominal_pain_or_discomfort": {
+        "frequency": 2,
+        "diseases": [
+            "Foreign Body in the Gastrointestinal Tract",
+            "Pinworm Infection"
+        ]
+    },
+    "bowel_obstruction": {
+        "frequency": 1,
+        "diseases": [
+            "Foreign Body in the Gastrointestinal Tract"
+        ]
+    },
+    "chest_pain_or_pressure": {
+        "frequency": 1,
+        "diseases": [
+            "Foreign Body in the Gastrointestinal Tract"
+        ]
+    },
+    "choking_or_gagging": {
+        "frequency": 1,
+        "diseases": [
+            "Foreign Body in the Gastrointestinal Tract"
+        ]
+    },
+    "coughing_or_wheezing": {
+        "frequency": 1,
+        "diseases": [
+            "Foreign Body in the Gastrointestinal Tract"
+        ]
+    },
+    "gastrointestinal_bleeding": {
+        "frequency": 1,
+        "diseases": [
+            "Foreign Body in the Gastrointestinal Tract"
+        ]
+    },
+    "perforation_of_the_digestive_tract": {
+        "frequency": 1,
+        "diseases": [
+            "Foreign Body in the Gastrointestinal Tract"
+        ]
+    },
+    "respiratory_distress": {
+        "frequency": 4,
+        "diseases": [
+            "Fat Embolism",
+            "Foreign Body in the Gastrointestinal Tract",
+            "Poisoning due to Analgesics",
+            "Poisoning due to Antidepressants"
+        ]
+    },
+    "decreased_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Endophthalmitis"
+        ]
+    },
+    "discharge_from_the_eye": {
+        "frequency": 1,
+        "diseases": [
+            "Endophthalmitis"
+        ]
+    },
+    "floaters_(dark_spots_or_cobwebs_in_the_vision)": {
+        "frequency": 1,
+        "diseases": [
+            "Endophthalmitis"
+        ]
+    },
+    "increased_sensitivity_to_light_(photophobia)": {
+        "frequency": 1,
+        "diseases": [
+            "Endophthalmitis"
+        ]
+    },
+    "muffled_or_blocked_sound": {
+        "frequency": 1,
+        "diseases": [
+            "Conductive Hearing Loss"
+        ]
+    },
+    "reduced_hearing_sensitivity": {
+        "frequency": 1,
+        "diseases": [
+            "Conductive Hearing Loss"
+        ]
+    },
+    "discomfort_or_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Abdominal Hernia"
+        ]
+    },
+    "visible_bulge_or_swelling": {
+        "frequency": 1,
+        "diseases": [
+            "Abdominal Hernia"
+        ]
+    },
+    "altered_judgment": {
+        "frequency": 1,
+        "diseases": [
+            "Marijuana Abuse"
+        ]
+    },
+    "impaired_memory_and_cognition": {
+        "frequency": 1,
+        "diseases": [
+            "Marijuana Abuse"
+        ]
+    },
+    "meningitis": {
+        "frequency": 1,
+        "diseases": [
+            "Cryptococcosis"
+        ]
+    },
+    "pneumonia": {
+        "frequency": 1,
+        "diseases": [
+            "Cryptococcosis"
+        ]
+    },
+    "excessive_body_weight": {
+        "frequency": 1,
+        "diseases": [
+            "Obesity"
+        ]
+    },
+    "increased_risk_of_chronic_conditions": {
+        "frequency": 1,
+        "diseases": [
+            "Obesity"
+        ]
+    },
+    "acidic_taste": {
+        "frequency": 1,
+        "diseases": [
+            "Indigestion"
+        ]
+    },
+    "heartburn": {
+        "frequency": 3,
+        "diseases": [
+            "Gastroesophageal Reflux Disease (GERD)",
+            "Hiatal Hernia",
+            "Indigestion"
+        ]
+    },
+    "unintentional_weight_loss": {
+        "frequency": 1,
+        "diseases": [
+            "Esophageal Cancer"
+        ]
+    },
+    "chest_discomfort_or_tightness": {
+        "frequency": 1,
+        "diseases": [
+            "Pulmonary Congestion"
+        ]
+    },
+    "rash": {
+        "frequency": 10,
+        "diseases": [
+            "Cat Scratch Disease",
+            "Chronic Rheumatic Fever",
+            "Dengue Fever",
+            "Dermatitis due to Sun Exposure",
+            "Drug Reaction",
+            "Eczema",
+            "Food Allergy",
+            "Fungal Infection of the Skin",
+            "Juvenile Rheumatoid Arthritis",
+            "West Nile Virus"
+        ]
+    },
+    "rough": {
+        "frequency": 1,
+        "diseases": [
+            "Actinic Keratosis"
+        ]
+    },
+    "scaly_patches_on_the_skin": {
+        "frequency": 2,
+        "diseases": [
+            "Actinic Keratosis",
+            "Psoriasis"
+        ]
+    },
+    "usually_in_sun-exposed_areas": {
+        "frequency": 1,
+        "diseases": [
+            "Actinic Keratosis"
+        ]
+    },
+    "ear_pain": {
+        "frequency": 6,
+        "diseases": [
+            "Acute Otitis Media",
+            "Cholesteatoma",
+            "Chronic Otitis Media",
+            "Head and Neck Cancer",
+            "Labyrinthitis",
+            "Otitis Media"
+        ]
+    },
+    "fluid_drainage_from_the_ear": {
+        "frequency": 2,
+        "diseases": [
+            "Acute Otitis Media",
+            "Otitis Media"
+        ]
+    },
+    "hearing_loss_or_muffled_hearing_in_the_affected_ear": {
+        "frequency": 1,
+        "diseases": [
+            "Acute Otitis Media"
+        ]
+    },
+    "eye_strain": {
+        "frequency": 1,
+        "diseases": [
+            "Astigmatism"
+        ]
+    },
+    "uneven_curvature_of_cornea": {
+        "frequency": 1,
+        "diseases": [
+            "Astigmatism"
+        ]
+    },
+    "benign_tumors_in_various_organs": {
+        "frequency": 1,
+        "diseases": [
+            "Tuberous Sclerosis"
+        ]
+    },
+    "skin_abnormalities": {
+        "frequency": 1,
+        "diseases": [
+            "Tuberous Sclerosis"
+        ]
+    },
+    "productive_cough_with_foul-smelling_or_bloody_sputum": {
+        "frequency": 1,
+        "diseases": [
+            "Empyema"
+        ]
+    },
+    "difficulty_hearing_high-pitched_sounds": {
+        "frequency": 1,
+        "diseases": [
+            "Presbycusis"
+        ]
+    },
+    "gradual_hearing_loss": {
+        "frequency": 1,
+        "diseases": [
+            "Presbycusis"
+        ]
+    },
+    "speech_sounds_muffled_or_unclear": {
+        "frequency": 1,
+        "diseases": [
+            "Presbycusis"
+        ]
+    },
+    "yellowing_of_the_skin_and_eyes": {
+        "frequency": 1,
+        "diseases": [
+            "Neonatal Jaundice"
+        ]
+    },
+    "inability_to_move_the_elbow": {
+        "frequency": 1,
+        "diseases": [
+            "Dislocation of the Elbow"
+        ]
+    },
+    "numbness_or_tingling_in_the_hand/arm": {
+        "frequency": 1,
+        "diseases": [
+            "Dislocation of the Elbow"
+        ]
+    },
+    "severe_pain": {
+        "frequency": 4,
+        "diseases": [
+            "Crushing Injury",
+            "Dislocation of the Ankle",
+            "Dislocation of the Elbow",
+            "Fracture of the Patella"
+        ]
+    },
+    "visible_deformity": {
+        "frequency": 1,
+        "diseases": [
+            "Dislocation of the Elbow"
+        ]
+    },
+    "neck_or_back_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylosis"
+        ]
+    },
+    "numbness_or_weakness_in_the_extremities": {
+        "frequency": 1,
+        "diseases": [
+            "Spondylosis"
+        ]
+    },
+    "painful_sores_or_blisters_in_the_mouth_and_throat": {
+        "frequency": 1,
+        "diseases": [
+            "Herpangina"
+        ]
+    },
+    "sore_throat": {
+        "frequency": 6,
+        "diseases": [
+            "Herpangina",
+            "Influenza (Flu)",
+            "Mononucleosis",
+            "Pharyngitis",
+            "Scarlet Fever",
+            "Syphilis"
+        ]
+    },
+    "changes_in_heart_rate": {
+        "frequency": 1,
+        "diseases": [
+            "Poisoning due to Antidepressants"
+        ]
+    },
+    "malaise": {
+        "frequency": 1,
+        "diseases": [
+            "Infection of Open Wound"
+        ]
+    },
+    "pain_or_tenderness_at_the_wound_site": {
+        "frequency": 1,
+        "diseases": [
+            "Infection of Open Wound"
+        ]
+    },
+    "pus_or_drainage_from_the_wound": {
+        "frequency": 1,
+        "diseases": [
+            "Infection of Open Wound"
+        ]
+    },
+    "delayed_wound_healing": {
+        "frequency": 1,
+        "diseases": [
+            "Protein Deficiency"
+        ]
+    },
+    "hair_loss": {
+        "frequency": 1,
+        "diseases": [
+            "Protein Deficiency"
+        ]
+    },
+    "impaired_immunity": {
+        "frequency": 1,
+        "diseases": [
+            "Protein Deficiency"
+        ]
+    },
+    "muscle_wasting": {
+        "frequency": 2,
+        "diseases": [
+            "Muscular Dystrophy",
+            "Protein Deficiency"
+        ]
+    },
+    "swelling_of_the_limbs": {
+        "frequency": 1,
+        "diseases": [
+            "Protein Deficiency"
+        ]
+    },
+    "brief_muscle_contractions_or_jerks": {
+        "frequency": 1,
+        "diseases": [
+            "Myoclonus"
+        ]
+    },
+    "legs": {
+        "frequency": 1,
+        "diseases": [
+            "Myoclonus"
+        ]
+    },
+    "often_affecting_the_arms": {
+        "frequency": 1,
+        "diseases": [
+            "Myoclonus"
+        ]
+    },
+    "or_face": {
+        "frequency": 1,
+        "diseases": [
+            "Myoclonus"
+        ]
+    },
+    "sudden": {
+        "frequency": 3,
+        "diseases": [
+            "Muscle Spasm",
+            "Myoclonus",
+            "Urge Incontinence"
+        ]
+    },
+    "especially_when_walking_or_standing": {
+        "frequency": 1,
+        "diseases": [
+            "Bone Spur of the Calcaneus"
+        ]
+    },
+    "heel_pain": {
+        "frequency": 2,
+        "diseases": [
+            "Bone Spur of the Calcaneus",
+            "Plantar Fasciitis"
+        ]
+    },
+    "inflammation_of_the_surrounding_tissue": {
+        "frequency": 1,
+        "diseases": [
+            "Bone Spur of the Calcaneus"
+        ]
+    },
+    "bleeding_gums": {
+        "frequency": 2,
+        "diseases": [
+            "Gum Disease",
+            "Von Willebrand Disease"
+        ]
+    },
+    "easy_or_excessive_bruising": {
+        "frequency": 1,
+        "diseases": [
+            "Von Willebrand Disease"
+        ]
+    },
+    "frequent_nosebleeds": {
+        "frequency": 2,
+        "diseases": [
+            "Coagulation (Bleeding) Disorder",
+            "Von Willebrand Disease"
+        ]
+    },
+    "prolonged_or_excessive_bleeding_from_cuts_or_injuries": {
+        "frequency": 1,
+        "diseases": [
+            "Von Willebrand Disease"
+        ]
+    },
+    "fainting": {
+        "frequency": 1,
+        "diseases": [
+            "Heart Block"
+        ]
+    },
+    "irregular_heart_rhythms": {
+        "frequency": 1,
+        "diseases": [
+            "Heart Block"
+        ]
+    },
+    "most_colonic_polyps_do_not_cause_symptoms._some_larger_polyps_or_certain_types_may_cause_rectal_bleeding_or_changes_in_bowel_habits": {
+        "frequency": 1,
+        "diseases": [
+            "Colonic Polyp"
+        ]
+    },
+    "such_as_diarrhea_or_constipation.": {
+        "frequency": 1,
+        "diseases": [
+            "Colonic Polyp"
+        ]
+    },
+    "abnormal_positioning_of_the_urethral_opening_on_the_underside_of_the_penis": {
+        "frequency": 1,
+        "diseases": [
+            "Hypospadias"
+        ]
+    },
+    "difficulty_in_urination": {
+        "frequency": 1,
+        "diseases": [
+            "Hypospadias"
+        ]
+    },
+    "penile_curvature": {
+        "frequency": 1,
+        "diseases": [
+            "Hypospadias"
+        ]
+    },
+    "spraying_of_urine": {
+        "frequency": 1,
+        "diseases": [
+            "Hypospadias"
+        ]
+    },
+    "mental_confusion": {
+        "frequency": 1,
+        "diseases": [
+            "Magnesium Deficiency"
+        ]
+    },
+    "muscle_twitches_or_cramps": {
+        "frequency": 1,
+        "diseases": [
+            "Magnesium Deficiency"
+        ]
+    },
+    "personality_changes": {
+        "frequency": 2,
+        "diseases": [
+            "Hepatic Encephalopathy",
+            "Magnesium Deficiency"
+        ]
+    },
+    "age-related_factors": {
+        "frequency": 1,
+        "diseases": [
+            "Female Infertility of Unknown Cause"
+        ]
+    },
+    "hormonal_imbalances": {
+        "frequency": 2,
+        "diseases": [
+            "Adrenal Cancer",
+            "Female Infertility of Unknown Cause"
+        ]
+    },
+    "inability_to_conceive_after_one_year_of_unprotected_intercourse": {
+        "frequency": 1,
+        "diseases": [
+            "Female Infertility of Unknown Cause"
+        ]
+    },
+    "irregular_or_absent_menstrual_cycles": {
+        "frequency": 1,
+        "diseases": [
+            "Female Infertility of Unknown Cause"
+        ]
+    },
+    "other": {
+        "frequency": 1,
+        "diseases": [
+            "Female Infertility of Unknown Cause"
+        ]
+    },
+    "chest_pain_(sharp_and_stabbing)": {
+        "frequency": 1,
+        "diseases": [
+            "Pericarditis"
+        ]
+    },
+    "worsens_with_deep_breaths_or_lying_down": {
+        "frequency": 1,
+        "diseases": [
+            "Pericarditis"
+        ]
+    },
+    "hyperactivity": {
+        "frequency": 1,
+        "diseases": [
+            "Attention Deficit Hyperactivity Disorder (ADHD)"
+        ]
+    },
+    "impulsivity": {
+        "frequency": 1,
+        "diseases": [
+            "Attention Deficit Hyperactivity Disorder (ADHD)"
+        ]
+    },
+    "inattention": {
+        "frequency": 1,
+        "diseases": [
+            "Attention Deficit Hyperactivity Disorder (ADHD)"
+        ]
+    },
+    "loss_of_bladder_or_bowel_control)": {
+        "frequency": 1,
+        "diseases": [
+            "Neuromyelitis Optica"
+        ]
+    },
+    "optic_neuritis_(vision_loss": {
+        "frequency": 1,
+        "diseases": [
+            "Neuromyelitis Optica"
+        ]
+    },
+    "or_paralysis_of_the_limbs": {
+        "frequency": 1,
+        "diseases": [
+            "Neuromyelitis Optica"
+        ]
+    },
+    "pain_with_eye_movement)": {
+        "frequency": 1,
+        "diseases": [
+            "Neuromyelitis Optica"
+        ]
+    },
+    "transverse_myelitis_(weakness": {
+        "frequency": 1,
+        "diseases": [
+            "Neuromyelitis Optica"
+        ]
+    },
+    "fainting_or_lightheadedness": {
+        "frequency": 1,
+        "diseases": [
+            "Pulmonic Valve Disease"
+        ]
+    },
+    "heart_palpitations": {
+        "frequency": 2,
+        "diseases": [
+            "Mitral Valve Disease",
+            "Pulmonic Valve Disease"
+        ]
+    },
+    "swollen_legs_or_ankles": {
+        "frequency": 1,
+        "diseases": [
+            "Pulmonic Valve Disease"
+        ]
+    },
+    "swelling_and_tenderness_of_the_cartilage_connecting_the_ribs_to_the_breastbone": {
+        "frequency": 1,
+        "diseases": [
+            "Tietze Syndrome"
+        ]
+    },
+    "depends_on_the_specific_cranial_nerve_involved;_symptoms_can_include_vision_changes": {
+        "frequency": 1,
+        "diseases": [
+            "Cranial Nerve Palsy"
+        ]
+    },
+    "difficulty_swallowing_or_speaking": {
+        "frequency": 2,
+        "diseases": [
+            "Cranial Nerve Palsy",
+            "Foreign Body in the Throat"
+        ]
+    },
+    "eye_movement_abnormalities": {
+        "frequency": 1,
+        "diseases": [
+            "Cranial Nerve Palsy"
+        ]
+    },
+    "facial_weakness_or_paralysis": {
+        "frequency": 2,
+        "diseases": [
+            "Bell Palsy",
+            "Cranial Nerve Palsy"
+        ]
+    },
+    "loss_of_sensation_in_the_face_or_other_areas": {
+        "frequency": 1,
+        "diseases": [
+            "Cranial Nerve Palsy"
+        ]
+    },
+    "blindness": {
+        "frequency": 1,
+        "diseases": [
+            "Conversion Disorder"
+        ]
+    },
+    "neurological_symptoms_that_cannot_be_explained_by_a_medical_condition_or_injury": {
+        "frequency": 1,
+        "diseases": [
+            "Conversion Disorder"
+        ]
+    },
+    "or_difficulty_speaking": {
+        "frequency": 1,
+        "diseases": [
+            "Conversion Disorder"
+        ]
+    },
+    "such_as_paralysis": {
+        "frequency": 1,
+        "diseases": [
+            "Conversion Disorder"
+        ]
+    },
+    "abnormal_sweating": {
+        "frequency": 1,
+        "diseases": [
+            "Complex Regional Pain Syndrome"
+        ]
+    },
+    "often_in_the_limbs": {
+        "frequency": 1,
+        "diseases": [
+            "Complex Regional Pain Syndrome"
+        ]
+    },
+    "severe_and_chronic_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Complex Regional Pain Syndrome"
+        ]
+    },
+    "with_associated_swelling": {
+        "frequency": 1,
+        "diseases": [
+            "Complex Regional Pain Syndrome"
+        ]
+    },
+    "dizziness_or_balance_problems": {
+        "frequency": 1,
+        "diseases": [
+            "Otosclerosis"
+        ]
+    },
+    "hearing_loss_(gradual_and_progressive)": {
+        "frequency": 1,
+        "diseases": [
+            "Otosclerosis"
+        ]
+    },
+    "tinnitus_(ringing_in_the_ears)": {
+        "frequency": 1,
+        "diseases": [
+            "Otosclerosis"
+        ]
+    },
+    "depression": {
+        "frequency": 2,
+        "diseases": [
+            "Hashimoto Thyroiditis",
+            "Hypothyroidism"
+        ]
+    },
+    "elevated_cholesterol_levels": {
+        "frequency": 1,
+        "diseases": [
+            "Hypothyroidism"
+        ]
+    },
+    "muscle_weakness": {
+        "frequency": 4,
+        "diseases": [
+            "Hypothyroidism",
+            "Myasthenia Gravis",
+            "Myositis",
+            "Syringomyelia"
+        ]
+    },
+    "sensitivity_to_cold": {
+        "frequency": 2,
+        "diseases": [
+            "Hashimoto Thyroiditis",
+            "Hypothyroidism"
+        ]
+    },
+    "weight_gain": {
+        "frequency": 3,
+        "diseases": [
+            "Hashimoto Thyroiditis",
+            "Hypothyroidism",
+            "Polycystic Ovarian Syndrome"
+        ]
+    },
+    "daytime_sleepiness": {
+        "frequency": 1,
+        "diseases": [
+            "Primary Insomnia"
+        ]
+    },
+    "difficulty_concentrating": {
+        "frequency": 2,
+        "diseases": [
+            "Chronic Kidney Disease",
+            "Primary Insomnia"
+        ]
+    },
+    "difficulty_falling_asleep_or_staying_asleep": {
+        "frequency": 1,
+        "diseases": [
+            "Primary Insomnia"
+        ]
+    },
+    "itching_and_visible_presence_of_lice_or_nits_(eggs)_in_the_hair": {
+        "frequency": 1,
+        "diseases": [
+            "Lice"
+        ]
+    },
+    "balance_problems": {
+        "frequency": 1,
+        "diseases": [
+            "Vitamin B12 Deficiency"
+        ]
+    },
+    "sore_tongue": {
+        "frequency": 1,
+        "diseases": [
+            "Vitamin B12 Deficiency"
+        ]
+    },
+    "tingling_or_numbness_in_the_hands_and_feet": {
+        "frequency": 1,
+        "diseases": [
+            "Vitamin B12 Deficiency"
+        ]
+    },
+    "burning": {
+        "frequency": 1,
+        "diseases": [
+            "Vulvodynia"
+        ]
+    },
+    "itching": {
+        "frequency": 9,
+        "diseases": [
+            "Conjunctivitis due to Allergy",
+            "Dermatitis due to Sun Exposure",
+            "Drug Reaction",
+            "Food Allergy",
+            "Fungal Infection of the Skin",
+            "Polycythemia Vera",
+            "Psoriasis",
+            "Vulvodynia"
+        ]
+    },
+    "persistent_pain_or_discomfort_in_the_vulva": {
+        "frequency": 1,
+        "diseases": [
+            "Vulvodynia"
+        ]
+    },
+    "rawness": {
+        "frequency": 1,
+        "diseases": [
+            "Vulvodynia"
+        ]
+    },
+    "stinging": {
+        "frequency": 1,
+        "diseases": [
+            "Vulvodynia"
+        ]
+    },
+    "heavy_menstrual_bleeding": {
+        "frequency": 2,
+        "diseases": [
+            "Coagulation (Bleeding) Disorder",
+            "Endometriosis"
+        ]
+    },
+    "intercourse": {
+        "frequency": 1,
+        "diseases": [
+            "Endometriosis"
+        ]
+    },
+    "or_bowel_movements)": {
+        "frequency": 1,
+        "diseases": [
+            "Endometriosis"
+        ]
+    },
+    "pelvic_pain_(during_menstruation": {
+        "frequency": 1,
+        "diseases": [
+            "Endometriosis"
+        ]
+    },
+    "including_rash": {
+        "frequency": 1,
+        "diseases": [
+            "Vasculitis"
+        ]
+    },
+    "inflammation_of_blood_vessels_leading_to_various_symptoms_depending_on_the_affected_organs": {
+        "frequency": 1,
+        "diseases": [
+            "Vasculitis"
+        ]
+    },
+    "muscle_and_joint_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Vasculitis"
+        ]
+    },
+    "memory_problems": {
+        "frequency": 1,
+        "diseases": [
+            "Concussion"
+        ]
+    },
+    "sensitivity_to_light_or_noise": {
+        "frequency": 1,
+        "diseases": [
+            "Concussion"
+        ]
+    },
+    "often_on_the_tongue_or_inside_of_the_cheeks": {
+        "frequency": 1,
+        "diseases": [
+            "Oral Leukoplakia"
+        ]
+    },
+    "that_cannot_be_scraped_off": {
+        "frequency": 1,
+        "diseases": [
+            "Oral Leukoplakia"
+        ]
+    },
+    "white_patches_or_plaques_in_the_mouth": {
+        "frequency": 1,
+        "diseases": [
+            "Oral Leukoplakia"
+        ]
+    },
+    "blood_in_urine": {
+        "frequency": 4,
+        "diseases": [
+            "Benign Kidney Cyst",
+            "Bladder Cancer",
+            "Chronic Kidney Disease",
+            "Urinary Stones (Kidney Stones)"
+        ]
+    },
+    "increased_urination_or_urine_changes": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Kidney Disease"
+        ]
+    },
+    "swelling_of_the_legs_or_ankles": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Kidney Disease"
+        ]
+    },
+    "urgency": {
+        "frequency": 1,
+        "diseases": [
+            "Bladder Disorder"
+        ]
+    },
+    "painful_erection": {
+        "frequency": 1,
+        "diseases": [
+            "Priapism"
+        ]
+    },
+    "persistent": {
+        "frequency": 1,
+        "diseases": [
+            "Priapism"
+        ]
+    },
+    "inflammation": {
+        "frequency": 1,
+        "diseases": [
+            "Myositis"
+        ]
+    },
+    "swollen_lymph_nodes": {
+        "frequency": 5,
+        "diseases": [
+            "Cat Scratch Disease",
+            "Lymphoma",
+            "Mononucleosis",
+            "Pharyngitis",
+            "Syphilis"
+        ]
+    },
+    "sharp": {
+        "frequency": 1,
+        "diseases": [
+            "Neuralgia"
+        ]
+    },
+    "shooting_pain_along_the_affected_nerve": {
+        "frequency": 1,
+        "diseases": [
+            "Neuralgia"
+        ]
+    },
+    "kidney_cysts": {
+        "frequency": 1,
+        "diseases": [
+            "Polycystic Kidney Disease"
+        ]
+    },
+    "depressive_episodes": {
+        "frequency": 1,
+        "diseases": [
+            "Bipolar Disorder"
+        ]
+    },
+    "manic_episodes": {
+        "frequency": 1,
+        "diseases": [
+            "Bipolar Disorder"
+        ]
+    },
+    "mood_swings": {
+        "frequency": 3,
+        "diseases": [
+            "Bipolar Disorder",
+            "Premenstrual Tension Syndrome",
+            "Thyroid Disease"
+        ]
+    },
+    "organ_dysfunction": {
+        "frequency": 2,
+        "diseases": [
+            "Amyloidosis",
+            "Injury to Internal Organ"
+        ]
+    },
+    "tingling_in_limbs": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)"
+        ]
+    },
+    "acid_reflux": {
+        "frequency": 1,
+        "diseases": [
+            "Gastroesophageal Reflux Disease (GERD)"
+        ]
+    },
+    "blurry_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Vitreous Hemorrhage"
+        ]
+    },
+    "floaters_in_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Vitreous Hemorrhage"
+        ]
+    },
+    "neurological_symptoms": {
+        "frequency": 3,
+        "diseases": [
+            "Antimicrobial Drugs Poisoning",
+            "Encephalitis",
+            "Fat Embolism"
+        ]
+    },
+    "raynaud's_phenomenon": {
+        "frequency": 1,
+        "diseases": [
+            "Scleroderma"
+        ]
+    },
+    "thickening_of_the_skin": {
+        "frequency": 1,
+        "diseases": [
+            "Scleroderma"
+        ]
+    },
+    "difficulty_speaking": {
+        "frequency": 1,
+        "diseases": [
+            "Myasthenia Gravis"
+        ]
+    },
+    "shaking": {
+        "frequency": 1,
+        "diseases": [
+            "Hypoglycemia"
+        ]
+    },
+    "lack_of_menstrual_periods": {
+        "frequency": 1,
+        "diseases": [
+            "Idiopathic Absence of Menstruation"
+        ]
+    },
+    "inability_to_bear_weight": {
+        "frequency": 1,
+        "diseases": [
+            "Dislocation of the Ankle"
+        ]
+    },
+    "difficulty_walking": {
+        "frequency": 2,
+        "diseases": [
+            "Injury to the Leg",
+            "Plantar Fasciitis"
+        ]
+    },
+    "blurred_vision_when_focusing_on_near_objects": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperopia"
+        ]
+    },
+    "difficulty_seeing_objects_up_close": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperopia"
+        ]
+    },
+    "slowed_breathing": {
+        "frequency": 1,
+        "diseases": [
+            "Sedatives Poisoning"
+        ]
+    },
+    "painful_blisters_on_the_skin_and_mucous_membranes": {
+        "frequency": 1,
+        "diseases": [
+            "Pemphigus"
+        ]
+    },
+    "curvature_of_the_penis": {
+        "frequency": 1,
+        "diseases": [
+            "Peyronie Disease"
+        ]
+    },
+    "pain_during_erections": {
+        "frequency": 1,
+        "diseases": [
+            "Peyronie Disease"
+        ]
+    },
+    "involuntary_movements": {
+        "frequency": 1,
+        "diseases": [
+            "Extrapyramidal Effect of Drugs"
+        ]
+    },
+    "muscle_stiffness": {
+        "frequency": 1,
+        "diseases": [
+            "Extrapyramidal Effect of Drugs"
+        ]
+    },
+    "tremors": {
+        "frequency": 4,
+        "diseases": [
+            "Drug Withdrawal",
+            "Extrapyramidal Effect of Drugs",
+            "Hepatic Encephalopathy",
+            "Parkinson Disease"
+        ]
+    },
+    "ear_fullness": {
+        "frequency": 1,
+        "diseases": [
+            "Meniere Disease"
+        ]
+    },
+    "tinnitus": {
+        "frequency": 2,
+        "diseases": [
+            "Cholesteatoma",
+            "Meniere Disease"
+        ]
+    },
+    "vertigo": {
+        "frequency": 2,
+        "diseases": [
+            "Labyrinthitis",
+            "Meniere Disease"
+        ]
+    },
+    "pain_during_bowel_movements": {
+        "frequency": 1,
+        "diseases": [
+            "Anal Fissure"
+        ]
+    },
+    "rectal_bleeding": {
+        "frequency": 1,
+        "diseases": [
+            "Anal Fissure"
+        ]
+    },
+    "recurrent_ear_infections": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Otitis Media"
+        ]
+    },
+    "abdominal_distension": {
+        "frequency": 2,
+        "diseases": [
+            "Hirschsprung Disease",
+            "Urethral Valves"
+        ]
+    },
+    "chronic_constipation": {
+        "frequency": 1,
+        "diseases": [
+            "Hirschsprung Disease"
+        ]
+    },
+    "failure_to_pass_meconium_(in_newborns)": {
+        "frequency": 1,
+        "diseases": [
+            "Hirschsprung Disease"
+        ]
+    },
+    "muscle_pain_and_stiffness": {
+        "frequency": 1,
+        "diseases": [
+            "Polymyalgia Rheumatica"
+        ]
+    },
+    "feeling_of_heaviness_or_tightness": {
+        "frequency": 1,
+        "diseases": [
+            "Lymphedema"
+        ]
+    },
+    "swelling_in_arms_or_legs": {
+        "frequency": 1,
+        "diseases": [
+            "Lymphedema"
+        ]
+    },
+    "inability_to_straighten_the_leg": {
+        "frequency": 1,
+        "diseases": [
+            "Dislocation of the Patella"
+        ]
+    },
+    "knee_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Dislocation of the Patella"
+        ]
+    },
+    "pain_radiating_from_the_lower_back_to_the_leg": {
+        "frequency": 1,
+        "diseases": [
+            "Sciatica"
+        ]
+    },
+    "excessive_thirst": {
+        "frequency": 2,
+        "diseases": [
+            "Hypercalcemia",
+            "Hyperosmotic Hyperketotic State"
+        ]
+    },
+    "kidney_stones": {
+        "frequency": 2,
+        "diseases": [
+            "Hypercalcemia",
+            "Parathyroid Adenoma"
+        ]
+    },
+    "unintentional_urine_leakage_during_physical_activity": {
+        "frequency": 1,
+        "diseases": [
+            "Stress Incontinence"
+        ]
+    },
+    "abdominal_or_flank_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Benign Kidney Cyst"
+        ]
+    },
+    "swelling_of_the_scrotum": {
+        "frequency": 1,
+        "diseases": [
+            "Hydrocele of the Testicle"
+        ]
+    },
+    "excessive_hair_growth_in_women": {
+        "frequency": 1,
+        "diseases": [
+            "Hirsutism"
+        ]
+    },
+    "flank_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Hydronephrosis"
+        ]
+    },
+    "swelling_in_the_abdomen": {
+        "frequency": 1,
+        "diseases": [
+            "Hydronephrosis"
+        ]
+    },
+    "urinary_frequency": {
+        "frequency": 1,
+        "diseases": [
+            "Hydronephrosis"
+        ]
+    },
+    "discomfort": {
+        "frequency": 1,
+        "diseases": [
+            "Pain after an Operation"
+        ]
+    },
+    "surgical_site_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Pain after an Operation"
+        ]
+    },
+    "and_psychiatric_symptoms": {
+        "frequency": 1,
+        "diseases": [
+            "Huntington Disease"
+        ]
+    },
+    "cognitive": {
+        "frequency": 1,
+        "diseases": [
+            "Huntington Disease"
+        ]
+    },
+    "motor": {
+        "frequency": 1,
+        "diseases": [
+            "Huntington Disease"
+        ]
+    },
+    "body_aches": {
+        "frequency": 3,
+        "diseases": [
+            "Chagas Disease",
+            "Influenza (Flu)",
+            "West Nile Virus"
+        ]
+    },
+    "blistering": {
+        "frequency": 1,
+        "diseases": [
+            "Dermatitis due to Sun Exposure"
+        ]
+    },
+    "bleeding": {
+        "frequency": 1,
+        "diseases": [
+            "Injury to Internal Organ"
+        ]
+    },
+    "eye_redness": {
+        "frequency": 2,
+        "diseases": [
+            "Cornea Infection",
+            "Scleritis"
+        ]
+    },
+    "growth_on_the_conjunctiva_(white_part_of_the_eye)": {
+        "frequency": 1,
+        "diseases": [
+            "Pterygium"
+        ]
+    },
+    "peeling_skin": {
+        "frequency": 1,
+        "diseases": [
+            "Fungal Infection of the Skin"
+        ]
+    },
+    "low_blood_sugar_(hypoglycemia)_symptoms_(e.g.": {
+        "frequency": 1,
+        "diseases": [
+            "Insulin Overdose"
+        ]
+    },
+    "sweating)": {
+        "frequency": 1,
+        "diseases": [
+            "Insulin Overdose"
+        ]
+    },
+    "excessively_concentrated_urine": {
+        "frequency": 1,
+        "diseases": [
+            "Syndrome of Inappropriate Secretion of ADH (SIADH)"
+        ]
+    },
+    "low_blood_sodium_levels": {
+        "frequency": 1,
+        "diseases": [
+            "Syndrome of Inappropriate Secretion of ADH (SIADH)"
+        ]
+    },
+    "breast_tenderness": {
+        "frequency": 1,
+        "diseases": [
+            "Premenstrual Tension Syndrome"
+        ]
+    },
+    "vision_changes": {
+        "frequency": 1,
+        "diseases": [
+            "Orbital Cellulitis"
+        ]
+    },
+    "forgetfulness": {
+        "frequency": 1,
+        "diseases": [
+            "Hepatic Encephalopathy"
+        ]
+    },
+    "bone_pain": {
+        "frequency": 2,
+        "diseases": [
+            "Bone Cancer",
+            "Parathyroid Adenoma"
+        ]
+    },
+    "fractures": {
+        "frequency": 2,
+        "diseases": [
+            "Bone Cancer",
+            "Osteoporosis"
+        ]
+    },
+    "enlarged_spleen_or_liver": {
+        "frequency": 1,
+        "diseases": [
+            "Leishmaniasis"
+        ]
+    },
+    "skin_sores": {
+        "frequency": 1,
+        "diseases": [
+            "Leishmaniasis"
+        ]
+    },
+    "heart_and_digestive_problems": {
+        "frequency": 1,
+        "diseases": [
+            "Chagas Disease"
+        ]
+    },
+    "chronic_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Syringomyelia"
+        ]
+    },
+    "loss_of_sensation": {
+        "frequency": 1,
+        "diseases": [
+            "Syringomyelia"
+        ]
+    },
+    "dry_cough": {
+        "frequency": 1,
+        "diseases": [
+            "Pulmonary Fibrosis"
+        ]
+    },
+    "slowness_of_movement": {
+        "frequency": 1,
+        "diseases": [
+            "Parkinson Disease"
+        ]
+    },
+    "intense_joint_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Gout"
+        ]
+    },
+    "easy_bruising_or_bleeding": {
+        "frequency": 1,
+        "diseases": [
+            "Myelodysplastic Syndrome"
+        ]
+    },
+    "frequent_infections": {
+        "frequency": 3,
+        "diseases": [
+            "Aplastic Anemia",
+            "Leukemia",
+            "Myelodysplastic Syndrome"
+        ]
+    },
+    "fluid_retention": {
+        "frequency": 2,
+        "diseases": [
+            "Acute Kidney Injury",
+            "Kidney Failure"
+        ]
+    },
+    "abdominal_cramps": {
+        "frequency": 1,
+        "diseases": [
+            "Threatened Pregnancy"
+        ]
+    },
+    "neurological_deficits": {
+        "frequency": 1,
+        "diseases": [
+            "Intracranial Abscess"
+        ]
+    },
+    "red": {
+        "frequency": 6,
+        "diseases": [
+            "Eczema",
+            "Gum Disease",
+            "Insect Bites",
+            "Intertrigo",
+            "Psoriasis",
+            "Seborrheic Dermatitis"
+        ]
+    },
+    "tender_gums": {
+        "frequency": 1,
+        "diseases": [
+            "Gum Disease"
+        ]
+    },
+    "discharge_from_the_wound": {
+        "frequency": 1,
+        "diseases": [
+            "Open Wound from Surgical Incision"
+        ]
+    },
+    "bloody_or_black_stools": {
+        "frequency": 1,
+        "diseases": [
+            "Gastrointestinal Hemorrhage"
+        ]
+    },
+    "vomiting_blood": {
+        "frequency": 2,
+        "diseases": [
+            "Esophageal Varices",
+            "Gastrointestinal Hemorrhage"
+        ]
+    },
+    "and_oily_patches_of_skin": {
+        "frequency": 1,
+        "diseases": [
+            "Seborrheic Dermatitis"
+        ]
+    },
+    "dandruff": {
+        "frequency": 1,
+        "diseases": [
+            "Seborrheic Dermatitis"
+        ]
+    },
+    "flaky_scalp": {
+        "frequency": 1,
+        "diseases": [
+            "Seborrheic Dermatitis"
+        ]
+    },
+    "and_abnormal_head_positioning": {
+        "frequency": 1,
+        "diseases": [
+            "Torticollis"
+        ]
+    },
+    "neck_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Torticollis"
+        ]
+    },
+    "slow_heart_rate": {
+        "frequency": 1,
+        "diseases": [
+            "Antihypertensives Poisoning"
+        ]
+    },
+    "mild_to_moderate_head_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Tension Headache"
+        ]
+    },
+    "tightness_or_pressure_sensation_on_both_sides_of_head": {
+        "frequency": 1,
+        "diseases": [
+            "Tension Headache"
+        ]
+    },
+    "impaired_coordination": {
+        "frequency": 1,
+        "diseases": [
+            "Alcohol Intoxication"
+        ]
+    },
+    "slurred_speech": {
+        "frequency": 2,
+        "diseases": [
+            "Alcohol Intoxication",
+            "Drug Abuse (Barbiturates)"
+        ]
+    },
+    "swollen_and_bleeding_gums": {
+        "frequency": 1,
+        "diseases": [
+            "Scurvy"
+        ]
+    },
+    "excessive_daytime_sleepiness": {
+        "frequency": 1,
+        "diseases": [
+            "Narcolepsy"
+        ]
+    },
+    "sudden_loss_of_muscle_tone_(cataplexy)": {
+        "frequency": 1,
+        "diseases": [
+            "Narcolepsy"
+        ]
+    },
+    "gastrointestinal_symptoms": {
+        "frequency": 1,
+        "diseases": [
+            "Food Allergy"
+        ]
+    },
+    "excessive_worrying": {
+        "frequency": 1,
+        "diseases": [
+            "Anxiety"
+        ]
+    },
+    "panic_attacks": {
+        "frequency": 1,
+        "diseases": [
+            "Anxiety"
+        ]
+    },
+    "difficulty_resisting_urges": {
+        "frequency": 1,
+        "diseases": [
+            "Impulse Control Disorder"
+        ]
+    },
+    "gambling": {
+        "frequency": 1,
+        "diseases": [
+            "Impulse Control Disorder"
+        ]
+    },
+    "impulsive_behaviors_(e.g.": {
+        "frequency": 1,
+        "diseases": [
+            "Impulse Control Disorder"
+        ]
+    },
+    "stealing)": {
+        "frequency": 1,
+        "diseases": [
+            "Impulse Control Disorder"
+        ]
+    },
+    "eye_discharge": {
+        "frequency": 1,
+        "diseases": [
+            "Stenosis of the Tear Duct"
+        ]
+    },
+    "recurrent_eye_infections": {
+        "frequency": 1,
+        "diseases": [
+            "Stenosis of the Tear Duct"
+        ]
+    },
+    "discharge_from_the_nose": {
+        "frequency": 1,
+        "diseases": [
+            "Abscess of Nose"
+        ]
+    },
+    "discharge": {
+        "frequency": 1,
+        "diseases": [
+            "Omphalitis"
+        ]
+    },
+    "foul_odor_around_the_umbilical_area": {
+        "frequency": 1,
+        "diseases": [
+            "Omphalitis"
+        ]
+    },
+    "easy_bleeding_or_bruising": {
+        "frequency": 1,
+        "diseases": [
+            "Leukemia"
+        ]
+    },
+    "drooping_of_the_mouth_or_eyelid": {
+        "frequency": 1,
+        "diseases": [
+            "Bell Palsy"
+        ]
+    },
+    "swollen_eyelids": {
+        "frequency": 1,
+        "diseases": [
+            "Conjunctivitis due to Allergy"
+        ]
+    },
+    "watery_discharge": {
+        "frequency": 1,
+        "diseases": [
+            "Conjunctivitis due to Allergy"
+        ]
+    },
+    "respiratory_symptoms": {
+        "frequency": 1,
+        "diseases": [
+            "Drug Reaction"
+        ]
+    },
+    "abdominal_or_back_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Adrenal Cancer"
+        ]
+    },
+    "blurred_distance_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Myopia"
+        ]
+    },
+    "eyestrain": {
+        "frequency": 1,
+        "diseases": [
+            "Myopia"
+        ]
+    },
+    "squinting": {
+        "frequency": 1,
+        "diseases": [
+            "Myopia"
+        ]
+    },
+    "weight_changes": {
+        "frequency": 1,
+        "diseases": [
+            "Thyroid Disease"
+        ]
+    },
+    "heart_inflammation": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Rheumatic Fever"
+        ]
+    },
+    "muscle_cramps": {
+        "frequency": 1,
+        "diseases": [
+            "Hypocalcemia"
+        ]
+    },
+    "numbness_or_tingling_in_fingers_or_around_the_mouth": {
+        "frequency": 1,
+        "diseases": [
+            "Hypocalcemia"
+        ]
+    },
+    "blind_spots": {
+        "frequency": 1,
+        "diseases": [
+            "Macular Degeneration"
+        ]
+    },
+    "blurred_or_distorted_central_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Macular Degeneration"
+        ]
+    },
+    "painful_blisters_on_the_lips_or_around_the_mouth": {
+        "frequency": 1,
+        "diseases": [
+            "Cold Sore"
+        ]
+    },
+    "small": {
+        "frequency": 2,
+        "diseases": [
+            "Cold Sore",
+            "Viral Warts"
+        ]
+    },
+    "lightheadedness": {
+        "frequency": 1,
+        "diseases": [
+            "Premature Ventricular Contractions (PVCs)"
+        ]
+    },
+    "skipped_or_extra_heartbeats": {
+        "frequency": 1,
+        "diseases": [
+            "Premature Ventricular Contractions (PVCs)"
+        ]
+    },
+    "painful_ulcers_or_sores_on_the_genital_area": {
+        "frequency": 1,
+        "diseases": [
+            "Chancroid"
+        ]
+    },
+    "swollen_lymph_nodes_in_the_groin": {
+        "frequency": 1,
+        "diseases": [
+            "Chancroid"
+        ]
+    },
+    "changes_in_testicular_size_or_shape": {
+        "frequency": 1,
+        "diseases": [
+            "Testicular Cancer"
+        ]
+    },
+    "lump_or_swelling_in_the_testicles": {
+        "frequency": 1,
+        "diseases": [
+            "Testicular Cancer"
+        ]
+    },
+    "cognitive_or_developmental_problems": {
+        "frequency": 1,
+        "diseases": [
+            "Hydrocephalus"
+        ]
+    },
+    "enlarged_head_in_infants": {
+        "frequency": 1,
+        "diseases": [
+            "Hydrocephalus"
+        ]
+    },
+    "breast_lump": {
+        "frequency": 1,
+        "diseases": [
+            "Breast Cancer"
+        ]
+    },
+    "breast_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Breast Cancer"
+        ]
+    },
+    "changes_in_breast_size_or_shape": {
+        "frequency": 1,
+        "diseases": [
+            "Breast Cancer"
+        ]
+    },
+    "nipple_changes": {
+        "frequency": 1,
+        "diseases": [
+            "Breast Cancer"
+        ]
+    },
+    "black": {
+        "frequency": 1,
+        "diseases": [
+            "Esophageal Varices"
+        ]
+    },
+    "swollen_blood_vessels_in_the_esophagus": {
+        "frequency": 1,
+        "diseases": [
+            "Esophageal Varices"
+        ]
+    },
+    "tarry_stools": {
+        "frequency": 1,
+        "diseases": [
+            "Esophageal Varices"
+        ]
+    },
+    "abnormal_vaginal_bleeding": {
+        "frequency": 1,
+        "diseases": [
+            "Endometrial Cancer"
+        ]
+    },
+    "changes_in_bowel_or_bladder_habits": {
+        "frequency": 1,
+        "diseases": [
+            "Endometrial Cancer"
+        ]
+    },
+    "pelvic_pain_or_discomfort": {
+        "frequency": 1,
+        "diseases": [
+            "Endometrial Cancer"
+        ]
+    },
+    "persistent_cough_with_thick_mucus": {
+        "frequency": 1,
+        "diseases": [
+            "Cystic Fibrosis"
+        ]
+    },
+    "poor_growth_or_weight_gain": {
+        "frequency": 1,
+        "diseases": [
+            "Cystic Fibrosis"
+        ]
+    },
+    "recurrent_lung_infections": {
+        "frequency": 1,
+        "diseases": [
+            "Cystic Fibrosis"
+        ]
+    },
+    "salty-tasting_skin": {
+        "frequency": 1,
+        "diseases": [
+            "Cystic Fibrosis"
+        ]
+    },
+    "itching_or_burning_sensation": {
+        "frequency": 1,
+        "diseases": [
+            "Intertrigo"
+        ]
+    },
+    "or_inflamed_skin_in_skin_folds_(such_as_armpits_or_groin)": {
+        "frequency": 1,
+        "diseases": [
+            "Intertrigo"
+        ]
+    },
+    "raw": {
+        "frequency": 1,
+        "diseases": [
+            "Intertrigo"
+        ]
+    },
+    "clicking_or_popping_sounds_in_the_jaw_joint": {
+        "frequency": 1,
+        "diseases": [
+            "Temporomandibular Joint Disorder"
+        ]
+    },
+    "difficulty_chewing_or_opening_the_mouth": {
+        "frequency": 1,
+        "diseases": [
+            "Temporomandibular Joint Disorder"
+        ]
+    },
+    "jaw_pain_or_tenderness": {
+        "frequency": 1,
+        "diseases": [
+            "Temporomandibular Joint Disorder"
+        ]
+    },
+    "abdominal_pain_or_swelling": {
+        "frequency": 1,
+        "diseases": [
+            "Wilson Disease"
+        ]
+    },
+    "difficulty_speaking_or_walking)": {
+        "frequency": 1,
+        "diseases": [
+            "Wilson Disease"
+        ]
+    },
+    "neurological_symptoms_(tremors": {
+        "frequency": 1,
+        "diseases": [
+            "Wilson Disease"
+        ]
+    },
+    "bedwetting_(in_children)": {
+        "frequency": 1,
+        "diseases": [
+            "Vesicoureteral Reflux"
+        ]
+    },
+    "frequent_urinary_tract_infections": {
+        "frequency": 1,
+        "diseases": [
+            "Vesicoureteral Reflux"
+        ]
+    },
+    "high_blood_pressure_(in_severe_cases)": {
+        "frequency": 1,
+        "diseases": [
+            "Vesicoureteral Reflux"
+        ]
+    },
+    "urinary_urgency_or_frequency": {
+        "frequency": 1,
+        "diseases": [
+            "Vesicoureteral Reflux"
+        ]
+    },
+    "dry_eyes": {
+        "frequency": 1,
+        "diseases": [
+            "Vitamin A Deficiency"
+        ]
+    },
+    "dry_or_rough_skin": {
+        "frequency": 1,
+        "diseases": [
+            "Vitamin A Deficiency"
+        ]
+    },
+    "night_blindness": {
+        "frequency": 1,
+        "diseases": [
+            "Vitamin A Deficiency"
+        ]
+    },
+    "poor_wound_healing": {
+        "frequency": 1,
+        "diseases": [
+            "Vitamin A Deficiency"
+        ]
+    },
+    "weakened_immune_system": {
+        "frequency": 1,
+        "diseases": [
+            "Vitamin A Deficiency"
+        ]
+    },
+    "abnormal_discharge_from_the_genitals": {
+        "frequency": 1,
+        "diseases": [
+            "Gonorrhea"
+        ]
+    },
+    "tenderness_or_swelling_over_the_ribcage": {
+        "frequency": 1,
+        "diseases": [
+            "Fracture of the Rib"
+        ]
+    },
+    "changes_in_coordination_or_balance": {
+        "frequency": 1,
+        "diseases": [
+            "Ependymoma"
+        ]
+    },
+    "discomfort_or_pain_during_intercourse": {
+        "frequency": 2,
+        "diseases": [
+            "Pelvic Organ Prolapse",
+            "Vaginal Cyst"
+        ]
+    },
+    "small_lump_or_swelling_in_the_vaginal_wall": {
+        "frequency": 1,
+        "diseases": [
+            "Vaginal Cyst"
+        ]
+    },
+    "persistent_knee_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Knee Pain"
+        ]
+    },
+    "usually_near_the_cornea": {
+        "frequency": 1,
+        "diseases": [
+            "Pinguecula"
+        ]
+    },
+    "yellowish_or_white_growth_on_the_conjunctiva_(eye's_surface)": {
+        "frequency": 1,
+        "diseases": [
+            "Pinguecula"
+        ]
+    },
+    "elevated_levels_of_gamma_globulins_in_the_blood": {
+        "frequency": 1,
+        "diseases": [
+            "Hypergammaglobulinemia"
+        ]
+    },
+    "may_be_asymptomatic_or_associated_with_other_underlying_conditions": {
+        "frequency": 1,
+        "diseases": [
+            "Hypergammaglobulinemia"
+        ]
+    },
+    "including_hormonal_imbalances": {
+        "frequency": 1,
+        "diseases": [
+            "Pituitary Disorder"
+        ]
+    },
+    "various_symptoms_depending_on_the_specific_disorder": {
+        "frequency": 1,
+        "diseases": [
+            "Pituitary Disorder"
+        ]
+    },
+    "blood_in_the_urine": {
+        "frequency": 1,
+        "diseases": [
+            "Kidney Stone"
+        ]
+    },
+    "severe_pain_in_the_side_or_back": {
+        "frequency": 1,
+        "diseases": [
+            "Kidney Stone"
+        ]
+    },
+    "challenges_with_social_interaction": {
+        "frequency": 1,
+        "diseases": [
+            "Autism"
+        ]
+    },
+    "communication_difficulties": {
+        "frequency": 1,
+        "diseases": [
+            "Autism"
+        ]
+    },
+    "restricted_interests_or_repetitive_behaviors": {
+        "frequency": 1,
+        "diseases": [
+            "Autism"
+        ]
+    },
+    "gradual_vision_loss": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Glaucoma"
+        ]
+    },
+    "peripheral_vision_impairment": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Glaucoma"
+        ]
+    },
+    "curtain-like_shadow_over_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Retinal Detachment"
+        ]
+    },
+    "flashes_of_light": {
+        "frequency": 1,
+        "diseases": [
+            "Retinal Detachment"
+        ]
+    },
+    "floaters_(spots_or_cobweb-like_shapes_in_vision)": {
+        "frequency": 1,
+        "diseases": [
+            "Retinal Detachment"
+        ]
+    },
+    "sudden_vision_loss": {
+        "frequency": 1,
+        "diseases": [
+            "Retinal Detachment"
+        ]
+    },
+    "prolonged_bleeding_or_bruising": {
+        "frequency": 1,
+        "diseases": [
+            "Aplastic Anemia"
+        ]
+    },
+    "rapid_or_irregular_heartbeats": {
+        "frequency": 1,
+        "diseases": [
+            "Aplastic Anemia"
+        ]
+    },
+    "frequent_or_constant_dribbling_of_urine": {
+        "frequency": 1,
+        "diseases": [
+            "Overflow Incontinence"
+        ]
+    },
+    "inability_to_completely_empty_the_bladder": {
+        "frequency": 1,
+        "diseases": [
+            "Overflow Incontinence"
+        ]
+    },
+    "weak_urine_stream": {
+        "frequency": 1,
+        "diseases": [
+            "Overflow Incontinence"
+        ]
+    },
+    "fatigue)": {
+        "frequency": 1,
+        "diseases": [
+            "Rabies"
+        ]
+    },
+    "flu-like_symptoms_(fever": {
+        "frequency": 1,
+        "diseases": [
+            "Rabies"
+        ]
+    },
+    "hallucinations": {
+        "frequency": 1,
+        "diseases": [
+            "Rabies"
+        ]
+    },
+    "difficulty_with_forearm_movements": {
+        "frequency": 1,
+        "diseases": [
+            "Lateral Epicondylitis (Tennis Elbow)"
+        ]
+    },
+    "pain_or_tenderness_on_the_outer_side_of_the_elbow": {
+        "frequency": 1,
+        "diseases": [
+            "Lateral Epicondylitis (Tennis Elbow)"
+        ]
+    },
+    "weak_grip_strength": {
+        "frequency": 1,
+        "diseases": [
+            "Lateral Epicondylitis (Tennis Elbow)"
+        ]
+    },
+    "and_other_organs": {
+        "frequency": 1,
+        "diseases": [
+            "Syphilis"
+        ]
+    },
+    "brain": {
+        "frequency": 1,
+        "diseases": [
+            "Syphilis"
+        ]
+    },
+    "latent_stage:_no_symptoms": {
+        "frequency": 1,
+        "diseases": [
+            "Syphilis"
+        ]
+    },
+    "primary_stage:_painless_sores_(chancre)_at_the_site_of_infection": {
+        "frequency": 1,
+        "diseases": [
+            "Syphilis"
+        ]
+    },
+    "secondary_stage:_skin_rash": {
+        "frequency": 1,
+        "diseases": [
+            "Syphilis"
+        ]
+    },
+    "tertiary_stage:_severe_complications_affecting_the_heart": {
+        "frequency": 1,
+        "diseases": [
+            "Syphilis"
+        ]
+    },
+    "increased_need_to_urinate": {
+        "frequency": 1,
+        "diseases": [
+            "Diabetic Kidney Disease"
+        ]
+    },
+    "loss_of_smell": {
+        "frequency": 1,
+        "diseases": [
+            "Nose Disorder"
+        ]
+    },
+    "runny_nose": {
+        "frequency": 1,
+        "diseases": [
+            "Nose Disorder"
+        ]
+    },
+    "sneezing": {
+        "frequency": 1,
+        "diseases": [
+            "Nose Disorder"
+        ]
+    },
+    "drug_cravings": {
+        "frequency": 1,
+        "diseases": [
+            "Drug Withdrawal"
+        ]
+    },
+    "bad_breath": {
+        "frequency": 1,
+        "diseases": [
+            "Dental Caries"
+        ]
+    },
+    "dark_spots_on_the_teeth": {
+        "frequency": 1,
+        "diseases": [
+            "Dental Caries"
+        ]
+    },
+    "tooth_sensitivity": {
+        "frequency": 1,
+        "diseases": [
+            "Dental Caries"
+        ]
+    },
+    "toothache": {
+        "frequency": 1,
+        "diseases": [
+            "Dental Caries"
+        ]
+    },
+    "visible_pits_or_holes_in_the_teeth": {
+        "frequency": 1,
+        "diseases": [
+            "Dental Caries"
+        ]
+    },
+    "chest_pain_or_angina": {
+        "frequency": 1,
+        "diseases": [
+            "Hypercholesterolemia"
+        ]
+    },
+    "fatty_deposits_(xanthomas)_on_the_skin_or_tendons": {
+        "frequency": 1,
+        "diseases": [
+            "Hypercholesterolemia"
+        ]
+    },
+    "heart_attacks": {
+        "frequency": 1,
+        "diseases": [
+            "Hypercholesterolemia"
+        ]
+    },
+    "high_levels_of_cholesterol_in_the_blood": {
+        "frequency": 1,
+        "diseases": [
+            "Hypercholesterolemia"
+        ]
+    },
+    "strokes": {
+        "frequency": 1,
+        "diseases": [
+            "Hypercholesterolemia"
+        ]
+    },
+    "difficulty_straightening_or_bending_the_knee": {
+        "frequency": 1,
+        "diseases": [
+            "Fracture of the Patella"
+        ]
+    },
+    "difficulty_moving_or_turning_the_head": {
+        "frequency": 1,
+        "diseases": [
+            "Fracture of the Neck"
+        ]
+    },
+    "numbness_or_weakness_in_the_arms_or_legs": {
+        "frequency": 1,
+        "diseases": [
+            "Fracture of the Neck"
+        ]
+    },
+    "severe_neck_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Fracture of the Neck"
+        ]
+    },
+    "involuntary_muscle_contractions": {
+        "frequency": 1,
+        "diseases": [
+            "Muscle Spasm"
+        ]
+    },
+    "muscle_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Muscle Spasm"
+        ]
+    },
+    "excessive_bleeding_and_bruising": {
+        "frequency": 1,
+        "diseases": [
+            "Hemophilia"
+        ]
+    },
+    "prolonged_bleeding_from_wounds_or_after_dental_work_or_surgery": {
+        "frequency": 1,
+        "diseases": [
+            "Hemophilia"
+        ]
+    },
+    "spontaneous_bleeding_in_joints_or_muscles": {
+        "frequency": 1,
+        "diseases": [
+            "Hemophilia"
+        ]
+    },
+    "fruity_breath_odor": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperosmotic Hyperketotic State"
+        ]
+    },
+    "increased_blood_sugar_levels": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperosmotic Hyperketotic State"
+        ]
+    },
+    "increased_ketone_production": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperosmotic Hyperketotic State"
+        ]
+    },
+    "neck_pain_or_stiffness": {
+        "frequency": 1,
+        "diseases": [
+            "Peritonsillar Abscess"
+        ]
+    },
+    "severe_sore_throat": {
+        "frequency": 1,
+        "diseases": [
+            "Peritonsillar Abscess"
+        ]
+    },
+    "swollen_tonsils": {
+        "frequency": 1,
+        "diseases": [
+            "Peritonsillar Abscess"
+        ]
+    },
+    "voice_changes": {
+        "frequency": 2,
+        "diseases": [
+            "Head and Neck Cancer",
+            "Peritonsillar Abscess"
+        ]
+    },
+    "early_satiety": {
+        "frequency": 1,
+        "diseases": [
+            "Gastroparesis"
+        ]
+    },
+    "poor_appetite": {
+        "frequency": 1,
+        "diseases": [
+            "Gastroparesis"
+        ]
+    },
+    "petechial_rash_(small_red_or_purple_spots)": {
+        "frequency": 1,
+        "diseases": [
+            "Fat Embolism"
+        ]
+    },
+    "enlarged_spleen": {
+        "frequency": 1,
+        "diseases": [
+            "Polycythemia Vera"
+        ]
+    },
+    "increased_red_blood_cell_count": {
+        "frequency": 1,
+        "diseases": [
+            "Polycythemia Vera"
+        ]
+    },
+    "easy_bruising": {
+        "frequency": 2,
+        "diseases": [
+            "Coagulation (Bleeding) Disorder",
+            "Thrombocytopenia"
+        ]
+    },
+    "excessive_menstrual_bleeding": {
+        "frequency": 1,
+        "diseases": [
+            "Thrombocytopenia"
+        ]
+    },
+    "nosebleeds": {
+        "frequency": 1,
+        "diseases": [
+            "Thrombocytopenia"
+        ]
+    },
+    "petechiae_(red_or_purple_spots_on_the_skin)": {
+        "frequency": 1,
+        "diseases": [
+            "Thrombocytopenia"
+        ]
+    },
+    "prolonged_bleeding_from_cuts": {
+        "frequency": 1,
+        "diseases": [
+            "Thrombocytopenia"
+        ]
+    },
+    "neck_mass": {
+        "frequency": 1,
+        "diseases": [
+            "Head and Neck Cancer"
+        ]
+    },
+    "persistent_sore_throat": {
+        "frequency": 1,
+        "diseases": [
+            "Head and Neck Cancer"
+        ]
+    },
+    "hypocalcemia_(low_calcium_levels)": {
+        "frequency": 1,
+        "diseases": [
+            "Pseudohypoparathyroidism"
+        ]
+    },
+    "rounded_face": {
+        "frequency": 1,
+        "diseases": [
+            "Pseudohypoparathyroidism"
+        ]
+    },
+    "tetany_(muscle_spasms)": {
+        "frequency": 1,
+        "diseases": [
+            "Pseudohypoparathyroidism"
+        ]
+    },
+    "difficulty_swallowing_or_breathing": {
+        "frequency": 1,
+        "diseases": [
+            "Goiter"
+        ]
+    },
+    "enlarged_thyroid_gland_in_the_neck": {
+        "frequency": 1,
+        "diseases": [
+            "Goiter"
+        ]
+    },
+    "swelling_or_visible_protrusion": {
+        "frequency": 1,
+        "diseases": [
+            "Goiter"
+        ]
+    },
+    "intense_urge_to_urinate_followed_by_involuntary_urine_leakage": {
+        "frequency": 1,
+        "diseases": [
+            "Urge Incontinence"
+        ]
+    },
+    "distinct_facial_features_(small_jaw": {
+        "frequency": 1,
+        "diseases": [
+            "Edward Syndrome"
+        ]
+    },
+    "low-set_ears)": {
+        "frequency": 1,
+        "diseases": [
+            "Edward Syndrome"
+        ]
+    },
+    "difficulty_walking_or_moving": {
+        "frequency": 1,
+        "diseases": [
+            "Muscular Dystrophy"
+        ]
+    },
+    "progressive_muscle_weakness_and_degeneration": {
+        "frequency": 1,
+        "diseases": [
+            "Muscular Dystrophy"
+        ]
+    },
+    "lower_abdominal_pain_and_discomfort_occurring_around_the_time_of_ovulation": {
+        "frequency": 1,
+        "diseases": [
+            "Mittelschmerz"
+        ]
+    },
+    "decreased_exercise_tolerance": {
+        "frequency": 1,
+        "diseases": [
+            "Anemia of Chronic Disease"
+        ]
+    },
+    "changes_in_sleep_and_appetite)": {
+        "frequency": 1,
+        "diseases": [
+            "Dysthymic Disorder"
+        ]
+    },
+    "lack_of_interest": {
+        "frequency": 1,
+        "diseases": [
+            "Dysthymic Disorder"
+        ]
+    },
+    "lasting_for_at_least_two_years": {
+        "frequency": 1,
+        "diseases": [
+            "Dysthymic Disorder"
+        ]
+    },
+    "persistent_depressive_symptoms_(low_mood": {
+        "frequency": 1,
+        "diseases": [
+            "Dysthymic Disorder"
+        ]
+    },
+    "rash_(red": {
+        "frequency": 1,
+        "diseases": [
+            "Scarlet Fever"
+        ]
+    },
+    "sandpaper-like)": {
+        "frequency": 1,
+        "diseases": [
+            "Scarlet Fever"
+        ]
+    },
+    "swollen_glands": {
+        "frequency": 1,
+        "diseases": [
+            "Scarlet Fever"
+        ]
+    },
+    "respiratory_depression": {
+        "frequency": 1,
+        "diseases": [
+            "Drug Abuse (Barbiturates)"
+        ]
+    },
+    "acne": {
+        "frequency": 1,
+        "diseases": [
+            "Polycystic Ovarian Syndrome"
+        ]
+    },
+    "excessive_hair_growth": {
+        "frequency": 1,
+        "diseases": [
+            "Polycystic Ovarian Syndrome"
+        ]
+    },
+    "irregular_periods": {
+        "frequency": 1,
+        "diseases": [
+            "Polycystic Ovarian Syndrome"
+        ]
+    },
+    "ovarian_cysts": {
+        "frequency": 1,
+        "diseases": [
+            "Polycystic Ovarian Syndrome"
+        ]
+    },
+    "painful_lump_or_swelling_on_the_eyelid": {
+        "frequency": 1,
+        "diseases": [
+            "Cyst of the Eyelid"
+        ]
+    },
+    "inflammation_of_the_glans_penis_(tip_of_the_penis)": {
+        "frequency": 1,
+        "diseases": [
+            "Balanitis"
+        ]
+    },
+    "sensation_of_a_foreign_object_stuck_in_the_throat": {
+        "frequency": 1,
+        "diseases": [
+            "Foreign Body in the Throat"
+        ]
+    },
+    "dilated_pupils": {
+        "frequency": 1,
+        "diseases": [
+            "Drug Abuse (Cocaine)"
+        ]
+    },
+    "increased_energy": {
+        "frequency": 1,
+        "diseases": [
+            "Drug Abuse (Cocaine)"
+        ]
+    },
+    "risk_of_heart_attack_or_stroke": {
+        "frequency": 1,
+        "diseases": [
+            "Drug Abuse (Cocaine)"
+        ]
+    },
+    "color_vision_impairment": {
+        "frequency": 1,
+        "diseases": [
+            "Optic Neuritis"
+        ]
+    },
+    "eye_pain_with_eye_movement": {
+        "frequency": 1,
+        "diseases": [
+            "Optic Neuritis"
+        ]
+    },
+    "flashing_lights_or_floaters": {
+        "frequency": 1,
+        "diseases": [
+            "Optic Neuritis"
+        ]
+    },
+    "vision_loss_or_blurry_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Optic Neuritis"
+        ]
+    },
+    "abdominal_pain_or_bloating": {
+        "frequency": 1,
+        "diseases": [
+            "Intestinal Malabsorption"
+        ]
+    },
+    "chronic_diarrhea": {
+        "frequency": 1,
+        "diseases": [
+            "Intestinal Malabsorption"
+        ]
+    },
+    "failure_to_thrive": {
+        "frequency": 1,
+        "diseases": [
+            "Intestinal Malabsorption"
+        ]
+    },
+    "minerals)": {
+        "frequency": 1,
+        "diseases": [
+            "Intestinal Malabsorption"
+        ]
+    },
+    "nutrient_deficiencies_(vitamins": {
+        "frequency": 1,
+        "diseases": [
+            "Intestinal Malabsorption"
+        ]
+    },
+    "anemia": {
+        "frequency": 1,
+        "diseases": [
+            "Lead Poisoning"
+        ]
+    },
+    "developmental_delays_(in_children)": {
+        "frequency": 1,
+        "diseases": [
+            "Lead Poisoning"
+        ]
+    },
+    "memory_loss_or_cognitive_difficulties": {
+        "frequency": 1,
+        "diseases": [
+            "Lead Poisoning"
+        ]
+    },
+    "may_appear_in_clusters_or_as_single_lesions": {
+        "frequency": 1,
+        "diseases": [
+            "Viral Warts"
+        ]
+    },
+    "rough_growths_on_the_skin_or_mucous_membranes": {
+        "frequency": 1,
+        "diseases": [
+            "Viral Warts"
+        ]
+    },
+    "typically_painless": {
+        "frequency": 1,
+        "diseases": [
+            "Viral Warts"
+        ]
+    },
+    "excessive_sweating_(beyond_what_is_necessary_for_temperature_regulation)": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperhidrosis"
+        ]
+    },
+    "may_interfere_with_daily_activities": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperhidrosis"
+        ]
+    },
+    "soles": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperhidrosis"
+        ]
+    },
+    "typically_in_specific_areas_(such_as_palms": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperhidrosis"
+        ]
+    },
+    "underarms)": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperhidrosis"
+        ]
+    },
+    "arm": {
+        "frequency": 1,
+        "diseases": [
+            "Stroke"
+        ]
+    },
+    "or_leg_(typically_on_one_side_of_the_body)": {
+        "frequency": 1,
+        "diseases": [
+            "Stroke"
+        ]
+    },
+    "severe_headache": {
+        "frequency": 3,
+        "diseases": [
+            "Dengue Fever",
+            "Intracranial Hemorrhage",
+            "Stroke"
+        ]
+    },
+    "sudden_numbness_or_weakness_of_the_face": {
+        "frequency": 1,
+        "diseases": [
+            "Stroke"
+        ]
+    },
+    "trouble_speaking_or_understanding": {
+        "frequency": 1,
+        "diseases": [
+            "Stroke"
+        ]
+    },
+    "abscess_formation": {
+        "frequency": 1,
+        "diseases": [
+            "Pilonidal Cyst"
+        ]
+    },
+    "drainage_of_pus_or_blood": {
+        "frequency": 1,
+        "diseases": [
+            "Pilonidal Cyst"
+        ]
+    },
+    "pain_or_discomfort_in_the_tailbone_area": {
+        "frequency": 1,
+        "diseases": [
+            "Pilonidal Cyst"
+        ]
+    },
+    "difficulty_moving_or_using_the_affected_area": {
+        "frequency": 1,
+        "diseases": [
+            "Crushing Injury"
+        ]
+    },
+    "cognitive_decline_or_dementia-like_symptoms": {
+        "frequency": 1,
+        "diseases": [
+            "Normal Pressure Hydrocephalus"
+        ]
+    },
+    "gait_disturbances": {
+        "frequency": 1,
+        "diseases": [
+            "Normal Pressure Hydrocephalus"
+        ]
+    },
+    "urinary_incontinence": {
+        "frequency": 2,
+        "diseases": [
+            "Normal Pressure Hydrocephalus",
+            "Pelvic Organ Prolapse"
+        ]
+    },
+    "hair_loss_or_balding": {
+        "frequency": 1,
+        "diseases": [
+            "Alopecia"
+        ]
+    },
+    "patchy_or_generalized_hair_loss": {
+        "frequency": 1,
+        "diseases": [
+            "Alopecia"
+        ]
+    },
+    "muscle_aches_and_stiffness": {
+        "frequency": 1,
+        "diseases": [
+            "Hashimoto Thyroiditis"
+        ]
+    },
+    "difficulty_with_foot_and_ankle_movement": {
+        "frequency": 1,
+        "diseases": [
+            "Flat Feet"
+        ]
+    },
+    "foot_fatigue": {
+        "frequency": 1,
+        "diseases": [
+            "Flat Feet"
+        ]
+    },
+    "foot_pain_or_achiness": {
+        "frequency": 1,
+        "diseases": [
+            "Flat Feet"
+        ]
+    },
+    "abdominal_swelling_or_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Nonalcoholic Liver Disease (NASH)"
+        ]
+    },
+    "elevated_liver_enzymes": {
+        "frequency": 1,
+        "diseases": [
+            "Nonalcoholic Liver Disease (NASH)"
+        ]
+    },
+    "enlarged_liver": {
+        "frequency": 1,
+        "diseases": [
+            "Nonalcoholic Liver Disease (NASH)"
+        ]
+    },
+    "insulin_resistance": {
+        "frequency": 1,
+        "diseases": [
+            "Nonalcoholic Liver Disease (NASH)"
+        ]
+    },
+    "joint_swelling": {
+        "frequency": 1,
+        "diseases": [
+            "Hemarthrosis"
+        ]
+    },
+    "bowel_movement_difficulties": {
+        "frequency": 1,
+        "diseases": [
+            "Pelvic Organ Prolapse"
+        ]
+    },
+    "pelvic_pressure_or_heaviness": {
+        "frequency": 1,
+        "diseases": [
+            "Pelvic Organ Prolapse"
+        ]
+    },
+    "limited_mobility_or_difficulty_moving_the_arm": {
+        "frequency": 1,
+        "diseases": [
+            "Fracture of the Arm"
+        ]
+    },
+    "excessive_bleeding_from_minor_cuts_or_abrasions": {
+        "frequency": 1,
+        "diseases": [
+            "Coagulation (Bleeding) Disorder"
+        ]
+    },
+    "prolonged_bleeding_after_injury_or_surgery": {
+        "frequency": 1,
+        "diseases": [
+            "Coagulation (Bleeding) Disorder"
+        ]
+    },
+    "changes_in_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Intracranial Hemorrhage"
+        ]
+    },
+    "loss_of_consciousness": {
+        "frequency": 1,
+        "diseases": [
+            "Intracranial Hemorrhage"
+        ]
+    },
+    "irregular_heartbeat_or_palpitations": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperkalemia"
+        ]
+    },
+    "muscle_weakness_or_fatigue": {
+        "frequency": 1,
+        "diseases": [
+            "Hyperkalemia"
+        ]
+    },
+    "numbness_or_tingling": {
+        "frequency": 2,
+        "diseases": [
+            "Hyperkalemia",
+            "Sciatica"
+        ]
+    },
+    "blurred_or_decreased_vision": {
+        "frequency": 1,
+        "diseases": [
+            "Cornea Infection"
+        ]
+    },
+    "increased_sensitivity_to_light": {
+        "frequency": 1,
+        "diseases": [
+            "Cornea Infection"
+        ]
+    },
+    "cough_with_phlegm_or_pus": {
+        "frequency": 1,
+        "diseases": [
+            "Abscess of the Lung"
+        ]
+    },
+    "bleeding_tendencies": {
+        "frequency": 1,
+        "diseases": [
+            "Dengue Fever"
+        ]
+    },
+    "high_fever": {
+        "frequency": 2,
+        "diseases": [
+            "Dengue Fever",
+            "Influenza (Flu)"
+        ]
+    },
+    "joint_and_muscle_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Dengue Fever"
+        ]
+    },
+    "postnasal_drip": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Sinusitis"
+        ]
+    },
+    "dizziness_or_vertigo": {
+        "frequency": 1,
+        "diseases": [
+            "Cholesteatoma"
+        ]
+    },
+    "ear_drainage": {
+        "frequency": 1,
+        "diseases": [
+            "Cholesteatoma"
+        ]
+    },
+    "bloody_stool": {
+        "frequency": 1,
+        "diseases": [
+            "Volvulus"
+        ]
+    },
+    "difficulty_gripping_or_using_the_finger": {
+        "frequency": 1,
+        "diseases": [
+            "Injury to the Finger"
+        ]
+    },
+    "restricted_range_of_motion": {
+        "frequency": 1,
+        "diseases": [
+            "Injury to the Finger"
+        ]
+    },
+    "liver_or_kidney_damage": {
+        "frequency": 1,
+        "diseases": [
+            "Poisoning due to Analgesics"
+        ]
+    },
+    "irregular_or_rapid_heartbeat": {
+        "frequency": 1,
+        "diseases": [
+            "Atrial Fibrillation"
+        ]
+    },
+    "anal_or_vaginal_discharge": {
+        "frequency": 1,
+        "diseases": [
+            "Pinworm Infection"
+        ]
+    },
+    "itching_around_the_anus_or_vagina": {
+        "frequency": 1,
+        "diseases": [
+            "Pinworm Infection"
+        ]
+    },
+    "restless_sleep": {
+        "frequency": 1,
+        "diseases": [
+            "Pinworm Infection"
+        ]
+    },
+    "difficulty_or_poor_urinary_stream": {
+        "frequency": 1,
+        "diseases": [
+            "Urethral Valves"
+        ]
+    },
+    "poor_weight_gain": {
+        "frequency": 1,
+        "diseases": [
+            "Urethral Valves"
+        ]
+    },
+    "urinary_frequency_or_urgency": {
+        "frequency": 1,
+        "diseases": [
+            "Urethral Valves"
+        ]
+    },
+    "sensitivity_to_light_and_sound": {
+        "frequency": 1,
+        "diseases": [
+            "Migraine"
+        ]
+    },
+    "severe_headaches": {
+        "frequency": 1,
+        "diseases": [
+            "Migraine"
+        ]
+    },
+    "changes_in_skin_temperature": {
+        "frequency": 1,
+        "diseases": [
+            "Complex Regional Pain Syndrome (CRPS)"
+        ]
+    },
+    "intense_burning_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Complex Regional Pain Syndrome (CRPS)"
+        ]
+    },
+    "skin_rashes": {
+        "frequency": 1,
+        "diseases": [
+            "Lupus"
+        ]
+    },
+    "painful_periods": {
+        "frequency": 1,
+        "diseases": [
+            "Endometriosis"
+        ]
+    },
+    "persistent_head_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Headache"
+        ]
+    },
+    "tension_in_neck_and_shoulders": {
+        "frequency": 1,
+        "diseases": [
+            "Chronic Headache"
+        ]
+    },
+    "dry": {
+        "frequency": 1,
+        "diseases": [
+            "Dry Skin"
+        ]
+    },
+    "flaky_skin_with_itching": {
+        "frequency": 1,
+        "diseases": [
+            "Dry Skin"
+        ]
+    },
+    "inflamed_skin": {
+        "frequency": 1,
+        "diseases": [
+            "Eczema"
+        ]
+    },
+    "especially_at_night": {
+        "frequency": 1,
+        "diseases": [
+            "Scabies"
+        ]
+    },
+    "intense_itching": {
+        "frequency": 2,
+        "diseases": [
+            "Parasitic Infections",
+            "Scabies"
+        ]
+    },
+    "small_blisters_or_bumps": {
+        "frequency": 1,
+        "diseases": [
+            "Scabies"
+        ]
+    },
+    "itchy_welts_on_the_skin": {
+        "frequency": 1,
+        "diseases": [
+            "Urticaria (Hives)"
+        ]
+    },
+    "raised": {
+        "frequency": 1,
+        "diseases": [
+            "Urticaria (Hives)"
+        ]
+    },
+    "itchy_bumps": {
+        "frequency": 1,
+        "diseases": [
+            "Insect Bites"
+        ]
+    },
+    "red_rash_caused_by_contact_with_irritants_or_allergens": {
+        "frequency": 1,
+        "diseases": [
+            "Contact Dermatitis"
+        ]
+    },
+    "sunburn-like_rash": {
+        "frequency": 1,
+        "diseases": [
+            "Dermatitis due to Sun Exposure"
+        ]
+    },
+    "visible_lice_or_nits_in_the_affected_area": {
+        "frequency": 1,
+        "diseases": [
+            "Parasitic Infections"
+        ]
+    },
+    "congestion": {
+        "frequency": 1,
+        "diseases": [
+            "Influenza (Flu)"
+        ]
+    },
+    "cloudy_or_bloody_urine": {
+        "frequency": 1,
+        "diseases": [
+            "Urinary Tract Infection (UTI)"
+        ]
+    },
+    "chest_congestion": {
+        "frequency": 1,
+        "diseases": [
+            "Bronchitis"
+        ]
+    },
+    "persistent_cough_with_yellow_or_green_mucus": {
+        "frequency": 1,
+        "diseases": [
+            "Bronchitis"
+        ]
+    },
+    "abdominal_pain_or_cramps": {
+        "frequency": 1,
+        "diseases": [
+            "Gastroenteritis (Stomach Flu)"
+        ]
+    },
+    "pain_during_urination": {
+        "frequency": 1,
+        "diseases": [
+            "Urinary Stones (Kidney Stones)"
+        ]
+    },
+    "severe_abdominal_or_back_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Urinary Stones (Kidney Stones)"
+        ]
+    },
+    "back_pain": {
+        "frequency": 1,
+        "diseases": [
+            "Osteoporosis"
+        ]
+    },
+    "fragile_bones": {
+        "frequency": 1,
+        "diseases": [
+            "Osteoporosis"
+        ]
+    },
+    "loss_of_height_over_time": {
+        "frequency": 1,
+        "diseases": [
+            "Osteoporosis"
+        ]
+    },
+    "increased_hunger": {
+        "frequency": 1,
+        "diseases": [
+            "Type 2 Diabetes"
+        ]
+    },
+    "slow_healing_of_wounds": {
+        "frequency": 1,
+        "diseases": [
+            "Type 2 Diabetes"
+        ]
+    }
+}

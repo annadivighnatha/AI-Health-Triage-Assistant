@@ -1,0 +1,47 @@
+# dataset:
+#   path: data/raw/Diseases_Symptoms.csv
+
+# training:
+#   test_size: 0.2
+#   random_state: 42
+
+# augmentation:
+#   enabled: true
+#   samples_per_disease: 30
+#   min_symptoms: 2
+
+# models:
+#   random_forest:
+#     n_estimators: 300
+#     max_depth: 25
+
+#   extra_trees:
+#     n_estimators: 300
+#     max_depth: 25
+
+#   xgboost:
+#     n_estimators: 500
+#     learning_rate: 0.05
+
+# artifacts:
+#   directory: data/artifacts
+
+project:
+  name: AI Health Triage Assistant
+
+dataset:
+  raw_path: data/raw/Diseases_Symptoms.csv
+  processed_path: data/processed/diseases_processed.csv
+  reports_path: data/reports
+
+training:
+  random_state: 42
+  test_size: 0.2
+
+augmentation:
+  enabled: true
+  samples_per_disease: 40
+  minimum_symptoms: 2
+
+logging:
+  level: INFO
