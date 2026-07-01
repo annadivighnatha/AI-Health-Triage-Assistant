@@ -1,5 +1,7 @@
 import numpy as np
 
+from utils.symptom_normalizer import SymptomNormalizer
+
 
 class SymptomEncoder:
 
@@ -19,18 +21,7 @@ class SymptomEncoder:
             dtype=np.int8,
         )
 
-        for symptom in symptoms:
-
-            symptom = (
-
-                symptom
-
-                .strip()
-
-                .lower()
-
-                .replace(" ", "_")
-            )
+        for symptom in SymptomNormalizer.normalize_many(symptoms):
 
             if symptom in self.vocabulary:
 

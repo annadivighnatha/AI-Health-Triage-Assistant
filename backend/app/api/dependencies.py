@@ -3,6 +3,7 @@ from sqlalchemy.orm import Session
 
 from app.database.session import SessionLocal
 from app.services.consultation_service import ConsultationService
+from app.services.prediction_service import PredictionService
 from app.services.user_service import UserService
 from app.services.auth_service import AuthService
 
@@ -31,3 +32,7 @@ def get_auth_service(
     db: Session = Depends(get_db),
 ):
     return AuthService(db)
+
+
+def get_prediction_service():
+    return PredictionService()
