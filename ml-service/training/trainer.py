@@ -167,17 +167,6 @@ class Trainer:
             encoding="utf-8",
         )
 
-        Path("artifacts/encoders").mkdir(
-            parents=True,
-            exist_ok=True,
-        )
-
-        Path(
-            "artifacts/encoders/label_mapping.json"
-        ).write_text(
-            json.dumps(labels, indent=4),
-            encoding="utf-8",
-        )
 
         self.logger.info(
             "Training Completed"

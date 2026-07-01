@@ -1,6 +1,7 @@
 from sklearn.preprocessing import LabelEncoder
 import joblib
 from pathlib import Path
+import numpy as np
 
 class FeatureBuilder:
 
@@ -34,4 +35,8 @@ class FeatureBuilder:
             "artifacts/encoders/label_encoder.pkl",
         )
 
-        return X, y, encoder
+        return (
+            np.asarray(X, dtype=np.int8),
+            np.asarray(y, dtype=np.int32),
+            encoder,
+        )
