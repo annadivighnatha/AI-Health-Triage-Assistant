@@ -48,11 +48,25 @@ class LLMService:
             "Escalate to urgent care if severe symptoms are present.",
         ]
 
+        foods_to_eat = [
+            "Warm soups and broths",
+            "Oral rehydration fluids",
+            "Soft bland foods such as rice, toast, bananas, and applesauce",
+        ]
+
+        foods_to_avoid = [
+            "Heavy fried foods",
+            "Very spicy meals",
+            "Alcohol and excess caffeine",
+        ]
+
         return ExplanationResponse(
             explanation=summary,
             precautions=precautions,
             recommended_tests=recommended_tests,
             next_steps=next_steps,
+            foods_to_eat=foods_to_eat,
+            foods_to_avoid=foods_to_avoid,
         )
 
     def _explain_with_gemini(self, payload: ExplainRequest) -> ExplanationResponse:
@@ -84,12 +98,22 @@ class LLMService:
                             "type": "array",
                             "items": {"type": "string"},
                         },
+                        "foods_to_eat": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                        },
+                        "foods_to_avoid": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                        },
                     },
                     "required": [
                         "explanation",
                         "precautions",
                         "recommended_tests",
                         "next_steps",
+                        "foods_to_eat",
+                        "foods_to_avoid",
                     ],
                     
                 },
@@ -125,7 +149,7 @@ class LLMService:
         return (
             "You are a medical triage explanation assistant. "
             "Explain the prediction in patient-friendly language. "
-            "Return valid JSON with keys: explanation, precautions, recommended_tests, next_steps. "
+            "Return valid JSON with keys: explanation, precautions, recommended_tests, next_steps, foods_to_eat, foods_to_avoid. "
             "Do not diagnose beyond the provided disease.\n\n"
             f"Disease: {payload.disease}\n"
             f"Confidence: {payload.confidence}\n"
@@ -134,6 +158,7 @@ class LLMService:
             f"Age: {payload.age if payload.age is not None else 'unknown'}\n"
             f"Gender: {payload.gender or 'unknown'}\n"
             f"Duration: {payload.duration or 'unknown'}\n"
+            "Include diet guidance that is practical for the likely condition and symptom pattern.\n"
         )
 
     @staticmethod

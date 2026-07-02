@@ -9,3 +9,7 @@ class ExplanationResponse(BaseModel):
     recommended_tests: list[str]
 
     next_steps: list[str]
+
+    foods_to_eat: list[str]
+
+    foods_to_avoid: list[str]

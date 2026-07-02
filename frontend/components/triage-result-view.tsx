@@ -104,6 +104,39 @@ export function TriageResultView({ result }: { result: TriageResult }) {
           </CardContent>
         </Card>
       </div>
+
+      <div className="grid gap-4 md:grid-cols-2">
+        <Card>
+          <CardHeader className="pb-2">
+            <h3 className="font-semibold">Foods to eat</h3>
+          </CardHeader>
+          <CardContent>
+            <ul className="space-y-2">
+              {result.foods_to_eat.map((item) => (
+                <li key={item} className="flex items-start gap-2 text-sm">
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-urgency-low" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader className="pb-2">
+            <h3 className="font-semibold">Foods to avoid</h3>
+          </CardHeader>
+          <CardContent>
+            <ul className="space-y-2">
+              {result.foods_to_avoid.map((item) => (
+                <li key={item} className="flex items-start gap-2 text-sm">
+                  <FlaskConical className="mt-0.5 h-4 w-4 shrink-0 text-primary" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </CardContent>
+        </Card>
+      </div>
     </div>
   )
 }

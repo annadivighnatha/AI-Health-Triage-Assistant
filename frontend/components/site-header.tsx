@@ -3,9 +3,10 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState } from "react"
-import { Activity, Menu } from "lucide-react"
+import { Activity, LogOut, Menu } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"
+import { useAuth } from "@/components/auth-provider"
 import { cn } from "@/lib/utils"
 
 const NAV_LINKS = [
@@ -13,12 +14,16 @@ const NAV_LINKS = [
   { href: "/consult", label: "Consultation" },
   { href: "/history", label: "History" },
   { href: "/about", label: "About" },
-  { href: "/login", label: "Login" },
 ]
 
 export function SiteHeader() {
   const pathname = usePathname()
   const [open, setOpen] = useState(false)
+  const { user, signOut } = useAuth()
+
+  const handleLogout = async () => {
+    await signOut()
+  }
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/80">
@@ -50,11 +55,18 @@ export function SiteHeader() {
 
         <div className="hidden md:block">
           <div className="flex items-center gap-2">
-            <Link href="/login">
-              <Button variant="outline" className="bg-transparent">
-                Login
+            {user ? (
+              <Button variant="outline" className="bg-transparent" onClick={handleLogout}>
+                <LogOut className="h-4 w-4" />
+                Logout
               </Button>
-            </Link>
+            ) : (
+              <Link href="/login">
+                <Button variant="outline" className="bg-transparent">
+                  Login
+                </Button>
+              </Link>
+            )}
             <Link href="/consult">
               <Button>Start Consultation</Button>
             </Link>
@@ -89,11 +101,25 @@ export function SiteHeader() {
               <Link href="/consult" onClick={() => setOpen(false)} className="mt-4">
                 <Button className="w-full">Start Consultation</Button>
               </Link>
-              <Link href="/login" onClick={() => setOpen(false)}>
-                <Button variant="outline" className="mt-2 w-full bg-transparent">
-                  Login
+              {user ? (
+                <Button
+                  variant="outline"
+                  className="mt-2 w-full bg-transparent"
+                  onClick={() => {
+                    setOpen(false)
+                    void handleLogout()
+                  }}
+                >
+                  <LogOut className="h-4 w-4" />
+                  Logout
                 </Button>
-              </Link>
+              ) : (
+                <Link href="/login" onClick={() => setOpen(false)}>
+                  <Button variant="outline" className="mt-2 w-full bg-transparent">
+                    Login
+                  </Button>
+                </Link>
+              )}
             </nav>
           </SheetContent>
         </Sheet>

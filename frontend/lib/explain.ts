@@ -16,6 +16,8 @@ export interface ExplainResponse {
   precautions: string[]
   recommended_tests: string[]
   next_steps: string[]
+  foods_to_eat: string[]
+  foods_to_avoid: string[]
 }
 
 export async function explainPrediction(payload: ExplainRequest): Promise<ExplainResponse> {

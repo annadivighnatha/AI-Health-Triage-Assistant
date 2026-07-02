@@ -14,6 +14,8 @@ export interface TriageResult {
   explanation: string
   precautions: string[]
   recommendedTests: string[]
+  foods_to_eat: string[]
+  foods_to_avoid: string[]
 }
 
 export interface Consultation {
@@ -94,6 +96,8 @@ export function mockPredict(symptoms: string[]): TriageResult {
   let explanation: string
   let precautions: string[]
   let recommendedTests: string[]
+  let foods_to_eat: string[]
+  let foods_to_avoid: string[]
 
   if (isEmergency) {
     predictions = [
@@ -110,6 +114,8 @@ export function mockPredict(symptoms: string[]): TriageResult {
       "Chew aspirin only if advised by a professional",
     ]
     recommendedTests = ["ECG / EKG", "Troponin blood test", "Chest X-ray"]
+    foods_to_eat = ["Clear fluids", "Light soups", "Soft easy-to-digest meals"]
+    foods_to_avoid = ["Alcohol", "Very spicy food", "Heavy fried meals"]
   } else if (has("Fever") && has("Cough") && (has("Fatigue") || has("Headache"))) {
     predictions = [
       { disease: "Influenza", confidence: 0.78, matchedSymptoms: ["Fever", "Cough", "Fatigue", "Headache"].filter(has) },
@@ -125,6 +131,8 @@ export function mockPredict(symptoms: string[]): TriageResult {
       "See a doctor if fever exceeds 102 F for more than 2 days",
     ]
     recommendedTests = ["Rapid Influenza Diagnostic Test (RIDT)", "COVID-19 rapid antigen test"]
+    foods_to_eat = ["Warm soups", "Fluids", "Fruit and bland meals"]
+    foods_to_avoid = ["Alcohol", "Very sugary drinks", "Greasy foods"]
   } else if (has("Nausea") || has("Vomiting") || has("Diarrhea") || has("Abdominal pain")) {
     predictions = [
       { disease: "Gastroenteritis", confidence: 0.71, matchedSymptoms: ["Nausea", "Vomiting", "Diarrhea", "Abdominal pain"].filter(has) },
@@ -140,6 +148,8 @@ export function mockPredict(symptoms: string[]): TriageResult {
       "Seek care if you cannot keep fluids down for 24 hours",
     ]
     recommendedTests = ["Stool analysis", "Basic metabolic panel"]
+    foods_to_eat = ["Oral rehydration solution", "Bananas", "Rice", "Toast"]
+    foods_to_avoid = ["Dairy", "Greasy foods", "Spicy foods"]
   } else {
     predictions = [
       { disease: "Upper Respiratory Infection", confidence: 0.58, matchedSymptoms: symptoms.slice(0, 3) },
@@ -155,6 +165,8 @@ export function mockPredict(symptoms: string[]): TriageResult {
       "Consult a doctor if symptoms persist beyond a week",
     ]
     recommendedTests = ["Physical examination", "Allergy panel (if recurrent)"]
+    foods_to_eat = ["Warm fluids", "Light balanced meals", "Fresh fruit"]
+    foods_to_avoid = ["Alcohol", "Excess caffeine", "Heavy processed food"]
   }
 
   let urgency: UrgencyLevel = "Low"
@@ -168,7 +180,7 @@ export function mockPredict(symptoms: string[]): TriageResult {
     else urgency = "Low"
   }
 
-  return { predictions, urgency, explanation, precautions, recommendedTests }
+  return { predictions, urgency, explanation, precautions, recommendedTests, foods_to_eat, foods_to_avoid }
 }
 
 // Mock past consultations for the History page
