@@ -69,7 +69,7 @@ export default function LoginPage() {
     setSubmitting(true)
     try {
       const response = await login(values)
-      saveAuthSession({ token: response.access_token, tokenType: response.token_type })
+      saveAuthSession({ token: response.access_token, tokenType: response.token_type, user: response.user })
       router.push("/dashboard")
     } catch (error) {
       const parsed = parseApiErrors(error)

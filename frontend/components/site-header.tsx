@@ -10,6 +10,7 @@ import { useAuth } from "@/components/auth-provider"
 import { cn } from "@/lib/utils"
 
 const NAV_LINKS = [
+  { href: "/dashboard", label: "Dashboard" },
   { href: "/", label: "Home" },
   { href: "/consult", label: "Consultation" },
   { href: "/history", label: "History" },
@@ -67,9 +68,9 @@ export function SiteHeader() {
                 </Button>
               </Link>
             )}
-            <Link href="/consult">
+            {/* <Link href="/consult">
               <Button>Start Consultation</Button>
-            </Link>
+            </Link> */}
           </div>
         </div>
 
@@ -98,9 +99,9 @@ export function SiteHeader() {
                   </Link>
                 )
               })}
-              <Link href="/consult" onClick={() => setOpen(false)} className="mt-4">
+              {/* <Link href="/consult" onClick={() => setOpen(false)} className="mt-4">
                 <Button className="w-full">Start Consultation</Button>
-              </Link>
+              </Link> */}
               {user ? (
                 <Button
                   variant="outline"

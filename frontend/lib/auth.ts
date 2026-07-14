@@ -18,6 +18,7 @@ export interface UserResponse {
 export interface TokenResponse {
   access_token: string
   token_type: string
+  user: UserResponse
 }
 
 export interface AuthSession {

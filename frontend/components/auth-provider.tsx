@@ -37,8 +37,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setLoading(true)
     try {
       const response = await login({ email, password })
-      saveAuthSession({ token: response.access_token, tokenType: response.token_type })
-      const sessionUser = { id: 0, email, name: email.split("@")[0] }
+      saveAuthSession({ token: response.access_token, tokenType: response.token_type, user: response.user })
+      const sessionUser = response.user
+      console.log("Sign in successful, user:", sessionUser) // Debugging line
       saveUser(sessionUser)
       setUser(sessionUser)
     } catch (error) {
@@ -82,6 +83,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
 export const useAuth = () => {
   const context = useContext(AuthContext)
+
+  console.log("useAuth context:", context) // Debugging line
+
   if (context === undefined) {
     throw new Error("useAuth must be used within an AuthProvider")
   }
