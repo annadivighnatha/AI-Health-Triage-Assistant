@@ -5,6 +5,7 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
 import { UrgencyBadge } from "@/components/urgency-badge"
 import { URGENCY_META, type TriageResult } from "@/lib/triage-data"
 import { CheckCircle2, Sparkles, FlaskConical } from "lucide-react"
+import { Stethoscope } from "lucide-react"
 
 export function TriageResultView({ result }: { result: TriageResult }) {
   return (
@@ -104,6 +105,30 @@ export function TriageResultView({ result }: { result: TriageResult }) {
           </CardContent>
         </Card>
       </div>
+
+      {result.specialists && result.specialists.length > 0 ? (
+        <Card>
+          <CardHeader className="pb-2">
+            <h3 className="font-semibold">Recommended specialists</h3>
+          </CardHeader>
+          <CardContent>
+            <ul className="space-y-3">
+              {result.specialists.map((s) => (
+                <li key={s.specialty} className="flex flex-col gap-1">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-2">
+                      <Stethoscope className="h-4 w-4 text-primary" />
+                      <span className="font-medium">{s.specialty}</span>
+                    </div>
+                    {s.urgency ? <Badge>{s.urgency}</Badge> : null}
+                  </div>
+                  <div className="text-sm text-muted-foreground">{s.reason}</div>
+                </li>
+              ))}
+            </ul>
+          </CardContent>
+        </Card>
+      ) : null}
 
       <div className="grid gap-4 md:grid-cols-2">
         <Card>

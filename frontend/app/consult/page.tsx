@@ -84,6 +84,7 @@ export default function ConsultPage() {
         recommendedTests: explanationResponse.recommended_tests,
         foods_to_eat: explanationResponse.foods_to_eat,
         foods_to_avoid: explanationResponse.foods_to_avoid,
+        specialists: explanationResponse.specialists,
       }
 
       setProcessingStage("Saving consultation...")

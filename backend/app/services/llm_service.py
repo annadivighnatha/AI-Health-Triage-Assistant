@@ -7,7 +7,7 @@ from urllib import request
 from urllib.error import HTTPError
 
 from app.core.config import settings
-from app.schemas.llm import ExplanationResponse
+from app.schemas.llm import ExplanationResponse, SpecialistResponse
 from app.schemas.prediction_flow import ExplainRequest
 
 LOGGER = logging.getLogger(__name__)
@@ -60,6 +60,8 @@ class LLMService:
             "Alcohol and excess caffeine",
         ]
 
+        specialists = self.suggest_specialists(payload).specialists
+
         return ExplanationResponse(
             explanation=summary,
             precautions=precautions,
@@ -67,6 +69,7 @@ class LLMService:
             next_steps=next_steps,
             foods_to_eat=foods_to_eat,
             foods_to_avoid=foods_to_avoid,
+            specialists=specialists,
         )
 
     def _explain_with_gemini(self, payload: ExplainRequest) -> ExplanationResponse:
@@ -75,8 +78,8 @@ class LLMService:
             "contents": [
                 {
                     "role": "user",
-                    "parts": [{"text": prompt}],
-                }
+                        "parts": [{"text": prompt}],
+                    }
             ],
             "generationConfig": {
                 "temperature": 0.1,
@@ -106,6 +109,18 @@ class LLMService:
                             "type": "array",
                             "items": {"type": "string"},
                         },
+                        "specialists": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "specialty": {"type": "string"},
+                                    "reason": {"type": "string"},
+                                    "urgency": {"type": "string"},
+                                },
+                                "required": ["specialty", "reason"],
+                            },
+                        },
                     },
                     "required": [
                         "explanation",
@@ -114,6 +129,7 @@ class LLMService:
                         "next_steps",
                         "foods_to_eat",
                         "foods_to_avoid",
+                        "specialists",
                     ],
                     
                 },
@@ -149,7 +165,7 @@ class LLMService:
         return (
             "You are a medical triage explanation assistant. "
             "Explain the prediction in patient-friendly language. "
-            "Return valid JSON with keys: explanation, precautions, recommended_tests, next_steps, foods_to_eat, foods_to_avoid. "
+            "Return valid JSON with keys: explanation, precautions, recommended_tests, next_steps, foods_to_eat, foods_to_avoid, and specialists. "
             "Do not diagnose beyond the provided disease.\n\n"
             f"Disease: {payload.disease}\n"
             f"Confidence: {payload.confidence}\n"
@@ -195,3 +211,148 @@ class LLMService:
             return cleaned[start : end + 1]
 
         return cleaned
+
+    def suggest_specialists(self, payload: ExplainRequest) -> SpecialistResponse:
+        if settings.GEMINI_API_KEY:
+            try:
+                return self._suggest_with_gemini(payload)
+            except Exception as exc:  # noqa: BLE001
+                LOGGER.exception("Gemini specialist suggestion failed, falling back to heuristic: %s", exc)
+                return self._suggest_with_heuristic(payload)
+        else:
+            LOGGER.info("GEMINI_API_KEY not set, using heuristic specialist suggestions")
+            return self._suggest_with_heuristic(payload)
+
+    def _suggest_with_heuristic(self, payload: ExplainRequest) -> SpecialistResponse:
+        disease = (payload.disease or "").lower()
+        symptoms = ", ".join(payload.all_symptoms or payload.matched_symptoms or [])
+
+        # Simple mapping from disease/symptom keywords to specialties
+        mapping = {
+            "chest": "Cardiology",
+            "heart": "Cardiology",
+            "stroke": "Neurology",
+            "headache": "Neurology",
+            "abdominal": "Gastroenterology",
+            "stomach": "Gastroenterology",
+            "pregnancy": "Obstetrics & Gynecology",
+            "pregnant": "Obstetrics & Gynecology",
+            "skin": "Dermatology",
+            "rash": "Dermatology",
+            "joint": "Rheumatology",
+            "arthritis": "Rheumatology",
+            "mental": "Psychiatry",
+            "depress": "Psychiatry",
+            "eye": "Ophthalmology",
+            "ear": "Otolaryngology",
+            "throat": "Otolaryngology",
+            "respiratory": "Pulmonology",
+            "breath": "Pulmonology",
+            "infection": "Infectious Diseases",
+        }
+
+        suggested: list[dict] = []
+        found = set()
+
+        # Check disease name first
+        for key, spec in mapping.items():
+            if key in disease or key in symptoms.lower():
+                if spec not in found:
+                    found.add(spec)
+                    suggested.append({
+                        "specialty": spec,
+                        "reason": f"Symptoms/disease mention '{key}' suggesting {spec} involvement.",
+                        "urgency": "routine",
+                    })
+
+        # Fallback generic recommendations if none found
+        if not suggested:
+            suggested.append({
+                "specialty": "General Practice",
+                "reason": "Initial evaluation by a general practitioner to triage and refer.",
+                "urgency": "routine",
+            })
+
+        # Limit to top 3
+        suggested = suggested[:3]
+
+        specialists = [
+            {
+                "specialty": s["specialty"],
+                "reason": s["reason"],
+                "urgency": s.get("urgency"),
+            }
+            for s in suggested
+        ]
+
+        return SpecialistResponse.model_validate({"specialists": specialists})
+
+    def _suggest_with_gemini(self, payload: ExplainRequest) -> SpecialistResponse:
+        prompt = (
+            "You are a medical triage assistant. Based on the provided patient information and symptoms, "
+            "suggest up to three medical specialties the patient should consider seeing. "
+            "Return valid JSON with key 'specialists' which is a list of objects with 'specialty', 'reason', and optional 'urgency'.\n\n"
+            f"Disease: {payload.disease}\n"
+            f"Matched symptoms: {', '.join(payload.matched_symptoms)}\n"
+            f"All symptoms: {', '.join(payload.all_symptoms or [])}\n"
+            f"Age: {payload.age if payload.age is not None else 'unknown'}\n"
+            f"Gender: {payload.gender or 'unknown'}\n"
+            f"Duration: {payload.duration or 'unknown'}\n"
+        )
+
+        body = {
+            "contents": [
+                {"role": "user", "parts": [{"text": prompt}]}
+            ],
+            "generationConfig": {
+                "temperature": 0.0,
+                "maxOutputTokens": 512,
+                "responseMimeType": "application/json",
+                "responseSchema": {
+                    "type": "object",
+                    "properties": {
+                        "specialists": {
+                            "type": "array",
+                            "items": {
+                                "type": "object",
+                                "properties": {
+                                    "specialty": {"type": "string"},
+                                    "reason": {"type": "string"},
+                                    "urgency": {"type": "string"},
+                                },
+                                "required": ["specialty", "reason"],
+                            },
+                        }
+                    },
+                    "required": ["specialists"],
+                },
+            },
+        }
+
+        endpoint = (
+            "https://generativelanguage.googleapis.com/v1beta/models/"
+            f"{settings.GEMINI_MODEL}:generateContent?key={settings.GEMINI_API_KEY}"
+        )
+
+        req = request.Request(
+            endpoint,
+            data=json.dumps(body).encode("utf-8"),
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+
+        try:
+            with request.urlopen(req, timeout=30) as resp:
+                payload_data = json.loads(resp.read().decode("utf-8"))
+        except HTTPError as e:
+            error_body = e.read().decode("utf-8")
+            LOGGER.error("Gemini specialist API error response: %s", error_body)
+            raise
+
+        text = self._extract_text(payload_data)
+        try:
+            parsed = json.loads(self._extract_json_block(text))
+            return SpecialistResponse.model_validate(parsed)
+        except Exception as exc:  # noqa: BLE001
+            LOGGER.warning("Failed to parse Gemini specialists response as JSON: %s", exc)
+            return self._suggest_with_heuristic(payload)

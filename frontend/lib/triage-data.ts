@@ -16,6 +16,7 @@ export interface TriageResult {
   recommendedTests: string[]
   foods_to_eat: string[]
   foods_to_avoid: string[]
+  specialists?: { specialty: string; reason: string; urgency?: string }[]
 }
 
 export interface Consultation {
