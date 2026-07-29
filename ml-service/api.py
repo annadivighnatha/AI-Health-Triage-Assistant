@@ -1,13 +1,20 @@
 from fastapi import FastAPI
+from pydantic import BaseModel
+
 from inference.predictor import Predictor
 
 
 app = FastAPI(
-    title="AI Health Triage ML API"
+    title="AI Health Triage ML Service",
+    version="1.0.0"
 )
 
 
 predictor = Predictor()
+
+
+class SymptomRequest(BaseModel):
+    symptoms: list[str]
 
 
 @app.get("/")
@@ -18,12 +25,10 @@ def home():
 
 
 @app.post("/predict")
-def predict(data: dict):
+def predict(request: SymptomRequest):
 
-    symptoms = data["symptoms"]
-
-    result = predictor.predict_top3(
-        symptoms
+    result = predictor.predict(
+        request.symptoms
     )
 
     return result

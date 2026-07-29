@@ -2,12 +2,15 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
+    
     APP_NAME: str
     APP_VERSION: str
     DEBUG: bool
 
     HOST: str
     PORT: int
+
+    ML_SERVICE_URL: str
 
     DATABASE_URL: str
 

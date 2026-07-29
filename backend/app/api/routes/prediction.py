@@ -1,10 +1,17 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 
 from app.api.dependencies import get_prediction_service
-from app.schemas.prediction import PredictionRequest, PredictionResponse
+from app.schemas.prediction import (
+    PredictionRequest,
+    PredictionResponse,
+)
 from app.services.prediction_service import PredictionService
 
-router = APIRouter(prefix="/predict", tags=["Prediction"])
+
+router = APIRouter(
+    prefix="/predict",
+    tags=["Prediction"],
+)
 
 
 @router.post(
@@ -12,18 +19,21 @@ router = APIRouter(prefix="/predict", tags=["Prediction"])
     response_model=PredictionResponse,
     status_code=status.HTTP_200_OK,
 )
-def predict(
+async def predict(
     request: PredictionRequest,
-    service: PredictionService = Depends(get_prediction_service),
+    service: PredictionService = Depends(
+        get_prediction_service
+    ),
 ):
+
     try:
-        return service.predict(request)
-    except FileNotFoundError as exc:
-        raise HTTPException(
-            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=str(exc),
+
+        return await service.predict(
+            request
         )
+
     except Exception as exc:
+
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=str(exc),
