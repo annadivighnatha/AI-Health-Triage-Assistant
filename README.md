@@ -372,21 +372,7 @@ Model Serialization
 FastAPI ML Service
    |
 Prediction API
-```
 
----
-
-# 📸 Screenshots
-
-
-Add screenshots:
-
-```
-screenshots/
- ├── home.png
- ├── prediction.png
- ├── login.png
- └── history.png
 ```
 
 ---
