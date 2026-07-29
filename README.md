@@ -1,180 +1,302 @@
 # 🏥 AI Health Triage Assistant
 
-An AI-powered Health Triage Assistant that predicts possible diseases based on user symptoms using Machine Learning. The application features a modern React frontend, a FastAPI backend, and a machine learning service to provide quick and intelligent health assessments.
+An AI-powered Health Triage Assistant that predicts possible diseases based on user symptoms using Machine Learning.
 
-> **Disclaimer:** This project is for educational and demonstration purposes only. It is **not** a substitute for professional medical advice, diagnosis, or treatment.
+The application uses a modern frontend, FastAPI backend, PostgreSQL database, and a separate Machine Learning inference service to provide intelligent health assessments.
 
----
-
-## 📌 Project Overview
-
-The AI Health Triage Assistant helps users understand potential health conditions by analyzing symptoms entered through an interactive web interface. The system processes user input, performs machine learning inference, and returns the most likely disease predictions with confidence scores.
-
-The project follows a modular architecture with separate services for the frontend, backend, and machine learning model.
+> ⚠️ Disclaimer: This project is developed for educational and demonstration purposes only. It is not a replacement for professional medical advice, diagnosis, or treatment.
 
 ---
 
-## ✨ Features
+# 📌 Project Overview
 
-- 🔍 Symptom-based disease prediction
-- 🤖 Machine Learning powered diagnosis
-- 📊 Confidence score for predictions
-- 💻 Modern and responsive user interface
-- ⚡ FastAPI REST API
-- 🔄 Separate ML inference service
-- 📱 Responsive design
-- 🏗️ Modular project architecture
+The AI Health Triage Assistant helps users analyze symptoms and receive possible disease predictions with confidence scores.
+
+The system follows a modular service-based architecture:
+
+- Frontend handles user interaction
+- FastAPI backend manages APIs, authentication, and database operations
+- ML service performs disease prediction using trained machine learning models
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Features
 
-### Frontend
+✅ Symptom-based disease prediction  
+✅ Machine Learning powered prediction  
+✅ Confidence score generation  
+✅ AI explanation support  
+✅ User registration and authentication  
+✅ Consultation history tracking  
+✅ PDF report generation  
+✅ REST API architecture  
+✅ Separate ML inference service  
+✅ Responsive user interface  
+
+---
+
+# 🏗️ Architecture
+
+
+```
+User
+ |
+ |
+Frontend (React / Next.js)
+ |
+ |
+FastAPI Backend
+ |
+ |------------- PostgreSQL Database
+ |
+ |
+ML Prediction Service
+ |
+ |
+Machine Learning Model
+```
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
 - React.js
+- Next.js
 - JavaScript
 - HTML5
 - CSS3
 
-### Backend
-- FastAPI
-- Python
-- Uvicorn
-- REST APIs
+## Backend
 
-### Machine Learning
+- Python
+- FastAPI
+- SQLAlchemy
+- PostgreSQL
+- Alembic
+- Uvicorn
+- JWT Authentication
+
+## Machine Learning
+
 - Scikit-learn
 - Pandas
 - NumPy
 - Joblib
 
-### Development Tools
+## Development Tools
+
 - Git
 - GitHub
 - VS Code
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
+
 
 ```
 AI-Health-Triage-Assistant/
+
 │
-├── frontend/             # React application
+├── frontend/
+│   └── React / Next.js application
 │
-├── backend/              # FastAPI backend
+├── backend/
+│   ├── app/
+│   ├── alembic/
+│   ├── requirements.txt
+│   └── .env.example
 │
-├── ml-service/           # Machine Learning inference service
+├── ml-service/
+│   ├── app.py
+│   ├── api.py
+│   ├── training_pipeline.py
+│   └── requirements.txt
 │
-├── README.md
+├── start_project.bat
 │
-└── requirements.txt
+└── README.md
 ```
 
 ---
 
-## ⚙️ Installation
+# ⚙️ Installation & Setup
 
-### 1. Clone the Repository
+## 1. Clone Repository
+
 
 ```bash
 git clone https://github.com/annadivighnatha/AI-Health-Triage-Assistant.git
-```
 
-```bash
 cd AI-Health-Triage-Assistant
 ```
 
 ---
 
-## Backend Setup
+# 🔹 Backend Setup
+
+
+Navigate to backend:
 
 ```bash
 cd backend
 ```
 
-Create virtual environment
+Create virtual environment:
 
 ```bash
 python -m venv venv
 ```
 
-Activate environment
+Activate environment:
 
-### Windows
+Windows:
 
 ```bash
 venv\Scripts\activate
 ```
 
-### Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the backend
+---
 
-```bash
-uvicorn app.main:app --reload
+## Configure Environment Variables
+
+Create `.env` file inside backend folder.
+
+Example:
+
 ```
+APP_NAME=AI Health Triage Assistant
+APP_VERSION=1.0.0
 
-Backend runs on
+DEBUG=False
 
-```
-http://127.0.0.1:8000
+HOST=0.0.0.0
+PORT=8000
+
+DATABASE_URL=postgresql://username:password@localhost:5432/health_triage
+
+ML_SERVICE_URL=http://127.0.0.1:8001
+
+SECRET_KEY=your_secret_key
+ALGORITHM=HS256
+
+GEMINI_API_KEY=your_api_key
 ```
 
 ---
 
-## ML Service Setup
+## Database Migration
 
-Open a new terminal.
+Run:
+
+```bash
+alembic upgrade head
+```
+
+---
+
+## Start Backend Server
+
+
+```bash
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+```
+
+
+Backend:
+
+```
+http://localhost:8000
+```
+
+API Documentation:
+
+```
+http://localhost:8000/docs
+```
+
+---
+
+# 🔹 Machine Learning Service Setup
+
+
+Open another terminal:
 
 ```bash
 cd ml-service
 ```
 
-Activate virtual environment
+Create virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate:
 
 ```bash
 venv\Scripts\activate
 ```
 
-Install dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run ML service
+
+Start ML service:
+
 
 ```bash
-uvicorn app:app --reload
+uvicorn app:app --host 0.0.0.0 --port 8001
+```
+
+
+ML Service:
+
+```
+http://localhost:8001
 ```
 
 ---
 
-## Frontend Setup
+# 🔹 Frontend Setup
 
-Open another terminal.
+
+Open another terminal:
+
 
 ```bash
 cd frontend
 ```
 
-Install dependencies
+
+Install packages:
+
 
 ```bash
 npm install
 ```
 
-Run the React application
+
+Run frontend:
+
 
 ```bash
-npm start
+npm run dev
 ```
 
-Frontend runs on
+
+Frontend:
 
 ```
 http://localhost:3000
@@ -182,85 +304,130 @@ http://localhost:3000
 
 ---
 
-## 🚀 Application Workflow
+# 🚀 Running the Complete Application
 
-1. User enters symptoms.
-2. Frontend sends request to FastAPI backend.
-3. Backend validates the input.
-4. Backend communicates with the ML service.
-5. Machine learning model predicts the most probable disease.
-6. Prediction and confidence score are returned.
-7. Results are displayed in the user interface.
 
----
+The application requires three running services:
 
-## 🧠 Machine Learning
 
-The project uses a supervised Machine Learning model trained on symptom-disease data to classify possible medical conditions.
-
-Typical workflow:
-
-- Data preprocessing
-- Feature engineering
-- Model training
-- Model serialization
-- Prediction through REST API
-
----
-
-## 📸 Screenshots
-
-Add screenshots here after deployment.
-
-### Home Page
+### Terminal 1 - ML Service
 
 ```
-images/home.png
+uvicorn app:app --host 0.0.0.0 --port 8001
 ```
 
-### Prediction Result
+
+### Terminal 2 - Backend
 
 ```
-images/result.png
+uvicorn app.main:app --host 0.0.0.0 --port 8000
+```
+
+
+### Terminal 3 - Frontend
+
+```
+npm run dev
+```
+
+
+Open:
+
+```
+http://localhost:3000
 ```
 
 ---
 
-## 📈 Future Improvements
+# 🔄 Application Workflow
 
-- User authentication
-- Medical history tracking
-- Doctor recommendations
-- Appointment booking
-- Chatbot integration
-- Explainable AI predictions
+
+1. User enters symptoms
+2. Frontend sends request to backend API
+3. Backend validates user input
+4. Backend communicates with ML service
+5. ML model predicts possible disease
+6. Prediction confidence is generated
+7. Results are displayed in UI
+8. Consultation data is stored in database
+
+---
+
+# 🧠 Machine Learning Pipeline
+
+
+Workflow:
+
+```
+Dataset
+   |
+Data Cleaning
+   |
+Feature Engineering
+   |
+Model Training
+   |
+Model Serialization
+   |
+FastAPI ML Service
+   |
+Prediction API
+```
+
+---
+
+# 📸 Screenshots
+
+
+Add screenshots:
+
+```
+screenshots/
+ ├── home.png
+ ├── prediction.png
+ ├── login.png
+ └── history.png
+```
+
+---
+
+# 📈 Future Improvements
+
 - Cloud deployment
-- Docker support
+- Docker containerization
+- Doctor recommendation system
+- Medical chatbot
+- Explainable AI
 - Email reports
+- Mobile application
 - Multi-language support
 
 ---
 
-## 🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
-Through this project, I gained practical experience with:
+Through this project I gained practical experience in:
 
-- FastAPI development
+- FastAPI backend development
 - REST API design
-- React integration
+- React frontend integration
 - Machine Learning model deployment
-- Service-oriented architecture
-- Python backend development
-- Git and GitHub version control
+- PostgreSQL database management
+- JWT authentication
+- Service-based architecture
+- Git and GitHub workflow
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 **Annadi Vighnatha**
 
 GitHub:
+
 https://github.com/annadivighnatha
 
+
 LinkedIn:
+
 https://www.linkedin.com/in/vighnatha-a-0b297129b/
